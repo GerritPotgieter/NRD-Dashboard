@@ -1,0 +1,1248 @@
+{
+  "summary": {
+    "domain": "absapay.com",
+    "risk_indicators": [
+      "Contains 'absa' - potential brand impersonation",
+      "Recently created domain (6 days old)"
+    ],
+    "subdomains": [
+      "www"
+    ],
+    "alternative_names": [],
+    "security_analysis": {
+      "total_engines": 95,
+      "flagged_as_malicious": 0,
+      "flagged_as_suspicious": 0,
+      "clean_ratings": 0,
+      "unrated": 95
+    },
+    "infrastructure": {
+      "ip_addresses": [
+        "166.62.118.159"
+      ],
+      "nameservers": [
+        "ns25.domaincontrol.com",
+        "ns26.domaincontrol.com"
+      ],
+      "hosting_provider": null
+    },
+    "certificate_info": {
+      "has_ssl": true,
+      "issuer": "Go Daddy Secure Certificate Authority - G2",
+      "valid_from": "2024-10-21 13:40:50",
+      "alternative_names": [
+        "www.utilitiesug.com",
+        "utilitiesug.com"
+      ]
+    },
+    "creation_date": "2025-09-11 02:00:00 UTC",
+    "expiry_date": null,
+    "whois": "Create date: 2025-09-11 00:00:00\nDomain name: absapay.com\nDomain registrar id: 146\nDomain registrar url: http://www.godaddy.com\nExpiry date: 2027-09-11 00:00:00\nName server 1: ns26.domaincontrol.com\nName server 2: ns25.domaincontrol.com\nQuery time: 2025-09-12 10:39:53\nUpdate date: 2025-09-11 00:00:00"
+  },
+  "domain": "absapay.com",
+  "securitytrails": {
+    "alexa_rank": null,
+    "apex_domain": "absapay.com",
+    "current_dns": {
+      "a": {
+        "first_seen": "2025-09-12",
+        "values": [
+          {
+            "h": null,
+            "ip": "166.62.118.159",
+            "ip_count": 0,
+            "ip_organization": "GoDaddy.com, LLC"
+          }
+        ]
+      },
+      "aaaa": {},
+      "mx": {},
+      "ns": {
+        "first_seen": "2025-09-12",
+        "values": [
+          {
+            "nameserver": "ns26.domaincontrol.com",
+            "nameserver_count": 0,
+            "nameserver_organization": "GoDaddy"
+          },
+          {
+            "nameserver": "ns25.domaincontrol.com",
+            "nameserver_count": 0,
+            "nameserver_organization": "GoDaddy"
+          }
+        ]
+      },
+      "soa": {
+        "first_seen": "2025-09-12",
+        "values": [
+          {
+            "email": "dns.jomax.net",
+            "email_count": 0,
+            "ttl": 28800
+          }
+        ]
+      },
+      "txt": {}
+    },
+    "endpoint": "/v1/domain/absapay.com/subdomains",
+    "hostname": "absapay.com",
+    "subdomain_count": 1,
+    "meta": {
+      "limit_reached": false
+    },
+    "subdomains": [
+      "www"
+    ]
+  },
+  "viewdns": {
+    "query": {
+      "tool": "propagation_PRO",
+      "domain": "absapay.com"
+    },
+    "expectedresponse": "166.62.118.159",
+    "response": {
+      "server": [
+        {
+          "location": "Atlanta, USA",
+          "resultvalue": "166.62.118.159",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "Beauharnois, Canada",
+          "resultvalue": "166.62.118.159",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "Hong Kong, China",
+          "resultvalue": "166.62.118.159",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "Johannesburg, South Africa",
+          "resultvalue": "166.62.118.159",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "London, United Kingdom",
+          "resultvalue": "166.62.118.159",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "Los Angeles, USA",
+          "resultvalue": "166.62.118.159",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "Mumbai, India",
+          "resultvalue": "166.62.118.159",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "New York, USA",
+          "resultvalue": "166.62.118.159",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "Paris, France",
+          "resultvalue": "166.62.118.159",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "Perth, Australia",
+          "resultvalue": "166.62.118.159",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "Rotterdam, Netherlands",
+          "resultvalue": "166.62.118.159",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "Santiago, Chile",
+          "resultvalue": "166.62.118.159",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "Seattle, USA",
+          "resultvalue": "166.62.118.159",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "Seoul, South Korea",
+          "resultvalue": "166.62.118.159",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "Singapore, Singapore",
+          "resultvalue": "166.62.118.159",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "Sydney, Australia",
+          "resultvalue": "166.62.118.159",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "São Paulo, Brazil",
+          "resultvalue": "166.62.118.159",
+          "resultstatus": "ok"
+        }
+      ]
+    }
+  },
+  "virustotal": {
+    "data": {
+      "id": "absapay.com",
+      "type": "domain",
+      "links": {
+        "self": "https://www.virustotal.com/api/v3/domains/absapay.com"
+      },
+      "attributes": {
+        "last_dns_records_date": 1757780477,
+        "total_votes": {
+          "harmless": 0,
+          "malicious": 0
+        },
+        "creation_date": 1757548800,
+        "last_https_certificate": {
+          "cert_signature": {
+            "signature_algorithm": "sha256RSA",
+            "signature": "a5e8b5b7f4cb2f35bf9e0da34c9d99c0db5c5ad2ea87c7d344fe5ffd4bad531946c1c23c2d9a4dbc64a03ef873c89e302f337b381ec4eb7373b4979d0d356cd886512ff331c9bb6f0fd9073b0ea161f5d364ddbe7cd26e68e41d4caedcd46a0b42e4f1b5c80ca6ee5404e72ed1ff53bdfc65263fa1e51e12e5ee5ea7cff2491dfd72fd85ed4906d8ef79988f13a2e2dcadbaa98edb92763dc80b92423c3601685d1e71d4b23f00c088d8fb4e5a190d378f609133b744629b4e1c7dd5419d7a26a87365d7482c6d19c03ffa68a09521b4d5a9a5d1ae0d3a5a6f3e356fc9669cd6719d9c36990e2561a3cb1ec122857a36b7af75f68a0b95f3ce2afee75f0aef2f"
+          },
+          "extensions": {
+            "CA": false,
+            "extended_key_usage": [
+              "serverAuth",
+              "clientAuth"
+            ],
+            "key_usage": [
+              "digitalSignature",
+              "keyEncipherment"
+            ],
+            "crl_distribution_points": [
+              "http://crl.godaddy.com/gdig2s1-31621.crl"
+            ],
+            "certificate_policies": [
+              "2.16.840.1.114413.1.7.23.1",
+              "2.23.140.1.2.1"
+            ],
+            "ca_information_access": {
+              "OCSP": "http://ocsp.godaddy.com/",
+              "CA Issuers": "http://certificates.godaddy.com/repository/gdig2.crt"
+            },
+            "authority_key_identifier": {
+              "keyid": "40c2bd278ecc348330a233d7fb6cb3f0b42c80ce"
+            },
+            "subject_alternative_name": [
+              "www.utilitiesug.com",
+              "utilitiesug.com"
+            ],
+            "subject_key_identifier": "34e147f348f882d540e88cc435028bcb54d203da",
+            "1.3.6.1.4.1.11129.2.4.2": "04820168016600760012f14e34bd53724c840619c38f3f7a13f8e7b56287889c"
+          },
+          "validity": {
+            "not_after": "2025-11-22 13:40:50",
+            "not_before": "2024-10-21 13:40:50"
+          },
+          "size": 1696,
+          "version": "V3",
+          "public_key": {
+            "algorithm": "RSA",
+            "rsa": {
+              "modulus": "b9bb6ec9cf2eca37c381919621c6cf5d57849d0492daec907ef4430b6bf03c341b4abfd4e340f71e5aa4347ee05ae459b5e908d6a50695666642f5f02b8ec5649c8ef9cb882c1ec803958f925afec1b0be02a9085d93def47f0164f012dbfc30a2bca1d175e5b0b826227a3a1cc75ab1c8299e6c1b1bf5e9795511aaf8680554ad227d2f3c90ce14c3f8af314535429113c4907a614f9ba4a625fccbdbc9a3fa2e4acf240d399721b97f0abc83b5a8a3d34a8733ca10c2162431add0b15aec4be727942bed724b511959723f8043bb4f2617e81cbdb24e06e67ca056f8671dd05f2172b862259856e2d204dd6c026ce860f82b0d1f98ce5dedf67d1700f507e7",
+              "exponent": "10001",
+              "key_size": 2048
+            }
+          },
+          "thumbprint_sha256": "f4a6a4eb17cdb7c799f0c6889cc58c4b287d24028332d477408f91683f5c0e62",
+          "thumbprint": "c3ef19fdc98a1ae81577b97f7ba0dbbd2cd983bc",
+          "serial_number": "a1ae937e52130ce8",
+          "issuer": {
+            "C": "US",
+            "ST": "Arizona",
+            "L": "Scottsdale",
+            "O": "GoDaddy.com, Inc.",
+            "OU": "http://certs.godaddy.com/repository/",
+            "CN": "Go Daddy Secure Certificate Authority - G2"
+          },
+          "subject": {
+            "CN": "www.utilitiesug.com"
+          }
+        },
+        "last_https_certificate_date": 1757780477,
+        "last_analysis_date": 1757779601,
+        "last_analysis_stats": {
+          "malicious": 0,
+          "suspicious": 0,
+          "undetected": 95,
+          "harmless": 0,
+          "timeout": 0
+        },
+        "reputation": 0,
+        "categories": {},
+        "rdap": {
+          "handle": "3018687030_DOMAIN_COM-VRSN",
+          "ldh_name": "ABSAPAY.COM",
+          "events": [
+            {
+              "event_action": "registration",
+              "event_date": "2025-09-11T08:56:56Z",
+              "event_actor": "",
+              "links": []
+            },
+            {
+              "event_action": "expiration",
+              "event_date": "2027-09-11T08:56:56Z",
+              "event_actor": "",
+              "links": []
+            },
+            {
+              "event_action": "last changed",
+              "event_date": "2025-09-11T08:56:56Z",
+              "event_actor": "",
+              "links": []
+            },
+            {
+              "event_action": "last update of RDAP database",
+              "event_date": "2025-09-11T09:18:33Z",
+              "event_actor": "",
+              "links": []
+            }
+          ],
+          "links": [
+            {
+              "href": "https://rdap.verisign.com/com/v1/domain/ABSAPAY.COM",
+              "rel": "self",
+              "type": "application/rdap+json",
+              "value": "https://rdap.verisign.com/com/v1/domain/ABSAPAY.COM",
+              "title": "",
+              "media": "",
+              "href_lang": []
+            },
+            {
+              "href": "https://rdap.godaddy.com/v1/domain/ABSAPAY.COM",
+              "rel": "related",
+              "type": "application/rdap+json",
+              "value": "https://rdap.godaddy.com/v1/domain/ABSAPAY.COM",
+              "title": "",
+              "media": "",
+              "href_lang": []
+            }
+          ],
+          "notices": [
+            {
+              "title": "Terms of Service",
+              "description": [
+                "Service subject to Terms of Use."
+              ],
+              "links": [
+                {
+                  "href": "https://www.verisign.com/domain-names/registration-data-access-protocol/terms-service/index.xhtml",
+                  "rel": "terms-of-service",
+                  "type": "text/html",
+                  "value": "https://rdap.verisign.com/com/v1/domain/absapay.com",
+                  "title": "",
+                  "media": "",
+                  "href_lang": []
+                }
+              ],
+              "type": ""
+            },
+            {
+              "title": "Status Codes",
+              "description": [
+                "For more information on domain status codes, please visit https://icann.org/epp"
+              ],
+              "links": [
+                {
+                  "href": "https://icann.org/epp",
+                  "type": "text/html",
+                  "rel": "",
+                  "title": "",
+                  "value": "",
+                  "media": "",
+                  "href_lang": []
+                }
+              ],
+              "type": ""
+            },
+            {
+              "title": "RDDS Inaccuracy Complaint Form",
+              "description": [
+                "URL of the ICANN RDDS Inaccuracy Complaint Form: https://icann.org/wicf"
+              ],
+              "links": [
+                {
+                  "href": "https://icann.org/wicf",
+                  "rel": "help",
+                  "type": "text/html",
+                  "value": "https://rdap.verisign.com/com/v1/domain/absapay.com",
+                  "title": "",
+                  "media": "",
+                  "href_lang": []
+                }
+              ],
+              "type": ""
+            }
+          ],
+          "nameservers": [
+            {
+              "ldh_name": "NS25.DOMAINCONTROL.COM",
+              "object_class_name": "nameserver",
+              "handle": "",
+              "unicode_name": "",
+              "events": [],
+              "links": [],
+              "notices": [],
+              "status": [],
+              "lang": "",
+              "port43": "",
+              "entities": [],
+              "remarks": []
+            },
+            {
+              "ldh_name": "NS26.DOMAINCONTROL.COM",
+              "object_class_name": "nameserver",
+              "handle": "",
+              "unicode_name": "",
+              "events": [],
+              "links": [],
+              "notices": [],
+              "status": [],
+              "lang": "",
+              "port43": "",
+              "entities": [],
+              "remarks": []
+            }
+          ],
+          "rdap_conformance": [
+            "rdap_level_0",
+            "icann_rdap_technical_implementation_guide_1",
+            "icann_rdap_response_profile_1"
+          ],
+          "entities": [
+            {
+              "object_class_name": "entity",
+              "handle": "146",
+              "vcard_array": [
+                {
+                  "name": "version",
+                  "type": "text",
+                  "values": [
+                    "4.0"
+                  ],
+                  "parameters": {}
+                },
+                {
+                  "name": "fn",
+                  "type": "text",
+                  "values": [
+                    "GoDaddy.com, LLC"
+                  ],
+                  "parameters": {}
+                }
+              ],
+              "roles": [
+                "registrar"
+              ],
+              "public_ids": [
+                {
+                  "type": "IANA Registrar ID",
+                  "identifier": "146"
+                }
+              ],
+              "entities": [
+                {
+                  "object_class_name": "entity",
+                  "vcard_array": [
+                    {
+                      "name": "version",
+                      "type": "text",
+                      "values": [
+                        "4.0"
+                      ],
+                      "parameters": {}
+                    },
+                    {
+                      "name": "fn",
+                      "type": "text",
+                      "values": [
+                        ""
+                      ],
+                      "parameters": {}
+                    },
+                    {
+                      "name": "tel",
+                      "parameters": {
+                        "type": [
+                          "voice"
+                        ]
+                      },
+                      "type": "uri",
+                      "values": [
+                        "tel:480-624-2505"
+                      ]
+                    },
+                    {
+                      "name": "email",
+                      "type": "text",
+                      "values": [
+                        "abuse@godaddy.com"
+                      ],
+                      "parameters": {}
+                    }
+                  ],
+                  "roles": [
+                    "abuse"
+                  ],
+                  "handle": "",
+                  "public_ids": [],
+                  "entities": [],
+                  "remarks": [],
+                  "links": [],
+                  "events": [],
+                  "as_event_actor": [],
+                  "status": [],
+                  "port43": "",
+                  "networks": [],
+                  "autnums": [],
+                  "url": "",
+                  "lang": "",
+                  "rdap_conformance": []
+                }
+              ],
+              "links": [
+                {
+                  "href": "http://www.godaddy.com",
+                  "rel": "about",
+                  "type": "text/html",
+                  "value": "https://rdap.godaddy.com/v1/",
+                  "title": "",
+                  "media": "",
+                  "href_lang": []
+                }
+              ],
+              "remarks": [],
+              "events": [],
+              "as_event_actor": [],
+              "status": [],
+              "port43": "",
+              "networks": [],
+              "autnums": [],
+              "url": "",
+              "lang": "",
+              "rdap_conformance": []
+            }
+          ],
+          "object_class_name": "domain",
+          "status": [
+            "client delete prohibited",
+            "client renew prohibited",
+            "client transfer prohibited",
+            "client update prohibited"
+          ],
+          "secure_dns": {
+            "delegation_signed": false,
+            "zone_signed": false,
+            "max_sig_life": 0,
+            "ds_data": [],
+            "key_data": []
+          },
+          "unicode_name": "",
+          "punycode": "",
+          "type": "",
+          "port43": "",
+          "switch_name": "",
+          "public_ids": [],
+          "lang": "",
+          "remarks": [],
+          "nask0_state": "",
+          "variants": []
+        },
+        "last_dns_records": [
+          {
+            "type": "A",
+            "ttl": 600,
+            "value": "166.62.118.159"
+          },
+          {
+            "type": "SOA",
+            "ttl": 3600,
+            "value": "ns25.domaincontrol.com",
+            "rname": "dns.jomax.net",
+            "serial": 2025091108,
+            "refresh": 28800,
+            "retry": 7200,
+            "expire": 604800,
+            "minimum": 600
+          },
+          {
+            "type": "NS",
+            "ttl": 3600,
+            "value": "ns26.domaincontrol.com"
+          },
+          {
+            "type": "NS",
+            "ttl": 3600,
+            "value": "ns25.domaincontrol.com"
+          }
+        ],
+        "whois": "Create date: 2025-09-11 00:00:00\nDomain name: absapay.com\nDomain registrar id: 146\nDomain registrar url: http://www.godaddy.com\nExpiry date: 2027-09-11 00:00:00\nName server 1: ns26.domaincontrol.com\nName server 2: ns25.domaincontrol.com\nQuery time: 2025-09-12 10:39:53\nUpdate date: 2025-09-11 00:00:00",
+        "last_modification_date": 1757780492,
+        "tags": [],
+        "last_update_date": 1757548800,
+        "popularity_ranks": {},
+        "last_analysis_results": {
+          "Acronis": {
+            "method": "blacklist",
+            "engine_name": "Acronis",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "0xSI_f33d": {
+            "method": "blacklist",
+            "engine_name": "0xSI_f33d",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Abusix": {
+            "method": "blacklist",
+            "engine_name": "Abusix",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "ADMINUSLabs": {
+            "method": "blacklist",
+            "engine_name": "ADMINUSLabs",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Axur": {
+            "method": "blacklist",
+            "engine_name": "Axur",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "ChainPatrol": {
+            "method": "blacklist",
+            "engine_name": "ChainPatrol",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Criminal IP": {
+            "method": "blacklist",
+            "engine_name": "Criminal IP",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "AILabs (MONITORAPP)": {
+            "method": "blacklist",
+            "engine_name": "AILabs (MONITORAPP)",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "AlienVault": {
+            "method": "blacklist",
+            "engine_name": "AlienVault",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "alphaMountain.ai": {
+            "method": "blacklist",
+            "engine_name": "alphaMountain.ai",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "AlphaSOC": {
+            "method": "blacklist",
+            "engine_name": "AlphaSOC",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Antiy-AVL": {
+            "method": "blacklist",
+            "engine_name": "Antiy-AVL",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "ArcSight Threat Intelligence": {
+            "method": "blacklist",
+            "engine_name": "ArcSight Threat Intelligence",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "AutoShun": {
+            "method": "blacklist",
+            "engine_name": "AutoShun",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "benkow.cc": {
+            "method": "blacklist",
+            "engine_name": "benkow.cc",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Bfore.Ai PreCrime": {
+            "method": "blacklist",
+            "engine_name": "Bfore.Ai PreCrime",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "BitDefender": {
+            "method": "blacklist",
+            "engine_name": "BitDefender",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Bkav": {
+            "method": "blacklist",
+            "engine_name": "Bkav",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Blueliv": {
+            "method": "blacklist",
+            "engine_name": "Blueliv",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Certego": {
+            "method": "blacklist",
+            "engine_name": "Certego",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Chong Lua Dao": {
+            "method": "blacklist",
+            "engine_name": "Chong Lua Dao",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "CINS Army": {
+            "method": "blacklist",
+            "engine_name": "CINS Army",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Cluster25": {
+            "method": "blacklist",
+            "engine_name": "Cluster25",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "CRDF": {
+            "method": "blacklist",
+            "engine_name": "CRDF",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "CSIS Security Group": {
+            "method": "blacklist",
+            "engine_name": "CSIS Security Group",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Snort IP sample list": {
+            "method": "blacklist",
+            "engine_name": "Snort IP sample list",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "CMC Threat Intelligence": {
+            "method": "blacklist",
+            "engine_name": "CMC Threat Intelligence",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Cyan": {
+            "method": "blacklist",
+            "engine_name": "Cyan",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Cyble": {
+            "method": "blacklist",
+            "engine_name": "Cyble",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "CyRadar": {
+            "method": "blacklist",
+            "engine_name": "CyRadar",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "DNS8": {
+            "method": "blacklist",
+            "engine_name": "DNS8",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Dr.Web": {
+            "method": "blacklist",
+            "engine_name": "Dr.Web",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Ermes": {
+            "method": "blacklist",
+            "engine_name": "Ermes",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "ESET": {
+            "method": "blacklist",
+            "engine_name": "ESET",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "ESTsecurity": {
+            "method": "blacklist",
+            "engine_name": "ESTsecurity",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "EmergingThreats": {
+            "method": "blacklist",
+            "engine_name": "EmergingThreats",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Emsisoft": {
+            "method": "blacklist",
+            "engine_name": "Emsisoft",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Forcepoint ThreatSeeker": {
+            "method": "blacklist",
+            "engine_name": "Forcepoint ThreatSeeker",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Fortinet": {
+            "method": "blacklist",
+            "engine_name": "Fortinet",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "G-Data": {
+            "method": "blacklist",
+            "engine_name": "G-Data",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "GCP Abuse Intelligence": {
+            "method": "blacklist",
+            "engine_name": "GCP Abuse Intelligence",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Google Safebrowsing": {
+            "method": "blacklist",
+            "engine_name": "Google Safebrowsing",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "GreenSnow": {
+            "method": "blacklist",
+            "engine_name": "GreenSnow",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Gridinsoft": {
+            "method": "blacklist",
+            "engine_name": "Gridinsoft",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Heimdal Security": {
+            "method": "blacklist",
+            "engine_name": "Heimdal Security",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Hunt.io Intelligence": {
+            "method": "blacklist",
+            "engine_name": "Hunt.io Intelligence",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "IPsum": {
+            "method": "blacklist",
+            "engine_name": "IPsum",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Juniper Networks": {
+            "method": "blacklist",
+            "engine_name": "Juniper Networks",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Kaspersky": {
+            "method": "blacklist",
+            "engine_name": "Kaspersky",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Lionic": {
+            "method": "blacklist",
+            "engine_name": "Lionic",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Lumu": {
+            "method": "blacklist",
+            "engine_name": "Lumu",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "MalwarePatrol": {
+            "method": "blacklist",
+            "engine_name": "MalwarePatrol",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "MalwareURL": {
+            "method": "blacklist",
+            "engine_name": "MalwareURL",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Malwared": {
+            "method": "blacklist",
+            "engine_name": "Malwared",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Mimecast": {
+            "method": "blacklist",
+            "engine_name": "Mimecast",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Netcraft": {
+            "method": "blacklist",
+            "engine_name": "Netcraft",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "OpenPhish": {
+            "method": "blacklist",
+            "engine_name": "OpenPhish",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Phishing Database": {
+            "method": "blacklist",
+            "engine_name": "Phishing Database",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "PhishFort": {
+            "method": "blacklist",
+            "engine_name": "PhishFort",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "PhishLabs": {
+            "method": "blacklist",
+            "engine_name": "PhishLabs",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Phishtank": {
+            "method": "blacklist",
+            "engine_name": "Phishtank",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "PREBYTES": {
+            "method": "blacklist",
+            "engine_name": "PREBYTES",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "PrecisionSec": {
+            "method": "blacklist",
+            "engine_name": "PrecisionSec",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Quick Heal": {
+            "method": "blacklist",
+            "engine_name": "Quick Heal",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Quttera": {
+            "method": "blacklist",
+            "engine_name": "Quttera",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "SafeToOpen": {
+            "method": "blacklist",
+            "engine_name": "SafeToOpen",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Sansec eComscan": {
+            "method": "blacklist",
+            "engine_name": "Sansec eComscan",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Scantitan": {
+            "method": "blacklist",
+            "engine_name": "Scantitan",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "SCUMWARE.org": {
+            "method": "blacklist",
+            "engine_name": "SCUMWARE.org",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Seclookup": {
+            "method": "blacklist",
+            "engine_name": "Seclookup",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "SecureBrain": {
+            "method": "blacklist",
+            "engine_name": "SecureBrain",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "SOCRadar": {
+            "method": "blacklist",
+            "engine_name": "SOCRadar",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Sophos": {
+            "method": "blacklist",
+            "engine_name": "Sophos",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Spam404": {
+            "method": "blacklist",
+            "engine_name": "Spam404",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "StopForumSpam": {
+            "method": "blacklist",
+            "engine_name": "StopForumSpam",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Sucuri SiteCheck": {
+            "method": "blacklist",
+            "engine_name": "Sucuri SiteCheck",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "ThreatHive": {
+            "method": "blacklist",
+            "engine_name": "ThreatHive",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Threatsourcing": {
+            "method": "blacklist",
+            "engine_name": "Threatsourcing",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Trustwave": {
+            "method": "blacklist",
+            "engine_name": "Trustwave",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Underworld": {
+            "method": "blacklist",
+            "engine_name": "Underworld",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "URLhaus": {
+            "method": "blacklist",
+            "engine_name": "URLhaus",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "URLQuery": {
+            "method": "blacklist",
+            "engine_name": "URLQuery",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Viettel Threat Intelligence": {
+            "method": "blacklist",
+            "engine_name": "Viettel Threat Intelligence",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "VIPRE": {
+            "method": "blacklist",
+            "engine_name": "VIPRE",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "VX Vault": {
+            "method": "blacklist",
+            "engine_name": "VX Vault",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "ViriBack": {
+            "method": "blacklist",
+            "engine_name": "ViriBack",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Webroot": {
+            "method": "blacklist",
+            "engine_name": "Webroot",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Yandex Safebrowsing": {
+            "method": "blacklist",
+            "engine_name": "Yandex Safebrowsing",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "ZeroCERT": {
+            "method": "blacklist",
+            "engine_name": "ZeroCERT",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "desenmascara.me": {
+            "method": "blacklist",
+            "engine_name": "desenmascara.me",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "malwares.com URL checker": {
+            "method": "blacklist",
+            "engine_name": "malwares.com URL checker",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "securolytics": {
+            "method": "blacklist",
+            "engine_name": "securolytics",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Xcitium Verdict Cloud": {
+            "method": "blacklist",
+            "engine_name": "Xcitium Verdict Cloud",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "zvelo": {
+            "method": "blacklist",
+            "engine_name": "zvelo",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "ZeroFox": {
+            "method": "blacklist",
+            "engine_name": "ZeroFox",
+            "category": "undetected",
+            "result": "unrated"
+          }
+        },
+        "tld": "com",
+        "whois_date": 1820620800,
+        "jarm": "07d2ad16d21d21d07c07d2ad07d21d9b2f5869a6985368a9dec764186a9175"
+      }
+    }
+  },
+  "dnsdumpster": {
+    "a": [
+      {
+        "host": "absapay.com",
+        "ips": [
+          {
+            "asn": "398101",
+            "asn_name": "GO-DADDY-COM-LLC",
+            "asn_range": "166.62.118.0/23",
+            "banners": {
+              "http": {
+                "apps": [
+                  "Microsoft HTTPAPI:2.0"
+                ],
+                "server": "Microsoft-HTTPAPI/2.0",
+                "title": "Not Found"
+              },
+              "https": {
+                "alt_n": [
+                  "www.utilitiesug.com",
+                  "utilitiesug.com"
+                ],
+                "cn": "www.utilitiesug.com",
+                "title": "File Upload - lumjo Consultants"
+              },
+              "ip": "166.62.118.159",
+              "rdp": {
+                "cn": "s166-62-118-159.secureserver.net",
+                "status": "open",
+                "tlsver": "TLSv1.2"
+              }
+            },
+            "country": "United States",
+            "country_code": "US",
+            "ip": "166.62.118.159",
+            "ptr": "159.118.62.166.host.secureserver.net"
+          }
+        ]
+      }
+    ],
+    "cname": [],
+    "mx": [],
+    "ns": [
+      {
+        "host": "ns26.domaincontrol.com",
+        "ips": [
+          {
+            "asn": "44273",
+            "asn_name": "GODADDY-DNS, DE",
+            "asn_range": "173.201.70.0/23",
+            "country": "United States",
+            "country_code": "US",
+            "ip": "173.201.70.13",
+            "ptr": "ns26.domaincontrol.com"
+          }
+        ]
+      },
+      {
+        "host": "ns25.domaincontrol.com",
+        "ips": [
+          {
+            "asn": "44273",
+            "asn_name": "GODADDY-DNS, DE",
+            "asn_range": "97.74.102.0/23",
+            "country": "United States",
+            "country_code": "US",
+            "ip": "97.74.102.13",
+            "ptr": "ns25.domaincontrol.com"
+          }
+        ]
+      }
+    ],
+    "total_a_recs": 1,
+    "txt": []
+  }
+}

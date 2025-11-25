@@ -1,0 +1,754 @@
+{
+  "domains": {
+    "secfeatabsa.co.za": {
+      "last_content_hash": "ff689d62807847c43aacf129aff3348a",
+      "last_screenshot": "20251102_084115",
+      "last_screenshot_path": "Output\\Screenshots\\secfeatabsa_co_za\\20251102_084115.png"
+    },
+    "avsa.africa": {
+      "last_content_hash": "0db26985de0036c5945504f18f1037be",
+      "last_screenshot": "20251102_084116",
+      "last_screenshot_path": "Output\\Screenshots\\avsa_africa\\20251102_084116.png"
+    },
+    "absarquitectura.com": {
+      "last_content_hash": "aabc1db803cd6ec960a5e54b97e45a40",
+      "last_screenshot": "20251104_080319",
+      "last_screenshot_path": "Output\\Screenshots\\absarquitectura_com\\20251104_080319.png"
+    },
+    "kebabsapi.store": {
+      "last_content_hash": "df14945196237e8ba6918ff0beb864b7",
+      "last_screenshot": "20251102_084122",
+      "last_screenshot_path": "Output\\Screenshots\\kebabsapi_store\\20251102_084122.png"
+    },
+    "jobjourney.co.za": {
+      "last_content_hash": "7e67c09de963c50586240b4caa261f83",
+      "last_screenshot": "20251102_084139",
+      "last_screenshot_path": "Output\\Screenshots\\jobjourney_co_za\\20251102_084139.png"
+    },
+    "jerryandjames.co.za": {
+      "last_content_hash": "80a84c0a589501678a54be33a972bb04",
+      "last_screenshot": "20251102_084139",
+      "last_screenshot_path": "Output\\Screenshots\\jerryandjames_co_za\\20251102_084139.png"
+    },
+    "gosupacreator.africa": {
+      "last_content_hash": "e89f75f918dbdcee28604d4e09dd71d7",
+      "last_screenshot": "20251102_084141",
+      "last_screenshot_path": "Output\\Screenshots\\gosupacreator_africa\\20251102_084141.png"
+    },
+    "gosofta.africa": {
+      "last_content_hash": "892803036aca0cab87be2f963fc53cc8",
+      "last_screenshot": "20251102_084144",
+      "last_screenshot_path": "Output\\Screenshots\\gosofta_africa\\20251102_084144.png"
+    },
+    "gort.africa": {
+      "last_content_hash": "e89f75f918dbdcee28604d4e09dd71d7",
+      "last_screenshot": "20251102_084145",
+      "last_screenshot_path": "Output\\Screenshots\\gort_africa\\20251102_084145.png"
+    },
+    "fettabsaugenzuerich.ch": {
+      "last_content_hash": "7f86ff07d2609ad1f7e20663787fba97",
+      "last_screenshot": "20251104_080335",
+      "last_screenshot_path": "Output\\Screenshots\\fettabsaugenzuerich_ch\\20251104_080335.png"
+    },
+    "feetlabsa.com": {
+      "last_content_hash": "aa17814a80b61fc810994be67de2ec65",
+      "last_screenshot": "20251102_084150",
+      "last_screenshot_path": "Output\\Screenshots\\feetlabsa_com\\20251102_084150.png"
+    },
+    "equinix.africa": {
+      "last_content_hash": "e89f75f918dbdcee28604d4e09dd71d7",
+      "last_screenshot": "20251102_084151",
+      "last_screenshot_path": "Output\\Screenshots\\equinix_africa\\20251102_084151.png"
+    },
+    "eaqala.co.za": {
+      "last_content_hash": "ce419fb5c0a94d698ee01f3e753846c8",
+      "last_screenshot": "20251102_084151",
+      "last_screenshot_path": "Output\\Screenshots\\eaqala_co_za\\20251102_084151.png"
+    },
+    "drewgadgets.co.za": {
+      "last_content_hash": "9123ffe4df0ed6475960c2e80bc3876f",
+      "last_screenshot": "20251104_080338",
+      "last_screenshot_path": "Output\\Screenshots\\drewgadgets_co_za\\20251104_080338.png"
+    },
+    "dimalogistics.africa": {
+      "last_content_hash": "e89f75f918dbdcee28604d4e09dd71d7",
+      "last_screenshot": "20251102_084155",
+      "last_screenshot_path": "Output\\Screenshots\\dimalogistics_africa\\20251102_084155.png"
+    },
+    "devlabsagency.com": {
+      "last_content_hash": "1b300090a83f1e5ab05ad2a447de666c",
+      "last_screenshot": "20251102_084156",
+      "last_screenshot_path": "Output\\Screenshots\\devlabsagency_com\\20251102_084156.png"
+    },
+    "desertstars.africa": {
+      "last_content_hash": "a663d7fbd73971d881aff0813cc226da",
+      "last_screenshot": "20251102_084157",
+      "last_screenshot_path": "Output\\Screenshots\\desertstars_africa\\20251102_084157.png"
+    },
+    "demmer.africa": {
+      "last_content_hash": "6f9a2f7beba2f51814f77d1f6e9070ae",
+      "last_screenshot": "20251102_084157",
+      "last_screenshot_path": "Output\\Screenshots\\demmer_africa\\20251102_084157.png"
+    },
+    "creatorsinthewild.africa": {
+      "last_content_hash": "0db26985de0036c5945504f18f1037be",
+      "last_screenshot": "20251102_084158",
+      "last_screenshot_path": "Output\\Screenshots\\creatorsinthewild_africa\\20251102_084158.png"
+    },
+    "colossusproject.africa": {
+      "last_content_hash": "e89f75f918dbdcee28604d4e09dd71d7",
+      "last_screenshot": "20251102_084159",
+      "last_screenshot_path": "Output\\Screenshots\\colossusproject_africa\\20251102_084159.png"
+    },
+    "bongi.africa": {
+      "last_content_hash": "e89f75f918dbdcee28604d4e09dd71d7",
+      "last_screenshot": "20251102_084231",
+      "last_screenshot_path": "Output\\Screenshots\\bongi_africa\\20251102_084231.png"
+    },
+    "bitdefender.africa": {
+      "last_content_hash": "e89f75f918dbdcee28604d4e09dd71d7",
+      "last_screenshot": "20251102_084233",
+      "last_screenshot_path": "Output\\Screenshots\\bitdefender_africa\\20251102_084233.png"
+    },
+    "bimbin.africa": {
+      "last_content_hash": "ee4d26397657945b38cb86a3b0a0b00c",
+      "last_screenshot": "20251102_084234",
+      "last_screenshot_path": "Output\\Screenshots\\bimbin_africa\\20251102_084234.png"
+    },
+    "bekoza.africa": {
+      "last_content_hash": "9067692820e733c8fa4e2faf1cd9831a",
+      "last_screenshot": "20251104_080351",
+      "last_screenshot_path": "Output\\Screenshots\\bekoza_africa\\20251104_080351.png"
+    },
+    "awarfan.africa": {
+      "last_content_hash": "103faaf37ea7271472fd5c1de44c8acb",
+      "last_screenshot": "20251102_084239",
+      "last_screenshot_path": "Output\\Screenshots\\awarfan_africa\\20251102_084239.png"
+    },
+    "aquablok.co.za": {
+      "last_content_hash": "243f00c9f2ba651951717a5c056921f8",
+      "last_screenshot": "20251104_080353",
+      "last_screenshot_path": "Output\\Screenshots\\aquablok_co_za\\20251104_080353.png"
+    },
+    "amoraebeauty.co.za": {
+      "last_content_hash": "767152520f510c6a1cbecf3eda2c37fd",
+      "last_screenshot": "20251104_080356",
+      "last_screenshot_path": "Output\\Screenshots\\amoraebeauty_co_za\\20251104_080356.png"
+    },
+    "algostack.africa": {
+      "last_content_hash": "37fce6cb2b03091f0178850e4740c362",
+      "last_screenshot": "20251102_084246",
+      "last_screenshot_path": "Output\\Screenshots\\algostack_africa\\20251102_084246.png"
+    },
+    "ajdesigns.co.za": {
+      "last_content_hash": "d852ba84852d1419f62880d22a34ae42",
+      "last_screenshot": "20251104_080357",
+      "last_screenshot_path": "Output\\Screenshots\\ajdesigns_co_za\\20251104_080357.png"
+    },
+    "absautomation.bot": {
+      "last_content_hash": "85ee10453cd882c3940174a8cd44aa7e",
+      "last_screenshot": "20251102_085039",
+      "last_screenshot_path": "Output\\Screenshots\\absautomation_bot\\20251102_085039.png"
+    },
+    "absatransfer.website": {
+      "last_content_hash": "e89f75f918dbdcee28604d4e09dd71d7",
+      "last_screenshot": "20251102_085040",
+      "last_screenshot_path": "Output\\Screenshots\\absatransfer_website\\20251102_085040.png"
+    },
+    "absatransfer.online": {
+      "last_content_hash": "e89f75f918dbdcee28604d4e09dd71d7",
+      "last_screenshot": "20251102_085041",
+      "last_screenshot_path": "Output\\Screenshots\\absatransfer_online\\20251102_085041.png"
+    },
+    "absasite1.website": {
+      "last_content_hash": "aa17814a80b61fc810994be67de2ec65",
+      "last_screenshot": "20251102_085043",
+      "last_screenshot_path": "Output\\Screenshots\\absasite1_website\\20251102_085043.png"
+    },
+    "absao.xyz": {
+      "last_content_hash": "e89f75f918dbdcee28604d4e09dd71d7",
+      "last_screenshot": "20251102_085044",
+      "last_screenshot_path": "Output\\Screenshots\\absao_xyz\\20251102_085044.png"
+    },
+    "absan.net": {
+      "last_content_hash": "e89f75f918dbdcee28604d4e09dd71d7",
+      "last_screenshot": "20251102_085045",
+      "last_screenshot_path": "Output\\Screenshots\\absan_net\\20251102_085045.png"
+    },
+    "absalpha.xyz": {
+      "last_content_hash": "0d606fd5fbcaab75952d2ea9188765c4",
+      "last_screenshot": "20251125_161634",
+      "last_screenshot_path": "Output\\Screenshots\\absalpha_xyz.png",
+      "capture_method": "html2image"
+    },
+    "absalonsupply.net": {
+      "last_content_hash": "aa17814a80b61fc810994be67de2ec65",
+      "last_screenshot": "20251102_085053",
+      "last_screenshot_path": "Output\\Screenshots\\absalonsupply_net\\20251102_085053.png"
+    },
+    "absalonresources.net": {
+      "last_content_hash": "aa17814a80b61fc810994be67de2ec65",
+      "last_screenshot": "20251102_085054",
+      "last_screenshot_path": "Output\\Screenshots\\absalonresources_net\\20251102_085054.png"
+    },
+    "absaicon.com": {
+      "last_content_hash": "10ee7809c0e7473f68ff1f86d1e2c073",
+      "last_screenshot": "20251125_161634",
+      "last_screenshot_path": "Output\\Screenshots\\absaicon_com.png",
+      "capture_method": "html2image"
+    },
+    "absadvisory.xyz": {
+      "last_content_hash": "e89f75f918dbdcee28604d4e09dd71d7",
+      "last_screenshot": "20251102_085059",
+      "last_screenshot_path": "Output\\Screenshots\\absadvisory_xyz\\20251102_085059.png"
+    },
+    "absadigital.tech": {
+      "last_content_hash": "c0a6f229a76d14f837bedca356e838b2",
+      "last_screenshot": "20251125_161634",
+      "last_screenshot_path": "Output\\Screenshots\\absadigital_tech.png",
+      "capture_method": "html2image"
+    },
+    "absadata.online": {
+      "last_content_hash": "986816f12f1e131a30ef0195def1ec9d",
+      "last_screenshot": "20251102_085105",
+      "last_screenshot_path": "Output\\Screenshots\\absadata_online\\20251102_085105.png"
+    },
+    "absacquisitions.com": {
+      "last_content_hash": "767a8bc1ea44a1fe436c90eee225f891",
+      "last_screenshot": "20251124_063105",
+      "last_screenshot_path": "Output\\Screenshots\\absacquisitions_com\\20251124_063105.png"
+    },
+    "absacontactus3.website": {
+      "last_content_hash": "526769c480bbd3c33aa30e928c8cbc10",
+      "last_screenshot": "20251124_063107",
+      "last_screenshot_path": "Output\\Screenshots\\absacontactus3_website\\20251124_063107.png"
+    },
+    "absaccounting.net": {
+      "last_content_hash": "333a53b139dcf6dd7798ed5ac1cfc59a",
+      "last_screenshot": "20251125_161634",
+      "last_screenshot_path": "Output\\Screenshots\\absaccounting_net.png",
+      "capture_method": "html2image"
+    },
+    "absaccess.online": {
+      "last_content_hash": "bdec56d16d16991ca1b4af9fec8bb502",
+      "last_screenshot": "20251102_085124",
+      "last_screenshot_path": "Output\\Screenshots\\absaccess_online\\20251102_085124.png"
+    },
+    "absaaubusiness-coza.com": {
+      "last_content_hash": "db171399f30720426c517b75a3d360fc",
+      "last_screenshot": "20251102_085127",
+      "last_screenshot_path": "Output\\Screenshots\\absaaubusiness-coza_com\\20251102_085127.png"
+    },
+    "caraibestravel.africa": {
+      "last_content_hash": "2a1ac53851306c8c8caf51252f8be9c2",
+      "last_screenshot": "20251104_080344",
+      "last_screenshot_path": "Output\\Screenshots\\caraibestravel_africa\\20251104_080344.png"
+    },
+    "absaco.cam": {
+      "last_content_hash": "5faa33d84b3990b0867607ffe25eda9b",
+      "last_screenshot": "20251104_080317",
+      "last_screenshot_path": "Output\\Screenshots\\absaco_cam\\20251104_080317.png"
+    },
+    "absaug-technik.de": {
+      "last_content_hash": "0816ec62cf8b590cb13bc09775d3bc9c",
+      "last_screenshot": "20251105_072551",
+      "last_screenshot_path": "Output\\Screenshots\\absaug-technik_de\\20251105_072551.png"
+    },
+    "absam.io": {
+      "last_content_hash": "8a3874af711fd9b2b5300caf4f117cdc",
+      "last_screenshot": "20251105_072556",
+      "last_screenshot_path": "Output\\Screenshots\\absam_io\\20251105_072556.png"
+    },
+    "absautousa.com": {
+      "last_content_hash": "3604de8bc4cd306d3ac7bea6deea5e05",
+      "last_screenshot": "20251112_152330",
+      "last_screenshot_path": "Output\\Screenshots\\absautousa_com\\20251112_152330.png"
+    },
+    "absasecuritiesuk.com": {
+      "last_content_hash": "db171399f30720426c517b75a3d360fc",
+      "last_screenshot": "20251112_152341",
+      "last_screenshot_path": "Output\\Screenshots\\absasecuritiesuk_com\\20251112_152341.png"
+    },
+    "absarokabuilders.com": {
+      "last_content_hash": "daf09de57f9d0b40074cf6223d9aa86a",
+      "last_screenshot": "20251117_091004",
+      "last_screenshot_path": "Output\\Screenshots\\absarokabuilders_com\\20251117_091004.png"
+    },
+    "absaonline.community": {
+      "last_content_hash": "9157a1d47a74c0460a03b4d6af6c8307",
+      "last_screenshot": "20251124_063049",
+      "last_screenshot_path": "Output\\Screenshots\\absaonline_community\\20251124_063049.png"
+    },
+    "absalutelybeauty.com": {
+      "last_content_hash": "a53f1aefffe03c6baffaccdfe0ebaf92",
+      "last_screenshot": "20251112_152347",
+      "last_screenshot_path": "Output\\Screenshots\\absalutelybeauty_com\\20251112_152347.png"
+    },
+    "absalonsuccess.com": {
+      "last_content_hash": "e89f75f918dbdcee28604d4e09dd71d7",
+      "last_screenshot": "20251112_152348",
+      "last_screenshot_path": "Output\\Screenshots\\absalonsuccess_com\\20251112_152348.png"
+    },
+    "absautorepos.com": {
+      "last_content_hash": "1e3ef26fe631b74ca20c7061c19e0c47",
+      "last_screenshot": "20251124_063114",
+      "last_screenshot_path": "Output\\Screenshots\\absautorepos_com\\20251124_063114.png"
+    },
+    "absautoherstel.eu": {
+      "last_content_hash": "2cf4725f82e36da8da0d8faa7f1fd510",
+      "last_screenshot": "20251117_090857",
+      "last_screenshot_path": "Output\\Screenshots\\absautoherstel_eu\\20251117_090857.png"
+    },
+    "absaug-umwelttechnik.de": {
+      "last_content_hash": "7d49789e411bf648c37fff6b58dcaad1",
+      "last_screenshot": "20251117_090904",
+      "last_screenshot_path": "Output\\Screenshots\\absaug-umwelttechnik_de\\20251117_090904.png"
+    },
+    "absatz.name": {
+      "last_content_hash": "5160f62cf63770ade3b04923d1912ebf",
+      "last_screenshot": "20251125_161634",
+      "last_screenshot_path": "Output\\Screenshots\\absatz_name.png",
+      "capture_method": "html2image"
+    },
+    "absattarov.uz": {
+      "last_content_hash": "b6a2c3e0167e57a142862d4abf2a6dfd",
+      "last_screenshot": "20251112_155221",
+      "last_screenshot_path": "Output\\Screenshots\\absattarov_uz\\20251112_155221.png"
+    },
+    "absatdynamiclimited.com": {
+      "last_content_hash": "d91f484ae1e5504e55a0f0314842fd11",
+      "last_screenshot": "20251124_063010",
+      "last_screenshot_path": "Output\\Screenshots\\absatdynamiclimited_com\\20251124_063010.png"
+    },
+    "absat.de": {
+      "last_content_hash": "e6569934a9cd45c7fb420e3df9e93259",
+      "last_screenshot": "20251117_090913",
+      "last_screenshot_path": "Output\\Screenshots\\absat_de\\20251117_090913.png"
+    },
+    "absassur.com": {
+      "last_content_hash": "8c89124549f67d3af4a388d46786e9bb",
+      "last_screenshot": "20251125_161634",
+      "last_screenshot_path": "Output\\Screenshots\\absassur_com.png",
+      "capture_method": "html2image"
+    },
+    "absaslaw.com": {
+      "last_content_hash": "4f3eaa5033fee6ad4db6a7eb0f113b37",
+      "last_screenshot": "20251112_155304",
+      "last_screenshot_path": "Output\\Screenshots\\absaslaw_com\\20251112_155304.png"
+    },
+    "absasgzutphen.nl": {
+      "last_content_hash": "d80e8a2dabe3f0c99c1c367406ef23ef",
+      "last_screenshot": "20251125_161634",
+      "last_screenshot_path": "Output\\Screenshots\\absasgzutphen_nl.png",
+      "capture_method": "html2image"
+    },
+    "absasglichtenvoorde.nl": {
+      "last_content_hash": "a8bb68d3d516c1cc2cde82fe57e138c9",
+      "last_screenshot": "20251113_081927",
+      "last_screenshot_path": "Output\\Screenshots\\absasglichtenvoorde_nl\\20251113_081927.png"
+    },
+    "absarokadogsledtreks.com": {
+      "last_content_hash": "0dc156193f1568faae478685841bbbc8",
+      "last_screenshot": "20251113_081931",
+      "last_screenshot_path": "Output\\Screenshots\\absarokadogsledtreks_com\\20251113_081931.png"
+    },
+    "absapeldoorn.nl": {
+      "last_content_hash": "90014d4002bd358d4bd442f62d50de1a",
+      "last_screenshot": "20251112_155318",
+      "last_screenshot_path": "Output\\Screenshots\\absapeldoorn_nl\\20251112_155318.png"
+    },
+    "absanwalka.com": {
+      "last_content_hash": "e49e06856f0a22ee3527245958366f38",
+      "last_screenshot": "20251125_161634",
+      "last_screenshot_path": "Output\\Screenshots\\absanwalka_com.png",
+      "capture_method": "html2image"
+    },
+    "absanitaires.fr": {
+      "last_content_hash": "5c929fece3d1e47f96ffc171f8c4544e",
+      "last_screenshot": "20251112_155324",
+      "last_screenshot_path": "Output\\Screenshots\\absanitaires_fr\\20251112_155324.png"
+    },
+    "absamsterdam.nl": {
+      "last_content_hash": "2406b35642c10e76dce843964244c171",
+      "last_screenshot": "20251117_090931",
+      "last_screenshot_path": "Output\\Screenshots\\absamsterdam_nl\\20251117_090931.png"
+    },
+    "absamineral.com": {
+      "last_content_hash": "fdb8c2657154ab21550affb1a3be0091",
+      "last_screenshot": "20251112_155331",
+      "last_screenshot_path": "Output\\Screenshots\\absamineral_com\\20251112_155331.png"
+    },
+    "absalpaul.com": {
+      "last_content_hash": "3e818784f9822b9cab598c18ac375d73",
+      "last_screenshot": "20251117_090939",
+      "last_screenshot_path": "Output\\Screenshots\\absalpaul_com\\20251117_090939.png"
+    },
+    "absalon.sarl": {
+      "last_content_hash": "57d6723f47330ff4c54508d24064bb9e",
+      "last_screenshot": "20251124_063027",
+      "last_screenshot_path": "Output\\Screenshots\\absalon_sarl\\20251124_063027.png"
+    },
+    "absalominvestmentsllc.com": {
+      "last_content_hash": "0c9cf8185315c1187520b5ffbd609a6f",
+      "last_screenshot": "20251112_155345",
+      "last_screenshot_path": "Output\\Screenshots\\absalominvestmentsllc_com\\20251112_155345.png"
+    },
+    "absale.biz": {
+      "last_content_hash": "48df2ab729a84900b1da590fff46c0af",
+      "last_screenshot": "20251112_155350",
+      "last_screenshot_path": "Output\\Screenshots\\absale_biz\\20251112_155350.png"
+    },
+    "absailpartners.com": {
+      "last_content_hash": "b7040ed8bb3b92b723074d5ce47a88ef",
+      "last_screenshot": "20251112_155353",
+      "last_screenshot_path": "Output\\Screenshots\\absailpartners_com\\20251112_155353.png"
+    },
+    "absagencyltd.co.uk": {
+      "last_content_hash": "87d80fed64067f235ef9e332069057cd",
+      "last_screenshot": "20251112_155410",
+      "last_screenshot_path": "Output\\Screenshots\\absagencyltd_co_uk\\20251112_155410.png"
+    },
+    "absaddegoey.nl": {
+      "last_content_hash": "93d43534e08de9dd6469f30052023ae7",
+      "last_screenshot": "20251125_161634",
+      "last_screenshot_path": "Output\\Screenshots\\absaddegoey_nl.png",
+      "capture_method": "html2image"
+    },
+    "absacademics.com": {
+      "last_content_hash": "c7e2807a39319d754276f381e0aa5d12",
+      "last_screenshot": "20251112_155417",
+      "last_screenshot_path": "Output\\Screenshots\\absacademics_com\\20251112_155417.png"
+    },
+    "absabzibazaar.com": {
+      "last_content_hash": "730240d69e2b495a736122e089b29271",
+      "last_screenshot": "20251125_161634",
+      "last_screenshot_path": "Output\\Screenshots\\absabzibazaar_com.png",
+      "capture_method": "html2image"
+    },
+    "absacibank.com": {
+      "last_content_hash": "db171399f30720426c517b75a3d360fc",
+      "last_screenshot": "20251112_155430",
+      "last_screenshot_path": "Output\\Screenshots\\absacibank_com\\20251112_155430.png"
+    },
+    "absabraid.com": {
+      "last_content_hash": "58a3fb0a2795e604a957b8fa4dd43cd3",
+      "last_screenshot": "20251112_155434",
+      "last_screenshot_path": "Output\\Screenshots\\absabraid_com\\20251112_155434.png"
+    },
+    "absarokacapital.org": {
+      "last_content_hash": "c7ab189cfb942ea82a86a0a6444f1e2c",
+      "last_screenshot": "20251113_081552",
+      "last_screenshot_path": "Output\\Screenshots\\absarokacapital_org\\20251113_081552.png"
+    },
+    "absayncollection.shop": {
+      "last_content_hash": "5488f247cc4dceedd31bc5877a0af5a2",
+      "last_screenshot": "20251125_161634",
+      "last_screenshot_path": "Output\\Screenshots\\absayncollection_shop.png",
+      "capture_method": "html2image"
+    },
+    "absaviation.com": {
+      "last_content_hash": "bd02c8f8338915300e194eeca1a56b94",
+      "last_screenshot": "20251113_081604",
+      "last_screenshot_path": "Output\\Screenshots\\absaviation_com\\20251113_081604.png"
+    },
+    "absautopart.com": {
+      "last_content_hash": "d9733388564cdac7cbe0613bbe0793ab",
+      "last_screenshot": "20251125_161634",
+      "last_screenshot_path": "Output\\Screenshots\\absautopart_com.png",
+      "capture_method": "html2image"
+    },
+    "absaugtechnikschweiz.ch": {
+      "last_content_hash": "1f6a9ebc9fb60ebc57cc226e27e3255e",
+      "last_screenshot": "20251125_161634",
+      "last_screenshot_path": "Output\\Screenshots\\absaugtechnikschweiz_ch.png",
+      "capture_method": "html2image"
+    },
+    "absaugrohre.com": {
+      "last_content_hash": "b4b5f576f1f5cb53b79762a7ceed7cdc",
+      "last_screenshot": "20251125_161634",
+      "last_screenshot_path": "Output\\Screenshots\\absaugrohre_com.png",
+      "capture_method": "html2image"
+    },
+    "absauganlage.ch": {
+      "last_content_hash": "e974682706352e19789394c9f184907c",
+      "last_screenshot": "20251125_161634",
+      "last_screenshot_path": "Output\\Screenshots\\absauganlage_ch.png",
+      "capture_method": "html2image"
+    },
+    "absatzschutz.de": {
+      "last_content_hash": "a1c2bbdb234b6ae4f516f3539a3d0aa8",
+      "last_screenshot": "20251124_062806",
+      "last_screenshot_path": "Output\\Screenshots\\absatzschutz_de\\20251124_062806.png"
+    },
+    "absatz-fonds.de": {
+      "last_content_hash": "d2469e905792e31c897139c674e996dd",
+      "last_screenshot": "20251125_161634",
+      "last_screenshot_path": "Output\\Screenshots\\absatz-fonds_de.png",
+      "capture_method": "html2image"
+    },
+    "absatz-boerse.de": {
+      "last_content_hash": "15ac5a4f0f0b3e4815d04be16b8fc7cf",
+      "last_screenshot": "20251124_062811",
+      "last_screenshot_path": "Output\\Screenshots\\absatz-boerse_de\\20251124_062811.png"
+    },
+    "absarokasolutions.com": {
+      "last_content_hash": "cff8e105dfd36d159a9c69395fea866a",
+      "last_screenshot": "20251124_062817",
+      "last_screenshot_path": "Output\\Screenshots\\absarokasolutions_com\\20251124_062817.png"
+    },
+    "absarokaheatingandair.com": {
+      "last_content_hash": "0f3d2e31d03a9ae0d5ef89907829d5f1",
+      "last_screenshot": "20251117_090717",
+      "last_screenshot_path": "Output\\Screenshots\\absarokaheatingandair_com\\20251117_090717.png"
+    },
+    "absarokafenceinitiative.org": {
+      "last_content_hash": "73072be00092f5968c10b2db57aa0dff",
+      "last_screenshot": "20251124_062820",
+      "last_screenshot_path": "Output\\Screenshots\\absarokafenceinitiative_org\\20251124_062820.png"
+    },
+    "absarmor.com": {
+      "last_content_hash": "3131ca37508e294abd7e5efa501a148f",
+      "last_screenshot": "20251124_062825",
+      "last_screenshot_path": "Output\\Screenshots\\absarmor_com\\20251124_062825.png"
+    },
+    "absarakalaw.net": {
+      "last_content_hash": "1387b38007be2550ef4add5ee584abf8",
+      "last_screenshot": "20251125_161634",
+      "last_screenshot_path": "Output\\Screenshots\\absarakalaw_net.png",
+      "capture_method": "html2image"
+    },
+    "absaraai.com": {
+      "last_content_hash": "57a04eac354ee607c0b9816c2c86edd4",
+      "last_screenshot": "20251113_081657",
+      "last_screenshot_path": "Output\\Screenshots\\absaraai_com\\20251113_081657.png"
+    },
+    "absantacolomadental.com": {
+      "last_content_hash": "21652ca212bfdfc000cc23f2ef075a71",
+      "last_screenshot": "20251125_161634",
+      "last_screenshot_path": "Output\\Screenshots\\absantacolomadental_com.png",
+      "capture_method": "html2image"
+    },
+    "absams.com": {
+      "last_content_hash": "c1d1fca6fb658605e7bbf6924ec47e56",
+      "last_screenshot": "20251125_161634",
+      "last_screenshot_path": "Output\\Screenshots\\absams_com.png",
+      "capture_method": "html2image"
+    },
+    "absaluteresin.com": {
+      "last_content_hash": "12bafb4208e0854a1e74606cb1f11ca0",
+      "last_screenshot": "20251125_161634",
+      "last_screenshot_path": "Output\\Screenshots\\absaluteresin_com.png",
+      "capture_method": "html2image"
+    },
+    "absalonsalud.com": {
+      "last_content_hash": "d238e84fa6f5bce6b561b6364bfa6f5c",
+      "last_screenshot": "20251125_161634",
+      "last_screenshot_path": "Output\\Screenshots\\absalonsalud_com.png",
+      "capture_method": "html2image"
+    },
+    "absalongymstore.store": {
+      "last_content_hash": "e89f75f918dbdcee28604d4e09dd71d7",
+      "last_screenshot": "20251113_081745",
+      "last_screenshot_path": "Output\\Screenshots\\absalongymstore_store\\20251113_081745.png"
+    },
+    "absalom.ro": {
+      "last_content_hash": "20a1071b985fc3bd2a2dfa77b8064d63",
+      "last_screenshot": "20251124_062917",
+      "last_screenshot_path": "Output\\Screenshots\\absalom_ro\\20251124_062917.png"
+    },
+    "absalescorp.com": {
+      "last_content_hash": "993131e1793c21a3cd744de962100ba8",
+      "last_screenshot": "20251113_081759",
+      "last_screenshot_path": "Output\\Screenshots\\absalescorp_com\\20251113_081759.png"
+    },
+    "absaipro.com": {
+      "last_content_hash": "81f11799ee25f29f68af74678f1f09d0",
+      "last_screenshot": "20251124_062921",
+      "last_screenshot_path": "Output\\Screenshots\\absaipro_com\\20251124_062921.png"
+    },
+    "absaimportaciones.com": {
+      "last_content_hash": "573e262a500479935f442b76f50b531e",
+      "last_screenshot": "20251124_062926",
+      "last_screenshot_path": "Output\\Screenshots\\absaimportaciones_com\\20251124_062926.png"
+    },
+    "absagro.co.in": {
+      "last_content_hash": "8860ec7e7d84b8e2f4bf370b365c42ef",
+      "last_screenshot": "20251125_161634",
+      "last_screenshot_path": "Output\\Screenshots\\absagro_co_in.png",
+      "capture_method": "html2image"
+    },
+    "absaeximservices.in": {
+      "last_content_hash": "94a336b46e309fca43f07005364103aa",
+      "last_screenshot": "20251113_081815",
+      "last_screenshot_path": "Output\\Screenshots\\absaeximservices_in\\20251113_081815.png"
+    },
+    "absaerospace.in": {
+      "last_content_hash": "829bba60511917232ba30ab774e70094",
+      "last_screenshot": "20251124_062957",
+      "last_screenshot_path": "Output\\Screenshots\\absaerospace_in\\20251124_062957.png"
+    },
+    "absaconsultancy.co.uk": {
+      "last_content_hash": "bc819956552fc40b354ca2692ec654c3",
+      "last_screenshot": "20251125_161634",
+      "last_screenshot_path": "Output\\Screenshots\\absaconsultancy_co_uk.png",
+      "capture_method": "html2image"
+    },
+    "absacib.com": {
+      "last_content_hash": "db171399f30720426c517b75a3d360fc",
+      "last_screenshot": "20251113_081846",
+      "last_screenshot_path": "Output\\Screenshots\\absacib_com\\20251113_081846.png"
+    },
+    "absabs.cn": {
+      "last_content_hash": "282064809c805782082ab2d82f73c5bf",
+      "last_screenshot": "20251113_081849",
+      "last_screenshot_path": "Output\\Screenshots\\absabs_cn\\20251113_081849.png"
+    },
+    "absa.click": {
+      "last_content_hash": "1aabacfebcd2a9866516bbe06d818c86",
+      "last_screenshot": "20251125_161634",
+      "last_screenshot_path": "Output\\Screenshots\\absa_click.png",
+      "capture_method": "html2image"
+    },
+    "absa-client3.site": {
+      "last_content_hash": "9c85ef886c25706d2ba4937245a259be",
+      "last_screenshot": "20251113_081853",
+      "last_screenshot_path": "Output\\Screenshots\\absa-client3_site\\20251113_081853.png"
+    },
+    "absalajintl.com": {
+      "last_content_hash": "8f38e3536919d1f1cd988aaaf25de470",
+      "last_screenshot": "20251117_090541",
+      "last_screenshot_path": "Output\\Screenshots\\absalajintl_com\\20251117_090541.png"
+    },
+    "absayyb.icu": {
+      "last_content_hash": "5e789b20938fc669c112cd3dc386a7b2",
+      "last_screenshot": "20251117_090547",
+      "last_screenshot_path": "Output\\Screenshots\\absayyb_icu\\20251117_090547.png"
+    },
+    "absasecure.com": {
+      "last_content_hash": "d4de01ba17b7581f7c56cb6e5f7bfc6c",
+      "last_screenshot": "20251117_090549",
+      "last_screenshot_path": "Output\\Screenshots\\absasecure_com\\20251117_090549.png"
+    },
+    "absar.ai": {
+      "last_content_hash": "067bd82df2dba411afb1e84b9c635da7",
+      "last_screenshot": "20251117_090552",
+      "last_screenshot_path": "Output\\Screenshots\\absar_ai\\20251117_090552.png"
+    },
+    "absantoscontabil.shop": {
+      "last_content_hash": "61f7f341ac9aa0fd4697edc0a847d1ba",
+      "last_screenshot": "20251117_090555",
+      "last_screenshot_path": "Output\\Screenshots\\absantoscontabil_shop\\20251117_090555.png"
+    },
+    "absanifabrics.com": {
+      "last_content_hash": "01335b4527acd7aadfb105b7265559fc",
+      "last_screenshot": "20251117_090557",
+      "last_screenshot_path": "Output\\Screenshots\\absanifabrics_com\\20251117_090557.png"
+    },
+    "absacxaz.icu": {
+      "last_content_hash": "5e789b20938fc669c112cd3dc386a7b2",
+      "last_screenshot": "20251117_090559",
+      "last_screenshot_path": "Output\\Screenshots\\absacxaz_icu\\20251117_090559.png"
+    },
+    "absautorepo.com": {
+      "last_content_hash": "2c615e0570c5062bccefed2af98a0322",
+      "last_screenshot": "20251124_062639",
+      "last_screenshot_path": "Output\\Screenshots\\absautorepo_com\\20251124_062639.png"
+    },
+    "absa.xyz": {
+      "last_content_hash": "e89f75f918dbdcee28604d4e09dd71d7",
+      "last_screenshot": "20251124_062641",
+      "last_screenshot_path": "Output\\Screenshots\\absa_xyz\\20251124_062641.png"
+    },
+    "absale.ir": {
+      "last_content_hash": "69ff5740f779f455912d736abd18c015",
+      "last_screenshot": "20251124_062712",
+      "last_screenshot_path": "Output\\Screenshots\\absale_ir\\20251124_062712.png"
+    },
+    "absasoft.com": {
+      "last_content_hash": "e89f75f918dbdcee28604d4e09dd71d7",
+      "last_screenshot": "20251124_062713",
+      "last_screenshot_path": "Output\\Screenshots\\absasoft_com\\20251124_062713.png"
+    },
+    "absassessoria.com": {
+      "last_content_hash": "51cc04fd8e5b61125ab162a1d6791d98",
+      "last_screenshot": "20251124_062717",
+      "last_screenshot_path": "Output\\Screenshots\\absassessoria_com\\20251124_062717.png"
+    },
+    "absaloncapital.com": {
+      "last_content_hash": "70636e7ec3225f4e6734e486aede69db",
+      "last_screenshot": "20251125_161634",
+      "last_screenshot_path": "Output\\Screenshots\\absaloncapital_com.png",
+      "capture_method": "html2image"
+    },
+    "absainterior.in": {
+      "last_content_hash": "1f347c96f6c0605091b3fa335e0f9a9e",
+      "last_screenshot": "20251124_062739",
+      "last_screenshot_path": "Output\\Screenshots\\absainterior_in\\20251124_062739.png"
+    },
+    "absafety.click": {
+      "last_content_hash": "2973f2c95c7d1f04411d71a4668ebc27",
+      "last_screenshot": "20251125_161634",
+      "last_screenshot_path": "Output\\Screenshots\\absafety_click.png",
+      "capture_method": "html2image"
+    },
+    "absa.ae": {
+      "last_content_hash": "38dc145c1f8bc6ab1119b1f0ac8280db",
+      "last_screenshot": "20251125_161634",
+      "last_screenshot_path": "Output\\Screenshots\\absa_ae.png",
+      "capture_method": "html2image"
+    },
+    "absa-geneve.com": {
+      "last_content_hash": "e1578646a3f89cedb547289817d14536",
+      "last_screenshot": "20251124_063117",
+      "last_screenshot_path": "Output\\Screenshots\\absa-geneve_com\\20251124_063117.png"
+    },
+    "absasbestos.online": {
+      "last_content_hash": "c7dea6097aa8cdbc14858845d062baa4",
+      "last_screenshot": "20251125_161634",
+      "last_screenshot_path": "Output\\Screenshots\\absasbestos_online.png",
+      "capture_method": "html2image"
+    },
+    "absas.lk": {
+      "last_content_hash": "12f7f4bab270e1e6c698c1810d27adfe",
+      "last_screenshot": "20251125_161634",
+      "last_screenshot_path": "Output\\Screenshots\\absas_lk.png",
+      "capture_method": "html2image"
+    },
+    "absamin.ir": {
+      "last_content_hash": "20391db34f75303458d48e5650dd1abd",
+      "last_screenshot": "20251125_161634",
+      "last_screenshot_path": "Output\\Screenshots\\absamin_ir.png",
+      "capture_method": "html2image"
+    },
+    "absalomfineart.com": {
+      "last_content_hash": "05f4621c6831a59a8c53c9fbda9790e2",
+      "last_screenshot": "20251125_161634",
+      "last_screenshot_path": "Output\\Screenshots\\absalomfineart_com.png",
+      "capture_method": "html2image"
+    },
+    "absage.org": {
+      "last_content_hash": "99158339af2ef3ec43df18ae301029d2",
+      "last_screenshot": "20251125_161634",
+      "last_screenshot_path": "Output\\Screenshots\\absage_org.png",
+      "capture_method": "html2image"
+    },
+    "absardlaboratory.com": {
+      "last_content_hash": "f14849cdd42520bf3d052605333036cc",
+      "last_screenshot": "20251125_161634",
+      "last_screenshot_path": "Output\\Screenshots\\absardlaboratory_com.png",
+      "capture_method": "html2image"
+    },
+    "absastore.africa": {
+      "last_content_hash": "b4028a9dc915bf2d121addfd6a8f268d",
+      "last_screenshot": "20251125_161634",
+      "last_screenshot_path": "Output\\Screenshots\\absastore_africa.png",
+      "capture_method": "html2image"
+    },
+    "absa-arthotspot.online": {
+      "last_content_hash": "725056179ff0426f09fa3bb9ddd53536",
+      "last_screenshot": "20251125_161634",
+      "last_screenshot_path": "Output\\Screenshots\\absa-arthotspot_online.png",
+      "capture_method": "html2image"
+    }
+  }
+}

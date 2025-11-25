@@ -1,0 +1,1576 @@
+{
+  "summary": {
+    "domain": "avsa.africa",
+    "risk_indicators": [],
+    "subdomains": [],
+    "alternative_names": [],
+    "security_analysis": {
+      "total_engines": 95,
+      "flagged_as_malicious": 0,
+      "flagged_as_suspicious": 0,
+      "clean_ratings": 0,
+      "unrated": 95
+    },
+    "infrastructure": {
+      "ip_addresses": [
+        "41.203.18.177"
+      ],
+      "nameservers": [
+        "ns2.host-h.net",
+        "ns2.dns-h.com",
+        "ns1.host-h.net",
+        "ns1.dns-h.com"
+      ],
+      "hosting_provider": null
+    },
+    "certificate_info": {
+      "has_ssl": true,
+      "issuer": "R11",
+      "valid_from": "2025-06-29 08:10:21",
+      "alternative_names": [
+        "*.jnb2.host-h.net"
+      ]
+    },
+    "creation_date": "2025-08-15 02:00:00 UTC",
+    "expiry_date": null,
+    "whois_raw": "Create date: 2025-08-15 00:00:00\nDomain name: avsa.africa\nDomain registrar id: 69\nDomain registrar url: https://opensrs.com\nExpiry date: 2026-08-15 00:00:00\nName server 1: ns1.dns-h.com\nName server 2: ns1.host-h.net\nName server 3: ns2.host-h.net\nName server 4: ns2.dns-h.com\nQuery time: 2025-08-16 10:47:07\nRegistrant company: c874927586d3d109\nRegistrant country: South Africa\nRegistrant email: d5324f95e3785d29s@\nUpdate date: 2025-08-15 00:00:00",
+    "registrar": {
+      "name": null,
+      "iana_id": "69",
+      "url": "https://opensrs.com",
+      "abuse_email": null,
+      "abuse_phone": null
+    },
+    "whois": {
+      "creation_date": "2025-08-15T00:00:00Z",
+      "domain_name": "avsa.africa",
+      "registrar_iana_id": "69",
+      "registrar_url": "https://opensrs.com",
+      "registry_expiry_date": "2026-08-15T00:00:00Z",
+      "updated_date": "2025-08-15T00:00:00Z"
+    },
+    "whois_status": [],
+    "whois_name_servers": [
+      "ns1.dns-h.com",
+      "ns1.host-h.net",
+      "ns2.host-h.net",
+      "ns2.dns-h.com"
+    ],
+    "contacts": {
+      "registrant": {
+        "company": "c874927586d3d109",
+        "country": "South Africa",
+        "email": "d5324f95e3785d29s@"
+      }
+    }
+  },
+  "domain": "avsa.africa",
+  "securitytrails": {},
+  "viewdns": {
+    "query": {
+      "tool": "propagation_PRO",
+      "domain": "avsa.africa"
+    },
+    "expectedresponse": "41.203.18.177",
+    "response": {
+      "server": [
+        {
+          "location": "Atlanta, USA",
+          "resultvalue": "41.203.18.177",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "Beauharnois, Canada",
+          "resultvalue": "41.203.18.177",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "Hong Kong, China",
+          "resultvalue": "41.203.18.177",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "Johannesburg, South Africa",
+          "resultvalue": "41.203.18.177",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "London, United Kingdom",
+          "resultvalue": "41.203.18.177",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "Los Angeles, USA",
+          "resultvalue": "41.203.18.177",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "Mumbai, India",
+          "resultvalue": "41.203.18.177",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "New York, USA",
+          "resultvalue": "41.203.18.177",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "Paris, France",
+          "resultvalue": "41.203.18.177",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "Rotterdam, Netherlands",
+          "resultvalue": "41.203.18.177",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "Santiago, Chile",
+          "resultvalue": "41.203.18.177",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "Seattle, USA",
+          "resultvalue": "41.203.18.177",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "Seoul, South Korea",
+          "resultvalue": "41.203.18.177",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "Sydney, Australia",
+          "resultvalue": "41.203.18.177",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "São Paulo, Brazil",
+          "resultvalue": "41.203.18.177",
+          "resultstatus": "ok"
+        }
+      ]
+    }
+  },
+  "virustotal": {
+    "data": {
+      "id": "avsa.africa",
+      "type": "domain",
+      "links": {
+        "self": "https://www.virustotal.com/api/v3/domains/avsa.africa"
+      },
+      "attributes": {
+        "last_https_certificate": {
+          "cert_signature": {
+            "signature_algorithm": "sha256RSA",
+            "signature": "291ab6574cd8836008c810e6d1b4af92675bf21d6b8b4dbe4a4d442128f7458ffa35136468ee60998463d4501f275321db73796416691cef8880ebb8a40a817a5d69238df54ca6003b7552fc308392b8258e7e868c21b69e3f6df6ff7c8317a4461e7c8642b57bb3b7008c55ee6df8c126b5214a805b35729b6f5be592d66967e3ad020940a717e3482ea380407f82fa931824cd0470d3fb0c39ed697383931af1d40070f4be8e99ac6ffcf8428f0911fa4837f014e6790c143fc54b8ca843d6e343d7e9d46442194846988187795a01518e232e16f94f5298594585ec8838b79c939ec6e1fd295da09b677f9ea3dd96ba4d8ff122a130c3d702a45d3b1c9626"
+          },
+          "extensions": {
+            "key_usage": [
+              "digitalSignature",
+              "keyEncipherment"
+            ],
+            "extended_key_usage": [
+              "serverAuth",
+              "clientAuth"
+            ],
+            "CA": false,
+            "subject_key_identifier": "6878c2af4e2ba4be31f59da956331a4e592a95a9",
+            "authority_key_identifier": {
+              "keyid": "c5cf46a4eaf4c3c07a6c95c42db05e922f26e3b9"
+            },
+            "ca_information_access": {
+              "CA Issuers": "http://r11.i.lencr.org/"
+            },
+            "subject_alternative_name": [
+              "*.jnb2.host-h.net"
+            ],
+            "certificate_policies": [
+              "2.23.140.1.2.1"
+            ],
+            "crl_distribution_points": [
+              "http://r11.c.lencr.org/104.crl"
+            ],
+            "1.3.6.1.4.1.11129.2.4.2": "0481f100ef0075000de1f2302bd30dc140621209ea552efc47747cb1d7e930ef"
+          },
+          "validity": {
+            "not_after": "2025-09-27 08:10:20",
+            "not_before": "2025-06-29 08:10:21"
+          },
+          "size": 1538,
+          "version": "V3",
+          "public_key": {
+            "algorithm": "RSA",
+            "rsa": {
+              "modulus": "9d953329be7ac2829bbda228f0be8c744a74e2dcc59d932de74da2976990ba6348329de761de674a341305ba0baed5e8e0680c08fbe77cd7fe69cac22cb4fabdd82feacf60d22b0d09a0b759a679f256b7b38a7830093ed93f4784b8b34311608a4ef3d4e055059c987aaccba79d329df0ed64afa6a4b0921907e03670c27a1ed46fdd4ef7541f4cb056a7fe3291580d61981818922b9256e96f312661dfd215c8ee4ee8be0f4773a23eb4663da5e8f341e1f87ac57e09b2ea372150c8c74c642505b28d05c54c3d73e7ba2d88c901b9f6f4ba856e71473f9ab36e9efbe544bc224abe9f22d2a24076cd84f178abf1c1d9da5f32b001d1a6fc8c38d341ad8a51bef3a240d877c4f1dc12de39f9cc4322e24b9ad61de864fc7d25e7b1390da845d6fa16c81df8473b805154c59fb163c3fc072cce4c784344ed8e4a02289bb21f91f7cdc4793f30069e6c392ed3fa9fe81ab1e9fe0acd5fe4202d0d53795475b9305b90358c57ee402b6ddc5279a3779e15ff14ef1ab9b0cf5ad793ca6d0ce2520f3955fdc4b048c61e52d3064dd88cc94f8d6220ab021aa5e44e32ce5bdd416c990570853755da5fe2c66e91c438b9a56ec8b0b37cb3eae5e56b48a4c0fced962b7c211f97f2a1b850e66894db2b259239922b7ce698543f97054c38db148ce070ee56c26db38cc6be2f7ef6a70ca7c332df2f28b67e929168470f8728ecaddd",
+              "exponent": "10001",
+              "key_size": 4096
+            }
+          },
+          "thumbprint_sha256": "6e873e807f626361f21ee181aaab2c3813d517de0ddef239314dc059d61d1c74",
+          "thumbprint": "94c609d702f1347e4c3bf9cc409782e6d4c741a2",
+          "serial_number": "518fdf268f4f560629f65a0d669e90d32e7",
+          "issuer": {
+            "C": "US",
+            "O": "Let's Encrypt",
+            "CN": "R11"
+          },
+          "subject": {
+            "CN": "*.jnb2.host-h.net"
+          }
+        },
+        "categories": {},
+        "jarm": "2ad2ad16d2ad2ad22c42d42d0000006f254909a73bf62f6b28507e9fb451b5",
+        "last_update_date": 1755216000,
+        "popularity_ranks": {},
+        "last_modification_date": 1757866047,
+        "rdap": {
+          "ldh_name": "avsa.africa",
+          "events": [
+            {
+              "event_action": "registration",
+              "event_date": "2025-08-15T16:14:40.728426+00:00",
+              "event_actor": "",
+              "links": []
+            },
+            {
+              "event_action": "expiration",
+              "event_date": "2026-08-15T16:14:40.728426+00:00",
+              "event_actor": "",
+              "links": []
+            },
+            {
+              "event_action": "last changed",
+              "event_date": "2025-08-15T16:14:42.527161+00:00",
+              "event_actor": "",
+              "links": []
+            },
+            {
+              "event_action": "last update of RDAP database",
+              "event_date": "2025-08-17T16:09:23.329096796+00:00",
+              "event_actor": "",
+              "links": []
+            }
+          ],
+          "links": [
+            {
+              "href": "https://rdap.nic.africa/rdap/domain/avsa.africa",
+              "rel": "related",
+              "value": "https://rdap.nic.africa/rdap/domain/avsa.africa",
+              "type": "",
+              "title": "",
+              "media": "",
+              "href_lang": []
+            }
+          ],
+          "notices": [
+            {
+              "title": "Status Codes",
+              "description": [
+                "For more information on domain status codes, please visit https://icann.org/epp"
+              ],
+              "links": [
+                {
+                  "href": "https://icann.org/epp",
+                  "rel": "glossary",
+                  "type": "text/html",
+                  "value": "https://icann.org/epp",
+                  "title": "",
+                  "media": "",
+                  "href_lang": []
+                }
+              ],
+              "type": ""
+            },
+            {
+              "title": "Terms of use",
+              "description": [
+                "Use of this facility is subject to the following policies:"
+              ],
+              "links": [
+                {
+                  "href": "https://registry.net.za/whois_terms",
+                  "rel": "related",
+                  "value": "https://registry.net.za/whois_terms",
+                  "type": "",
+                  "title": "",
+                  "media": "",
+                  "href_lang": []
+                }
+              ],
+              "type": ""
+            },
+            {
+              "title": "Beta",
+              "description": [
+                "This service is currently in beta and is still undergoing testing, please note this service may change without notice"
+              ],
+              "links": [],
+              "type": ""
+            }
+          ],
+          "nameservers": [
+            {
+              "ldh_name": "ns1.host-h.net",
+              "object_class_name": "nameserver",
+              "handle": "",
+              "unicode_name": "",
+              "events": [],
+              "links": [],
+              "notices": [],
+              "status": [],
+              "lang": "",
+              "port43": "",
+              "entities": [],
+              "remarks": []
+            },
+            {
+              "ldh_name": "ns2.host-h.net",
+              "object_class_name": "nameserver",
+              "handle": "",
+              "unicode_name": "",
+              "events": [],
+              "links": [],
+              "notices": [],
+              "status": [],
+              "lang": "",
+              "port43": "",
+              "entities": [],
+              "remarks": []
+            },
+            {
+              "ldh_name": "ns1.dns-h.com",
+              "object_class_name": "nameserver",
+              "handle": "",
+              "unicode_name": "",
+              "events": [],
+              "links": [],
+              "notices": [],
+              "status": [],
+              "lang": "",
+              "port43": "",
+              "entities": [],
+              "remarks": []
+            },
+            {
+              "ldh_name": "ns2.dns-h.com",
+              "object_class_name": "nameserver",
+              "handle": "",
+              "unicode_name": "",
+              "events": [],
+              "links": [],
+              "notices": [],
+              "status": [],
+              "lang": "",
+              "port43": "",
+              "entities": [],
+              "remarks": []
+            }
+          ],
+          "rdap_conformance": [
+            "icann_rdap_response_profile_1",
+            "icann_rdap_technical_implementation_guide_1",
+            "rdap_objectTag"
+          ],
+          "entities": [
+            {
+              "object_class_name": "entity",
+              "handle": "69",
+              "vcard_array": [
+                {
+                  "name": "version",
+                  "type": "text",
+                  "values": [
+                    "4.0"
+                  ],
+                  "parameters": {}
+                },
+                {
+                  "name": "fn",
+                  "type": "text",
+                  "values": [
+                    "OpenSRS"
+                  ],
+                  "parameters": {}
+                },
+                {
+                  "name": "org",
+                  "type": "text",
+                  "values": [
+                    ""
+                  ],
+                  "parameters": {}
+                },
+                {
+                  "name": "email",
+                  "type": "text",
+                  "values": [
+                    "pdm@tucows.com"
+                  ],
+                  "parameters": {}
+                },
+                {
+                  "name": "tel",
+                  "parameters": {
+                    "type": [
+                      "voice"
+                    ]
+                  },
+                  "type": "text",
+                  "values": [
+                    "+1.4168560379"
+                  ]
+                },
+                {
+                  "name": "adr",
+                  "type": "text",
+                  "values": [
+                    "96 Mowat Ave",
+                    "n/a",
+                    "",
+                    "Toronto",
+                    "ON",
+                    "M6K 3M1",
+                    "CA"
+                  ],
+                  "parameters": {}
+                }
+              ],
+              "roles": [
+                "registrar"
+              ],
+              "public_ids": [
+                {
+                  "type": "IANA Registrar ID",
+                  "identifier": "69"
+                }
+              ],
+              "entities": [
+                {
+                  "object_class_name": "entity",
+                  "vcard_array": [
+                    {
+                      "name": "version",
+                      "type": "text",
+                      "values": [
+                        "4.0"
+                      ],
+                      "parameters": {}
+                    },
+                    {
+                      "name": "fn",
+                      "type": "text",
+                      "values": [
+                        "Ashley La Bolle"
+                      ],
+                      "parameters": {}
+                    },
+                    {
+                      "name": "email",
+                      "type": "text",
+                      "values": [
+                        "nicrelations@opensrs.com"
+                      ],
+                      "parameters": {}
+                    },
+                    {
+                      "name": "tel",
+                      "parameters": {
+                        "type": [
+                          "voice"
+                        ]
+                      },
+                      "type": "text",
+                      "values": [
+                        "+49.2283296859"
+                      ]
+                    }
+                  ],
+                  "roles": [
+                    "abuse"
+                  ],
+                  "handle": "",
+                  "public_ids": [],
+                  "entities": [],
+                  "remarks": [],
+                  "links": [],
+                  "events": [],
+                  "as_event_actor": [],
+                  "status": [],
+                  "port43": "",
+                  "networks": [],
+                  "autnums": [],
+                  "url": "",
+                  "lang": "",
+                  "rdap_conformance": []
+                }
+              ],
+              "links": [
+                {
+                  "href": "https://opensrs.rdap.tucows.com/",
+                  "rel": "related",
+                  "title": "RDAP URL",
+                  "value": "https://opensrs.rdap.tucows.com/",
+                  "type": "",
+                  "media": "",
+                  "href_lang": []
+                },
+                {
+                  "href": "https://opensrs.com",
+                  "rel": "related",
+                  "title": "about",
+                  "value": "https://opensrs.com",
+                  "type": "",
+                  "media": "",
+                  "href_lang": []
+                }
+              ],
+              "remarks": [],
+              "events": [],
+              "as_event_actor": [],
+              "status": [],
+              "port43": "",
+              "networks": [],
+              "autnums": [],
+              "url": "",
+              "lang": "",
+              "rdap_conformance": []
+            },
+            {
+              "object_class_name": "entity",
+              "handle": "REGISTRANT_jg3p_ENTITY-ZACR",
+              "vcard_array": [
+                {
+                  "name": "version",
+                  "type": "text",
+                  "values": [
+                    "4.0"
+                  ],
+                  "parameters": {}
+                },
+                {
+                  "name": "fn",
+                  "type": "text",
+                  "values": [
+                    "REDACTED"
+                  ],
+                  "parameters": {}
+                },
+                {
+                  "name": "org",
+                  "type": "text",
+                  "values": [
+                    "Data Protected"
+                  ],
+                  "parameters": {}
+                },
+                {
+                  "name": "email",
+                  "type": "text",
+                  "values": [
+                    "REDACTED"
+                  ],
+                  "parameters": {}
+                },
+                {
+                  "name": "tel",
+                  "parameters": {
+                    "type": [
+                      "voice"
+                    ]
+                  },
+                  "type": "text",
+                  "values": [
+                    "REDACTED"
+                  ]
+                },
+                {
+                  "name": "adr",
+                  "type": "text",
+                  "values": [
+                    "REDACTED",
+                    "REDACTED",
+                    "REDACTED",
+                    "REDACTED",
+                    "REDACTED",
+                    "REDACTED",
+                    "ZA"
+                  ],
+                  "parameters": {}
+                }
+              ],
+              "roles": [
+                "registrant"
+              ],
+              "public_ids": [],
+              "entities": [],
+              "remarks": [],
+              "links": [],
+              "events": [],
+              "as_event_actor": [],
+              "status": [],
+              "port43": "",
+              "networks": [],
+              "autnums": [],
+              "url": "",
+              "lang": "",
+              "rdap_conformance": []
+            },
+            {
+              "object_class_name": "entity",
+              "handle": "BILLING_REDACTED_ENTITY-ZACR",
+              "vcard_array": [
+                {
+                  "name": "version",
+                  "type": "text",
+                  "values": [
+                    "4.0"
+                  ],
+                  "parameters": {}
+                },
+                {
+                  "name": "fn",
+                  "type": "text",
+                  "values": [
+                    "REDACTED"
+                  ],
+                  "parameters": {}
+                },
+                {
+                  "name": "org",
+                  "type": "text",
+                  "values": [
+                    "REDACTED"
+                  ],
+                  "parameters": {}
+                },
+                {
+                  "name": "email",
+                  "type": "text",
+                  "values": [
+                    "REDACTED"
+                  ],
+                  "parameters": {}
+                },
+                {
+                  "name": "tel",
+                  "parameters": {
+                    "type": [
+                      "voice"
+                    ]
+                  },
+                  "type": "text",
+                  "values": [
+                    "REDACTED"
+                  ]
+                },
+                {
+                  "name": "adr",
+                  "type": "text",
+                  "values": [
+                    "REDACTED",
+                    "REDACTED",
+                    "REDACTED",
+                    "REDACTED",
+                    "REDACTED",
+                    "REDACTED",
+                    "REDACTED"
+                  ],
+                  "parameters": {}
+                }
+              ],
+              "roles": [
+                "billing"
+              ],
+              "public_ids": [],
+              "entities": [],
+              "remarks": [],
+              "links": [],
+              "events": [],
+              "as_event_actor": [],
+              "status": [],
+              "port43": "",
+              "networks": [],
+              "autnums": [],
+              "url": "",
+              "lang": "",
+              "rdap_conformance": []
+            },
+            {
+              "object_class_name": "entity",
+              "handle": "TECHNICAL_REDACTED_ENTITY-ZACR",
+              "vcard_array": [
+                {
+                  "name": "version",
+                  "type": "text",
+                  "values": [
+                    "4.0"
+                  ],
+                  "parameters": {}
+                },
+                {
+                  "name": "fn",
+                  "type": "text",
+                  "values": [
+                    "REDACTED"
+                  ],
+                  "parameters": {}
+                },
+                {
+                  "name": "org",
+                  "type": "text",
+                  "values": [
+                    "REDACTED"
+                  ],
+                  "parameters": {}
+                },
+                {
+                  "name": "email",
+                  "type": "text",
+                  "values": [
+                    "REDACTED"
+                  ],
+                  "parameters": {}
+                },
+                {
+                  "name": "tel",
+                  "parameters": {
+                    "type": [
+                      "voice"
+                    ]
+                  },
+                  "type": "text",
+                  "values": [
+                    "REDACTED"
+                  ]
+                },
+                {
+                  "name": "adr",
+                  "type": "text",
+                  "values": [
+                    "REDACTED",
+                    "REDACTED",
+                    "REDACTED",
+                    "REDACTED",
+                    "REDACTED",
+                    "REDACTED",
+                    "REDACTED"
+                  ],
+                  "parameters": {}
+                }
+              ],
+              "roles": [
+                "technical"
+              ],
+              "public_ids": [],
+              "entities": [],
+              "remarks": [],
+              "links": [],
+              "events": [],
+              "as_event_actor": [],
+              "status": [],
+              "port43": "",
+              "networks": [],
+              "autnums": [],
+              "url": "",
+              "lang": "",
+              "rdap_conformance": []
+            }
+          ],
+          "object_class_name": "domain",
+          "status": [
+            "server transfer prohibited",
+            "client update prohibited"
+          ],
+          "secure_dns": {
+            "delegation_signed": false,
+            "zone_signed": false,
+            "max_sig_life": 0,
+            "ds_data": [],
+            "key_data": []
+          },
+          "handle": "",
+          "unicode_name": "",
+          "punycode": "",
+          "type": "",
+          "port43": "",
+          "switch_name": "",
+          "public_ids": [],
+          "lang": "",
+          "remarks": [],
+          "nask0_state": "",
+          "variants": []
+        },
+        "reputation": 0,
+        "whois_date": 1786752000,
+        "whois": "Create date: 2025-08-15 00:00:00\nDomain name: avsa.africa\nDomain registrar id: 69\nDomain registrar url: https://opensrs.com\nExpiry date: 2026-08-15 00:00:00\nName server 1: ns1.dns-h.com\nName server 2: ns1.host-h.net\nName server 3: ns2.host-h.net\nName server 4: ns2.dns-h.com\nQuery time: 2025-08-16 10:47:07\nRegistrant company: c874927586d3d109\nRegistrant country: South Africa\nRegistrant email: d5324f95e3785d29s@\nUpdate date: 2025-08-15 00:00:00",
+        "last_dns_records": [
+          {
+            "type": "A",
+            "ttl": 7200,
+            "value": "41.203.18.177"
+          },
+          {
+            "type": "NS",
+            "ttl": 7200,
+            "value": "ns1.host-h.net"
+          },
+          {
+            "type": "MX",
+            "ttl": 7200,
+            "priority": 10,
+            "value": "mail.avsa.africa"
+          },
+          {
+            "type": "NS",
+            "ttl": 7200,
+            "value": "ns1.dns-h.com"
+          },
+          {
+            "type": "NS",
+            "ttl": 7200,
+            "value": "ns2.host-h.net"
+          },
+          {
+            "type": "NS",
+            "ttl": 7200,
+            "value": "ns2.dns-h.com"
+          },
+          {
+            "type": "SOA",
+            "ttl": 7200,
+            "value": "ns1.host-h.net",
+            "rname": "postmaster.avsa.africa",
+            "serial": 2025081501,
+            "refresh": 86400,
+            "retry": 1800,
+            "expire": 3600000,
+            "minimum": 86400
+          }
+        ],
+        "last_https_certificate_date": 1755446963,
+        "last_analysis_date": 1755446585,
+        "last_analysis_stats": {
+          "malicious": 0,
+          "suspicious": 0,
+          "undetected": 95,
+          "harmless": 0,
+          "timeout": 0
+        },
+        "last_dns_records_date": 1755446963,
+        "creation_date": 1755216000,
+        "tags": [],
+        "tld": "africa",
+        "last_analysis_results": {
+          "Acronis": {
+            "method": "blacklist",
+            "engine_name": "Acronis",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "0xSI_f33d": {
+            "method": "blacklist",
+            "engine_name": "0xSI_f33d",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Abusix": {
+            "method": "blacklist",
+            "engine_name": "Abusix",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "ADMINUSLabs": {
+            "method": "blacklist",
+            "engine_name": "ADMINUSLabs",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Axur": {
+            "method": "blacklist",
+            "engine_name": "Axur",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "ChainPatrol": {
+            "method": "blacklist",
+            "engine_name": "ChainPatrol",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Criminal IP": {
+            "method": "blacklist",
+            "engine_name": "Criminal IP",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "AILabs (MONITORAPP)": {
+            "method": "blacklist",
+            "engine_name": "AILabs (MONITORAPP)",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "AlienVault": {
+            "method": "blacklist",
+            "engine_name": "AlienVault",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "alphaMountain.ai": {
+            "method": "blacklist",
+            "engine_name": "alphaMountain.ai",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "AlphaSOC": {
+            "method": "blacklist",
+            "engine_name": "AlphaSOC",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Antiy-AVL": {
+            "method": "blacklist",
+            "engine_name": "Antiy-AVL",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "ArcSight Threat Intelligence": {
+            "method": "blacklist",
+            "engine_name": "ArcSight Threat Intelligence",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "AutoShun": {
+            "method": "blacklist",
+            "engine_name": "AutoShun",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "benkow.cc": {
+            "method": "blacklist",
+            "engine_name": "benkow.cc",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Bfore.Ai PreCrime": {
+            "method": "blacklist",
+            "engine_name": "Bfore.Ai PreCrime",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "BitDefender": {
+            "method": "blacklist",
+            "engine_name": "BitDefender",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Bkav": {
+            "method": "blacklist",
+            "engine_name": "Bkav",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Blueliv": {
+            "method": "blacklist",
+            "engine_name": "Blueliv",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Certego": {
+            "method": "blacklist",
+            "engine_name": "Certego",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Chong Lua Dao": {
+            "method": "blacklist",
+            "engine_name": "Chong Lua Dao",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "CINS Army": {
+            "method": "blacklist",
+            "engine_name": "CINS Army",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Cluster25": {
+            "method": "blacklist",
+            "engine_name": "Cluster25",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "CRDF": {
+            "method": "blacklist",
+            "engine_name": "CRDF",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "CSIS Security Group": {
+            "method": "blacklist",
+            "engine_name": "CSIS Security Group",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Snort IP sample list": {
+            "method": "blacklist",
+            "engine_name": "Snort IP sample list",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "CMC Threat Intelligence": {
+            "method": "blacklist",
+            "engine_name": "CMC Threat Intelligence",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Cyan": {
+            "method": "blacklist",
+            "engine_name": "Cyan",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Cyble": {
+            "method": "blacklist",
+            "engine_name": "Cyble",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "CyRadar": {
+            "method": "blacklist",
+            "engine_name": "CyRadar",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "DNS8": {
+            "method": "blacklist",
+            "engine_name": "DNS8",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Dr.Web": {
+            "method": "blacklist",
+            "engine_name": "Dr.Web",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Ermes": {
+            "method": "blacklist",
+            "engine_name": "Ermes",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "ESET": {
+            "method": "blacklist",
+            "engine_name": "ESET",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "ESTsecurity": {
+            "method": "blacklist",
+            "engine_name": "ESTsecurity",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "EmergingThreats": {
+            "method": "blacklist",
+            "engine_name": "EmergingThreats",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Emsisoft": {
+            "method": "blacklist",
+            "engine_name": "Emsisoft",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Forcepoint ThreatSeeker": {
+            "method": "blacklist",
+            "engine_name": "Forcepoint ThreatSeeker",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Fortinet": {
+            "method": "blacklist",
+            "engine_name": "Fortinet",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "G-Data": {
+            "method": "blacklist",
+            "engine_name": "G-Data",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "GCP Abuse Intelligence": {
+            "method": "blacklist",
+            "engine_name": "GCP Abuse Intelligence",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Google Safebrowsing": {
+            "method": "blacklist",
+            "engine_name": "Google Safebrowsing",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "GreenSnow": {
+            "method": "blacklist",
+            "engine_name": "GreenSnow",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Gridinsoft": {
+            "method": "blacklist",
+            "engine_name": "Gridinsoft",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Heimdal Security": {
+            "method": "blacklist",
+            "engine_name": "Heimdal Security",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Hunt.io Intelligence": {
+            "method": "blacklist",
+            "engine_name": "Hunt.io Intelligence",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "IPsum": {
+            "method": "blacklist",
+            "engine_name": "IPsum",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Juniper Networks": {
+            "method": "blacklist",
+            "engine_name": "Juniper Networks",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Kaspersky": {
+            "method": "blacklist",
+            "engine_name": "Kaspersky",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Lionic": {
+            "method": "blacklist",
+            "engine_name": "Lionic",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Lumu": {
+            "method": "blacklist",
+            "engine_name": "Lumu",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "MalwarePatrol": {
+            "method": "blacklist",
+            "engine_name": "MalwarePatrol",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "MalwareURL": {
+            "method": "blacklist",
+            "engine_name": "MalwareURL",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Malwared": {
+            "method": "blacklist",
+            "engine_name": "Malwared",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Mimecast": {
+            "method": "blacklist",
+            "engine_name": "Mimecast",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Netcraft": {
+            "method": "blacklist",
+            "engine_name": "Netcraft",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "OpenPhish": {
+            "method": "blacklist",
+            "engine_name": "OpenPhish",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Phishing Database": {
+            "method": "blacklist",
+            "engine_name": "Phishing Database",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "PhishFort": {
+            "method": "blacklist",
+            "engine_name": "PhishFort",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "PhishLabs": {
+            "method": "blacklist",
+            "engine_name": "PhishLabs",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Phishtank": {
+            "method": "blacklist",
+            "engine_name": "Phishtank",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "PREBYTES": {
+            "method": "blacklist",
+            "engine_name": "PREBYTES",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "PrecisionSec": {
+            "method": "blacklist",
+            "engine_name": "PrecisionSec",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Quick Heal": {
+            "method": "blacklist",
+            "engine_name": "Quick Heal",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Quttera": {
+            "method": "blacklist",
+            "engine_name": "Quttera",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "SafeToOpen": {
+            "method": "blacklist",
+            "engine_name": "SafeToOpen",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Sansec eComscan": {
+            "method": "blacklist",
+            "engine_name": "Sansec eComscan",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Scantitan": {
+            "method": "blacklist",
+            "engine_name": "Scantitan",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "SCUMWARE.org": {
+            "method": "blacklist",
+            "engine_name": "SCUMWARE.org",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Seclookup": {
+            "method": "blacklist",
+            "engine_name": "Seclookup",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "SecureBrain": {
+            "method": "blacklist",
+            "engine_name": "SecureBrain",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "SOCRadar": {
+            "method": "blacklist",
+            "engine_name": "SOCRadar",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Sophos": {
+            "method": "blacklist",
+            "engine_name": "Sophos",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Spam404": {
+            "method": "blacklist",
+            "engine_name": "Spam404",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "StopForumSpam": {
+            "method": "blacklist",
+            "engine_name": "StopForumSpam",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Sucuri SiteCheck": {
+            "method": "blacklist",
+            "engine_name": "Sucuri SiteCheck",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "ThreatHive": {
+            "method": "blacklist",
+            "engine_name": "ThreatHive",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Threatsourcing": {
+            "method": "blacklist",
+            "engine_name": "Threatsourcing",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Trustwave": {
+            "method": "blacklist",
+            "engine_name": "Trustwave",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Underworld": {
+            "method": "blacklist",
+            "engine_name": "Underworld",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "URLhaus": {
+            "method": "blacklist",
+            "engine_name": "URLhaus",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "URLQuery": {
+            "method": "blacklist",
+            "engine_name": "URLQuery",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Viettel Threat Intelligence": {
+            "method": "blacklist",
+            "engine_name": "Viettel Threat Intelligence",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "VIPRE": {
+            "method": "blacklist",
+            "engine_name": "VIPRE",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "VX Vault": {
+            "method": "blacklist",
+            "engine_name": "VX Vault",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "ViriBack": {
+            "method": "blacklist",
+            "engine_name": "ViriBack",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Webroot": {
+            "method": "blacklist",
+            "engine_name": "Webroot",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Yandex Safebrowsing": {
+            "method": "blacklist",
+            "engine_name": "Yandex Safebrowsing",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "ZeroCERT": {
+            "method": "blacklist",
+            "engine_name": "ZeroCERT",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "desenmascara.me": {
+            "method": "blacklist",
+            "engine_name": "desenmascara.me",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "malwares.com URL checker": {
+            "method": "blacklist",
+            "engine_name": "malwares.com URL checker",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "securolytics": {
+            "method": "blacklist",
+            "engine_name": "securolytics",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Xcitium Verdict Cloud": {
+            "method": "blacklist",
+            "engine_name": "Xcitium Verdict Cloud",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "zvelo": {
+            "method": "blacklist",
+            "engine_name": "zvelo",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "ZeroFox": {
+            "method": "blacklist",
+            "engine_name": "ZeroFox",
+            "category": "undetected",
+            "result": "unrated"
+          }
+        },
+        "total_votes": {
+          "harmless": 0,
+          "malicious": 0
+        }
+      }
+    }
+  },
+  "dnsdumpster": {
+    "a": [
+      {
+        "host": "avsa.africa",
+        "ips": [
+          {
+            "asn": "37153",
+            "asn_name": "xneelo, ZA",
+            "asn_range": "41.203.16.0/20",
+            "banners": {
+              "http": {
+                "apps": [
+                  "Apache HTTP Server"
+                ],
+                "server": "Apache"
+              },
+              "https": {
+                "alt_n": [
+                  "*.jnb2.host-h.net"
+                ],
+                "apps": [
+                  "Apache HTTP Server"
+                ],
+                "cn": ".jnb2.host-h.net",
+                "server": "Apache"
+              },
+              "ip": "41.203.18.177"
+            },
+            "country": "South Africa",
+            "country_code": "ZA",
+            "ip": "41.203.18.177",
+            "ptr": "regonly.jnb2.host-h.net"
+          }
+        ]
+      }
+    ],
+    "cname": [],
+    "mx": [
+      {
+        "host": "10 mail.avsa.africa",
+        "ips": [
+          {
+            "asn": "37153",
+            "asn_name": "xneelo, ZA",
+            "asn_range": "41.203.16.0/20",
+            "banners": {
+              "http": {
+                "apps": [
+                  "Apache HTTP Server"
+                ],
+                "server": "Apache"
+              },
+              "https": {
+                "alt_n": [
+                  "*.jnb2.host-h.net"
+                ],
+                "apps": [
+                  "Apache HTTP Server"
+                ],
+                "cn": ".jnb2.host-h.net",
+                "server": "Apache"
+              },
+              "ip": "41.203.18.177"
+            },
+            "country": "South Africa",
+            "country_code": "ZA",
+            "ip": "41.203.18.177",
+            "ptr": "regonly.jnb2.host-h.net"
+          }
+        ]
+      }
+    ],
+    "ns": [
+      {
+        "host": "ns1.dns-h.com",
+        "ips": [
+          {
+            "asn": "37153",
+            "asn_name": "xneelo, ZA",
+            "asn_range": "129.232.248.0/24",
+            "country": "South Africa",
+            "country_code": "ZA",
+            "ip": "129.232.248.31",
+            "ptr": "ns1.dns-h.com"
+          }
+        ]
+      },
+      {
+        "host": "ns1.host-h.net",
+        "ips": [
+          {
+            "asn": "37153",
+            "asn_name": "xneelo, ZA",
+            "asn_range": "129.232.248.0/24",
+            "country": "South Africa",
+            "country_code": "ZA",
+            "ip": "129.232.248.30",
+            "ptr": "ns1.host-h.net"
+          }
+        ]
+      },
+      {
+        "host": "ns2.dns-h.com",
+        "ips": [
+          {
+            "asn": "37153",
+            "asn_name": "xneelo, ZA",
+            "asn_range": "129.232.248.0/24",
+            "country": "South Africa",
+            "country_code": "ZA",
+            "ip": "129.232.248.41",
+            "ptr": "ns2.dns-h.com"
+          }
+        ]
+      },
+      {
+        "host": "ns2.host-h.net",
+        "ips": [
+          {
+            "asn": "37153",
+            "asn_name": "xneelo, ZA",
+            "asn_range": "129.232.248.0/24",
+            "country": "South Africa",
+            "country_code": "ZA",
+            "ip": "129.232.248.40",
+            "ptr": "ns2.host-h.net"
+          }
+        ]
+      }
+    ],
+    "total_a_recs": 1,
+    "txt": []
+  }
+}

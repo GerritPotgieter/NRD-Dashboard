@@ -1,0 +1,1301 @@
+{
+  "summary": {
+    "domain": "absacibank.com",
+    "risk_indicators": [
+      "Contains 'absa' - potential brand impersonation",
+      "Flagged as suspicious by 1 security engines",
+      "Recently created domain (6 days old)"
+    ],
+    "subdomains": [],
+    "alternative_names": [],
+    "security_analysis": {
+      "total_engines": 95,
+      "flagged_as_malicious": 0,
+      "flagged_as_suspicious": 1,
+      "clean_ratings": 62,
+      "unrated": 32
+    },
+    "infrastructure": {
+      "ip_addresses": [
+        "208.91.197.27"
+      ],
+      "nameservers": [
+        "ns46.worldnic.com",
+        "ns45.worldnic.com"
+      ],
+      "hosting_provider": null
+    },
+    "certificate_info": {
+      "has_ssl": true,
+      "issuer": "WE1",
+      "valid_from": "2024-08-18 18:57:31",
+      "alternative_names": [
+        "absacibank.com",
+        "*.absacibank.com"
+      ]
+    },
+    "creation_date": "2025-11-03 02:00:00 UTC",
+    "expiry_date": null,
+    "whois_raw": "Administrative city: Statutory Masking Enabled\nAdministrative country: Statutory Masking Enabled\nAdministrative email: ec47e7f620c68a2ds@maskeddetails.com\nAdministrative state: Statutory Masking Enabled\nBilling city: Statutory Masking Enabled\nBilling country: Statutory Masking Enabled\nBilling email: ec47e7f620c68a2ds@maskeddetails.com\nBilling state: Statutory Masking Enabled\nCreate date: 2025-11-03 00:00:00\nDomain name: absacibank.com\nDomain registrar id: 2258\nDomain registrar url: http://www.networksolutions.com\nExpiry date: 2026-11-03 00:00:00\nName server 1: ns46.worldnic.com\nName server 2: ns45.worldnic.com\nQuery time: 2025-11-04 11:01:12\nRegistrant city: 17eefbf532b278ac\nRegistrant company: 17eefbf532b278ac\nRegistrant country: United Kingdom\nRegistrant email: ec47e7f620c68a2ds@maskeddetails.com\nRegistrant fax: aaadc8c12174601e\nRegistrant name: 17eefbf532b278ac\nRegistrant phone: aaadc8c12174601e\nRegistrant zip: 17eefbf532b278ac\nTechnical city: Statutory Masking Enabled\nTechnical country: Statutory Masking Enabled\nTechnical email: ec47e7f620c68a2ds@maskeddetails.com\nTechnical state: Statutory Masking Enabled\nUpdate date: 2025-11-04 00:00:00",
+    "registrar": {
+      "name": null,
+      "iana_id": "2258",
+      "url": "http://www.networksolutions.com",
+      "abuse_email": null,
+      "abuse_phone": null
+    },
+    "whois": {
+      "creation_date": "2025-11-03T00:00:00Z",
+      "domain_name": "absacibank.com",
+      "registrar_iana_id": "2258",
+      "registrar_url": "http://www.networksolutions.com",
+      "registry_expiry_date": "2026-11-03T00:00:00Z",
+      "updated_date": "2025-11-04T00:00:00Z"
+    },
+    "whois_status": [],
+    "whois_name_servers": [
+      "ns46.worldnic.com",
+      "ns45.worldnic.com"
+    ],
+    "contacts": {
+      "registrant": {
+        "city": "17eefbf532b278ac",
+        "company": "17eefbf532b278ac",
+        "country": "United Kingdom",
+        "email": "ec47e7f620c68a2ds@maskeddetails.com",
+        "fax": "aaadc8c12174601e",
+        "name": "17eefbf532b278ac",
+        "phone": "aaadc8c12174601e",
+        "zip": "17eefbf532b278ac"
+      },
+      "admin": {
+        "city": "Statutory Masking Enabled",
+        "country": "Statutory Masking Enabled",
+        "email": "ec47e7f620c68a2ds@maskeddetails.com",
+        "state": "Statutory Masking Enabled"
+      },
+      "tech": {
+        "city": "Statutory Masking Enabled",
+        "country": "Statutory Masking Enabled",
+        "email": "ec47e7f620c68a2ds@maskeddetails.com",
+        "state": "Statutory Masking Enabled"
+      },
+      "billing": {
+        "city": "Statutory Masking Enabled",
+        "country": "Statutory Masking Enabled",
+        "email": "ec47e7f620c68a2ds@maskeddetails.com",
+        "state": "Statutory Masking Enabled"
+      }
+    }
+  },
+  "domain": "absacibank.com",
+  "securitytrails": {
+    "alexa_rank": null,
+    "apex_domain": "absacibank.com",
+    "current_dns": {
+      "a": {
+        "first_seen": "2025-11-06",
+        "values": [
+          {
+            "h": null,
+            "ip": "208.91.197.27",
+            "ip_count": 0,
+            "ip_organization": "Confluence Networks Inc"
+          }
+        ]
+      },
+      "aaaa": {},
+      "mx": {},
+      "ns": {
+        "first_seen": "2025-11-06",
+        "values": [
+          {
+            "nameserver": "ns46.worldnic.com",
+            "nameserver_count": 0,
+            "nameserver_organization": "Cloudflare, Inc."
+          },
+          {
+            "nameserver": "ns45.worldnic.com",
+            "nameserver_count": 0,
+            "nameserver_organization": "Cloudflare, Inc."
+          }
+        ]
+      },
+      "soa": {
+        "first_seen": "2025-11-06",
+        "values": [
+          {
+            "email": "namehost.worldnic.com",
+            "email_count": 0,
+            "ttl": 10800
+          }
+        ]
+      },
+      "txt": {}
+    },
+    "endpoint": "/v1/domain/absacibank.com/subdomains",
+    "hostname": "absacibank.com",
+    "subdomain_count": 0,
+    "meta": {
+      "limit_reached": false
+    },
+    "subdomains": []
+  },
+  "viewdns": {
+    "query": {
+      "tool": "propagation_PRO",
+      "domain": "absacibank.com"
+    },
+    "expectedresponse": "208.91.197.27",
+    "response": {
+      "server": [
+        {
+          "location": "Atlanta, USA",
+          "resultvalue": "208.91.197.27",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "Beauharnois, Canada",
+          "resultvalue": "208.91.197.27",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "Hong Kong, China",
+          "resultvalue": "208.91.197.27",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "Johannesburg, South Africa",
+          "resultvalue": "208.91.197.27",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "London, United Kingdom",
+          "resultvalue": "208.91.197.27",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "Los Angeles, USA",
+          "resultvalue": "208.91.197.27",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "Mumbai, India",
+          "resultvalue": "208.91.197.27",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "New York, USA",
+          "resultvalue": "208.91.197.27",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "Paris, France",
+          "resultvalue": "208.91.197.27",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "Rotterdam, Netherlands",
+          "resultvalue": "208.91.197.27",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "Santiago, Chile",
+          "resultvalue": "208.91.197.27",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "Seattle, USA",
+          "resultvalue": "208.91.197.27",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "Seoul, South Korea",
+          "resultvalue": "208.91.197.27",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "Singapore, Singapore",
+          "resultvalue": "208.91.197.27",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "Sydney, Australia",
+          "resultvalue": "208.91.197.27",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "São Paulo, Brazil",
+          "resultvalue": "208.91.197.27",
+          "resultstatus": "ok"
+        }
+      ]
+    }
+  },
+  "virustotal": {
+    "data": {
+      "id": "absacibank.com",
+      "type": "domain",
+      "links": {
+        "self": "https://www.virustotal.com/api/v3/domains/absacibank.com"
+      },
+      "attributes": {
+        "rdap": {
+          "handle": "3035424153_DOMAIN_COM-VRSN",
+          "ldh_name": "ABSACIBANK.COM",
+          "events": [
+            {
+              "event_action": "registration",
+              "event_date": "2025-11-03T19:30:27Z",
+              "event_actor": "",
+              "links": []
+            },
+            {
+              "event_action": "expiration",
+              "event_date": "2026-11-03T19:30:27Z",
+              "event_actor": "",
+              "links": []
+            },
+            {
+              "event_action": "last changed",
+              "event_date": "2025-11-04T05:03:11Z",
+              "event_actor": "",
+              "links": []
+            },
+            {
+              "event_action": "last update of RDAP database",
+              "event_date": "2025-11-06T16:11:23Z",
+              "event_actor": "",
+              "links": []
+            }
+          ],
+          "links": [
+            {
+              "href": "https://rdap.verisign.com/com/v1/domain/ABSACIBANK.COM",
+              "rel": "self",
+              "type": "application/rdap+json",
+              "value": "https://rdap.verisign.com/com/v1/domain/ABSACIBANK.COM",
+              "title": "",
+              "media": "",
+              "href_lang": []
+            },
+            {
+              "href": "https://rdap.snapnames.com/rdap/domain/ABSACIBANK.COM",
+              "rel": "related",
+              "type": "application/rdap+json",
+              "value": "https://rdap.snapnames.com/rdap/domain/ABSACIBANK.COM",
+              "title": "",
+              "media": "",
+              "href_lang": []
+            }
+          ],
+          "notices": [
+            {
+              "title": "Terms of Service",
+              "description": [
+                "Service subject to Terms of Use."
+              ],
+              "links": [
+                {
+                  "href": "https://www.verisign.com/domain-names/registration-data-access-protocol/terms-service/index.xhtml",
+                  "rel": "terms-of-service",
+                  "type": "text/html",
+                  "value": "https://rdap.verisign.com/com/v1/domain/absacibank.com",
+                  "title": "",
+                  "media": "",
+                  "href_lang": []
+                }
+              ],
+              "type": ""
+            },
+            {
+              "title": "Status Codes",
+              "description": [
+                "For more information on domain status codes, please visit https://icann.org/epp"
+              ],
+              "links": [
+                {
+                  "href": "https://icann.org/epp",
+                  "type": "text/html",
+                  "rel": "",
+                  "title": "",
+                  "value": "",
+                  "media": "",
+                  "href_lang": []
+                }
+              ],
+              "type": ""
+            },
+            {
+              "title": "RDDS Inaccuracy Complaint Form",
+              "description": [
+                "URL of the ICANN RDDS Inaccuracy Complaint Form: https://icann.org/wicf"
+              ],
+              "links": [
+                {
+                  "href": "https://icann.org/wicf",
+                  "rel": "help",
+                  "type": "text/html",
+                  "value": "https://rdap.verisign.com/com/v1/domain/absacibank.com",
+                  "title": "",
+                  "media": "",
+                  "href_lang": []
+                }
+              ],
+              "type": ""
+            }
+          ],
+          "nameservers": [
+            {
+              "ldh_name": "NS45.WORLDNIC.COM",
+              "object_class_name": "nameserver",
+              "handle": "",
+              "unicode_name": "",
+              "events": [],
+              "links": [],
+              "notices": [],
+              "status": [],
+              "lang": "",
+              "port43": "",
+              "entities": [],
+              "remarks": []
+            },
+            {
+              "ldh_name": "NS46.WORLDNIC.COM",
+              "object_class_name": "nameserver",
+              "handle": "",
+              "unicode_name": "",
+              "events": [],
+              "links": [],
+              "notices": [],
+              "status": [],
+              "lang": "",
+              "port43": "",
+              "entities": [],
+              "remarks": []
+            }
+          ],
+          "rdap_conformance": [
+            "rdap_level_0",
+            "icann_rdap_technical_implementation_guide_1",
+            "icann_rdap_response_profile_1"
+          ],
+          "entities": [
+            {
+              "object_class_name": "entity",
+              "handle": "2258",
+              "vcard_array": [
+                {
+                  "name": "version",
+                  "type": "text",
+                  "values": [
+                    "4.0"
+                  ],
+                  "parameters": {}
+                },
+                {
+                  "name": "fn",
+                  "type": "text",
+                  "values": [
+                    "Fine Grain Domains, LLC"
+                  ],
+                  "parameters": {}
+                }
+              ],
+              "roles": [
+                "registrar"
+              ],
+              "public_ids": [
+                {
+                  "type": "IANA Registrar ID",
+                  "identifier": "2258"
+                }
+              ],
+              "entities": [
+                {
+                  "object_class_name": "entity",
+                  "vcard_array": [
+                    {
+                      "name": "version",
+                      "type": "text",
+                      "values": [
+                        "4.0"
+                      ],
+                      "parameters": {}
+                    },
+                    {
+                      "name": "fn",
+                      "type": "text",
+                      "values": [
+                        ""
+                      ],
+                      "parameters": {}
+                    },
+                    {
+                      "name": "tel",
+                      "parameters": {
+                        "type": [
+                          "voice"
+                        ]
+                      },
+                      "type": "uri",
+                      "values": [
+                        "tel:+1.8003337680"
+                      ]
+                    },
+                    {
+                      "name": "email",
+                      "type": "text",
+                      "values": [
+                        "abuse@web.com"
+                      ],
+                      "parameters": {}
+                    }
+                  ],
+                  "roles": [
+                    "abuse"
+                  ],
+                  "handle": "",
+                  "public_ids": [],
+                  "entities": [],
+                  "remarks": [],
+                  "links": [],
+                  "events": [],
+                  "as_event_actor": [],
+                  "status": [],
+                  "port43": "",
+                  "networks": [],
+                  "autnums": [],
+                  "url": "",
+                  "lang": "",
+                  "rdap_conformance": []
+                }
+              ],
+              "links": [
+                {
+                  "href": "http://www.networksolutions.com",
+                  "rel": "about",
+                  "type": "text/html",
+                  "value": "https://rdap.snapnames.com/rdap/",
+                  "title": "",
+                  "media": "",
+                  "href_lang": []
+                }
+              ],
+              "remarks": [],
+              "events": [],
+              "as_event_actor": [],
+              "status": [],
+              "port43": "",
+              "networks": [],
+              "autnums": [],
+              "url": "",
+              "lang": "",
+              "rdap_conformance": []
+            }
+          ],
+          "object_class_name": "domain",
+          "status": [
+            "client transfer prohibited"
+          ],
+          "secure_dns": {
+            "delegation_signed": false,
+            "zone_signed": false,
+            "max_sig_life": 0,
+            "ds_data": [],
+            "key_data": []
+          },
+          "unicode_name": "",
+          "punycode": "",
+          "type": "",
+          "port43": "",
+          "switch_name": "",
+          "public_ids": [],
+          "lang": "",
+          "remarks": [],
+          "nask0_state": "",
+          "variants": []
+        },
+        "last_analysis_stats": {
+          "malicious": 0,
+          "suspicious": 1,
+          "undetected": 32,
+          "harmless": 62,
+          "timeout": 0
+        },
+        "whois_date": 1793664000,
+        "reputation": 0,
+        "creation_date": 1762128000,
+        "jarm": "27d3ed3ed0003ed1dc42d43d00041d6183ff1bfae51ebd88d70384363d525c",
+        "total_votes": {
+          "harmless": 0,
+          "malicious": 0
+        },
+        "last_dns_records_date": 1762445494,
+        "whois": "Administrative city: Statutory Masking Enabled\nAdministrative country: Statutory Masking Enabled\nAdministrative email: ec47e7f620c68a2ds@maskeddetails.com\nAdministrative state: Statutory Masking Enabled\nBilling city: Statutory Masking Enabled\nBilling country: Statutory Masking Enabled\nBilling email: ec47e7f620c68a2ds@maskeddetails.com\nBilling state: Statutory Masking Enabled\nCreate date: 2025-11-03 00:00:00\nDomain name: absacibank.com\nDomain registrar id: 2258\nDomain registrar url: http://www.networksolutions.com\nExpiry date: 2026-11-03 00:00:00\nName server 1: ns46.worldnic.com\nName server 2: ns45.worldnic.com\nQuery time: 2025-11-04 11:01:12\nRegistrant city: 17eefbf532b278ac\nRegistrant company: 17eefbf532b278ac\nRegistrant country: United Kingdom\nRegistrant email: ec47e7f620c68a2ds@maskeddetails.com\nRegistrant fax: aaadc8c12174601e\nRegistrant name: 17eefbf532b278ac\nRegistrant phone: aaadc8c12174601e\nRegistrant zip: 17eefbf532b278ac\nTechnical city: Statutory Masking Enabled\nTechnical country: Statutory Masking Enabled\nTechnical email: ec47e7f620c68a2ds@maskeddetails.com\nTechnical state: Statutory Masking Enabled\nUpdate date: 2025-11-04 00:00:00",
+        "last_analysis_results": {
+          "Acronis": {
+            "method": "blacklist",
+            "engine_name": "Acronis",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "0xSI_f33d": {
+            "method": "blacklist",
+            "engine_name": "0xSI_f33d",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Abusix": {
+            "method": "blacklist",
+            "engine_name": "Abusix",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "ADMINUSLabs": {
+            "method": "blacklist",
+            "engine_name": "ADMINUSLabs",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Axur": {
+            "method": "blacklist",
+            "engine_name": "Axur",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "ChainPatrol": {
+            "method": "blacklist",
+            "engine_name": "ChainPatrol",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Criminal IP": {
+            "method": "blacklist",
+            "engine_name": "Criminal IP",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "AILabs (MONITORAPP)": {
+            "method": "blacklist",
+            "engine_name": "AILabs (MONITORAPP)",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "AlienVault": {
+            "method": "blacklist",
+            "engine_name": "AlienVault",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "alphaMountain.ai": {
+            "method": "blacklist",
+            "engine_name": "alphaMountain.ai",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "AlphaSOC": {
+            "method": "blacklist",
+            "engine_name": "AlphaSOC",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Antiy-AVL": {
+            "method": "blacklist",
+            "engine_name": "Antiy-AVL",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "ArcSight Threat Intelligence": {
+            "method": "blacklist",
+            "engine_name": "ArcSight Threat Intelligence",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "AutoShun": {
+            "method": "blacklist",
+            "engine_name": "AutoShun",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "benkow.cc": {
+            "method": "blacklist",
+            "engine_name": "benkow.cc",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Bfore.Ai PreCrime": {
+            "method": "blacklist",
+            "engine_name": "Bfore.Ai PreCrime",
+            "category": "suspicious",
+            "result": "suspicious"
+          },
+          "BitDefender": {
+            "method": "blacklist",
+            "engine_name": "BitDefender",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Bkav": {
+            "method": "blacklist",
+            "engine_name": "Bkav",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Blueliv": {
+            "method": "blacklist",
+            "engine_name": "Blueliv",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Certego": {
+            "method": "blacklist",
+            "engine_name": "Certego",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Chong Lua Dao": {
+            "method": "blacklist",
+            "engine_name": "Chong Lua Dao",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "CINS Army": {
+            "method": "blacklist",
+            "engine_name": "CINS Army",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Cluster25": {
+            "method": "blacklist",
+            "engine_name": "Cluster25",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "CRDF": {
+            "method": "blacklist",
+            "engine_name": "CRDF",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "CSIS Security Group": {
+            "method": "blacklist",
+            "engine_name": "CSIS Security Group",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Snort IP sample list": {
+            "method": "blacklist",
+            "engine_name": "Snort IP sample list",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "CMC Threat Intelligence": {
+            "method": "blacklist",
+            "engine_name": "CMC Threat Intelligence",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Cyan": {
+            "method": "blacklist",
+            "engine_name": "Cyan",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Cyble": {
+            "method": "blacklist",
+            "engine_name": "Cyble",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "CyRadar": {
+            "method": "blacklist",
+            "engine_name": "CyRadar",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "DNS8": {
+            "method": "blacklist",
+            "engine_name": "DNS8",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Dr.Web": {
+            "method": "blacklist",
+            "engine_name": "Dr.Web",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Ermes": {
+            "method": "blacklist",
+            "engine_name": "Ermes",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "ESET": {
+            "method": "blacklist",
+            "engine_name": "ESET",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "ESTsecurity": {
+            "method": "blacklist",
+            "engine_name": "ESTsecurity",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "EmergingThreats": {
+            "method": "blacklist",
+            "engine_name": "EmergingThreats",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Emsisoft": {
+            "method": "blacklist",
+            "engine_name": "Emsisoft",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Forcepoint ThreatSeeker": {
+            "method": "blacklist",
+            "engine_name": "Forcepoint ThreatSeeker",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Fortinet": {
+            "method": "blacklist",
+            "engine_name": "Fortinet",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "G-Data": {
+            "method": "blacklist",
+            "engine_name": "G-Data",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "GCP Abuse Intelligence": {
+            "method": "blacklist",
+            "engine_name": "GCP Abuse Intelligence",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Google Safebrowsing": {
+            "method": "blacklist",
+            "engine_name": "Google Safebrowsing",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "GreenSnow": {
+            "method": "blacklist",
+            "engine_name": "GreenSnow",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Gridinsoft": {
+            "method": "blacklist",
+            "engine_name": "Gridinsoft",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Heimdal Security": {
+            "method": "blacklist",
+            "engine_name": "Heimdal Security",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Hunt.io Intelligence": {
+            "method": "blacklist",
+            "engine_name": "Hunt.io Intelligence",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "IPsum": {
+            "method": "blacklist",
+            "engine_name": "IPsum",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Juniper Networks": {
+            "method": "blacklist",
+            "engine_name": "Juniper Networks",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Kaspersky": {
+            "method": "blacklist",
+            "engine_name": "Kaspersky",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Lionic": {
+            "method": "blacklist",
+            "engine_name": "Lionic",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Lumu": {
+            "method": "blacklist",
+            "engine_name": "Lumu",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "MalwarePatrol": {
+            "method": "blacklist",
+            "engine_name": "MalwarePatrol",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "MalwareURL": {
+            "method": "blacklist",
+            "engine_name": "MalwareURL",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Malwared": {
+            "method": "blacklist",
+            "engine_name": "Malwared",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Mimecast": {
+            "method": "blacklist",
+            "engine_name": "Mimecast",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Netcraft": {
+            "method": "blacklist",
+            "engine_name": "Netcraft",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "OpenPhish": {
+            "method": "blacklist",
+            "engine_name": "OpenPhish",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Phishing Database": {
+            "method": "blacklist",
+            "engine_name": "Phishing Database",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "PhishFort": {
+            "method": "blacklist",
+            "engine_name": "PhishFort",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "PhishLabs": {
+            "method": "blacklist",
+            "engine_name": "PhishLabs",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Phishtank": {
+            "method": "blacklist",
+            "engine_name": "Phishtank",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "PREBYTES": {
+            "method": "blacklist",
+            "engine_name": "PREBYTES",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "PrecisionSec": {
+            "method": "blacklist",
+            "engine_name": "PrecisionSec",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Quick Heal": {
+            "method": "blacklist",
+            "engine_name": "Quick Heal",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Quttera": {
+            "method": "blacklist",
+            "engine_name": "Quttera",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "SafeToOpen": {
+            "method": "blacklist",
+            "engine_name": "SafeToOpen",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Sansec eComscan": {
+            "method": "blacklist",
+            "engine_name": "Sansec eComscan",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Scantitan": {
+            "method": "blacklist",
+            "engine_name": "Scantitan",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "SCUMWARE.org": {
+            "method": "blacklist",
+            "engine_name": "SCUMWARE.org",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Seclookup": {
+            "method": "blacklist",
+            "engine_name": "Seclookup",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "SecureBrain": {
+            "method": "blacklist",
+            "engine_name": "SecureBrain",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "SOCRadar": {
+            "method": "blacklist",
+            "engine_name": "SOCRadar",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Sophos": {
+            "method": "blacklist",
+            "engine_name": "Sophos",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Spam404": {
+            "method": "blacklist",
+            "engine_name": "Spam404",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "StopForumSpam": {
+            "method": "blacklist",
+            "engine_name": "StopForumSpam",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Sucuri SiteCheck": {
+            "method": "blacklist",
+            "engine_name": "Sucuri SiteCheck",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "ThreatHive": {
+            "method": "blacklist",
+            "engine_name": "ThreatHive",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Threatsourcing": {
+            "method": "blacklist",
+            "engine_name": "Threatsourcing",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Trustwave": {
+            "method": "blacklist",
+            "engine_name": "Trustwave",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Underworld": {
+            "method": "blacklist",
+            "engine_name": "Underworld",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "URLhaus": {
+            "method": "blacklist",
+            "engine_name": "URLhaus",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "URLQuery": {
+            "method": "blacklist",
+            "engine_name": "URLQuery",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Viettel Threat Intelligence": {
+            "method": "blacklist",
+            "engine_name": "Viettel Threat Intelligence",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "VIPRE": {
+            "method": "blacklist",
+            "engine_name": "VIPRE",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "VX Vault": {
+            "method": "blacklist",
+            "engine_name": "VX Vault",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "ViriBack": {
+            "method": "blacklist",
+            "engine_name": "ViriBack",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Webroot": {
+            "method": "blacklist",
+            "engine_name": "Webroot",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Yandex Safebrowsing": {
+            "method": "blacklist",
+            "engine_name": "Yandex Safebrowsing",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "ZeroCERT": {
+            "method": "blacklist",
+            "engine_name": "ZeroCERT",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "desenmascara.me": {
+            "method": "blacklist",
+            "engine_name": "desenmascara.me",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "malwares.com URL checker": {
+            "method": "blacklist",
+            "engine_name": "malwares.com URL checker",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "securolytics": {
+            "method": "blacklist",
+            "engine_name": "securolytics",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Xcitium Verdict Cloud": {
+            "method": "blacklist",
+            "engine_name": "Xcitium Verdict Cloud",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "zvelo": {
+            "method": "blacklist",
+            "engine_name": "zvelo",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "ZeroFox": {
+            "method": "blacklist",
+            "engine_name": "ZeroFox",
+            "category": "undetected",
+            "result": "unrated"
+          }
+        },
+        "popularity_ranks": {},
+        "last_dns_records": [
+          {
+            "type": "SOA",
+            "ttl": 7200,
+            "value": "NS45.WORLDNIC.com",
+            "rname": "namehost.WORLDNIC.com",
+            "serial": 125110400,
+            "refresh": 10800,
+            "retry": 3600,
+            "expire": 604800,
+            "minimum": 3600
+          },
+          {
+            "type": "NS",
+            "ttl": 7200,
+            "value": "ns46.worldnic.com"
+          },
+          {
+            "type": "A",
+            "ttl": 7200,
+            "value": "208.91.197.27"
+          },
+          {
+            "type": "NS",
+            "ttl": 7200,
+            "value": "ns45.worldnic.com"
+          }
+        ],
+        "last_update_date": 1762214400,
+        "tld": "com",
+        "tags": [],
+        "last_https_certificate": {
+          "cert_signature": {
+            "signature_algorithm": "1.2.840.10045.4.3.2",
+            "signature": "3045022100bd31d3bf4f833ae878943108b73babd95f88e2b8949ca82fb470d2b10065113c02207e68b5e98b2a1bebbb527edc7355ef2981b5ecb7677462c16540bcb80d223f9e"
+          },
+          "extensions": {
+            "key_usage": [
+              "digitalSignature"
+            ],
+            "extended_key_usage": [
+              "serverAuth"
+            ],
+            "CA": false,
+            "subject_key_identifier": "f57dd20d52c8bb6718256f833e1b0e058adc68cf",
+            "authority_key_identifier": {
+              "keyid": "9077923567c4ffa8cca9e67bd980797bcc93f938"
+            },
+            "ca_information_access": {
+              "OCSP": "http://o.pki.goog/s/we1/ll8",
+              "CA Issuers": "http://i.pki.goog/we1.crt"
+            },
+            "subject_alternative_name": [
+              "absacibank.com",
+              "*.absacibank.com"
+            ],
+            "certificate_policies": [
+              "2.23.140.1.2.1"
+            ],
+            "crl_distribution_points": [
+              "http://c.pki.goog/we1/v1q7FffOpC4.crl"
+            ],
+            "1.3.6.1.4.1.11129.2.4.2": "0481f400f2007700dab6bf6b3fb5b6229f9bc2bb5c6be87091716cbb51848534"
+          },
+          "validity": {
+            "not_after": "2024-11-16 18:57:30",
+            "not_before": "2024-08-18 18:57:31"
+          },
+          "size": 948,
+          "version": "V3",
+          "public_key": {
+            "algorithm": "EC",
+            "ec": {
+              "oid": "secp256r1",
+              "pub": "3059301306072a8648ce3d020106082a8648ce3d03010703420004b40cad0b5a5631f9c4b19c6fedccb25ccfe8f65a503e5f2be1d093248bb344985a2477db13546b4f337497b7c29e03d63bc99ecb074329f8ea722f31cd1efb01"
+            }
+          },
+          "thumbprint_sha256": "691edc5491a4025f524914dd9537b8fb1bbe8f32b7fdea83fcad27d7b83f8256",
+          "thumbprint": "e33d8f44cf5399fe67db18b3a32e6153114cedf6",
+          "serial_number": "965fee523fa03c440e9db1356eb5ee3",
+          "issuer": {
+            "C": "US",
+            "O": "Google Trust Services",
+            "CN": "WE1"
+          },
+          "subject": {
+            "CN": "absacibank.com"
+          }
+        },
+        "last_https_certificate_date": 1724222259,
+        "last_analysis_date": 1762445009,
+        "last_modification_date": 1762445510,
+        "categories": {}
+      }
+    }
+  },
+  "dnsdumpster": {
+    "a": [
+      {
+        "host": "absacibank.com",
+        "ips": [
+          {
+            "asn": "40034",
+            "asn_name": "CONFLUENCE-NETWORK-INC, VG",
+            "asn_range": "208.91.197.0/24",
+            "banners": {
+              "https": {
+                "apps": [
+                  "OpenResty",
+                  "Nginx"
+                ],
+                "cn": "testexp",
+                "o": "testexample",
+                "server": "openresty",
+                "title": "502 Bad Gateway"
+              },
+              "ip": "208.91.197.27"
+            },
+            "country": "British Virgin Islands",
+            "country_code": "VG",
+            "ip": "208.91.197.27",
+            "ptr": ""
+          }
+        ]
+      }
+    ],
+    "cname": [],
+    "mx": [],
+    "ns": [
+      {
+        "host": "ns46.worldnic.com",
+        "ips": [
+          {
+            "asn": "13335",
+            "asn_name": "CLOUDFLARENET",
+            "asn_range": "162.159.27.0/24",
+            "banners": {
+              "http": {
+                "apps": [
+                  "Cloudflare"
+                ],
+                "server": "cloudflare",
+                "title": "Direct IP access not allowed "
+              },
+              "http8080": {
+                "server": "cloudflare",
+                "title": "Direct IP access not allowed "
+              },
+              "ip": "162.159.27.50"
+            },
+            "country": "unknown",
+            "country_code": "??",
+            "ip": "162.159.27.50",
+            "ptr": ""
+          }
+        ]
+      },
+      {
+        "host": "ns45.worldnic.com",
+        "ips": [
+          {
+            "asn": "13335",
+            "asn_name": "CLOUDFLARENET",
+            "asn_range": "162.159.26.0/24",
+            "banners": {
+              "http": {
+                "apps": [
+                  "Cloudflare"
+                ],
+                "server": "cloudflare",
+                "title": "Direct IP access not allowed "
+              },
+              "http8080": {
+                "apps": [
+                  "Cloudflare"
+                ],
+                "server": "cloudflare",
+                "title": "Direct IP access not allowed "
+              },
+              "ip": "162.159.26.111"
+            },
+            "country": "unknown",
+            "country_code": "??",
+            "ip": "162.159.26.111",
+            "ptr": ""
+          }
+        ]
+      }
+    ],
+    "total_a_recs": 1,
+    "txt": []
+  }
+}

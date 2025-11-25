@@ -1,0 +1,158 @@
+/* Absa Brand Colors */
+:root {
+  --absa-red: #ED0000;
+  --absa-red-dark: #C70000;
+  --absa-red-light: #FF4040;
+  --status-active: #10B981;
+  --status-inactive: #6B7280;
+  --status-warning: #F59E0B;
+  --status-danger: #EF4444;
+}
+
+.App {
+  min-height: 100vh;
+  background-color: #000000;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F3F4F6;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D1D5DB;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #9CA3AF;
+}
+
+/* Status badges */
+.status-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.status-badge.active {
+  background-color: #D1FAE5;
+  color: #065F46;
+}
+
+.status-badge.inactive {
+  background-color: #F3F4F6;
+  color: #4B5563;
+}
+
+.status-badge.changed {
+  background-color: #FEF3C7;
+  color: #92400E;
+}
+
+/* Risk level badges */
+.risk-badge.high {
+  background-color: #FEE2E2;
+  color: #991B1B;
+}
+
+.risk-badge.medium {
+  background-color: #FEF3C7;
+  color: #92400E;
+}
+
+.risk-badge.low {
+  background-color: #DBEAFE;
+  color: #1E40AF;
+}
+
+/* Chart container */
+.chart-container {
+  background: white;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1);
+}
+
+/* Data table */
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.data-table th {
+  background-color: #F9FAFB;
+  padding: 0.75rem 1rem;
+  text-align: left;
+  font-weight: 600;
+  color: #374151;
+  border-bottom: 1px solid #E5E7EB;
+}
+
+.data-table td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #F3F4F6;
+}
+
+.data-table tr:hover {
+  background-color: #F9FAFB;
+}
+
+/* Loading spinner */
+.spinner {
+  border: 2px solid #F3F4F6;
+  border-top: 2px solid var(--absa-red);
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Card styles */
+.metric-card {
+  background: white;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1);
+  transition: all 0.2s;
+}
+
+.metric-card:hover {
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+  transform: translateY(-2px);
+}
+
+/* Absa red primary button */
+.btn-primary {
+  background-color: var(--absa-red);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn-primary:hover {
+  background-color: var(--absa-red-dark);
+}
+
+.btn-primary:disabled {
+  background-color: #D1D5DB;
+  cursor: not-allowed;
+}

@@ -1,0 +1,1261 @@
+{
+	"summary": {
+		"domain": "absacontactus3.website",
+		"risk_indicators": [
+			"Contains 'absa' - potential brand impersonation",
+			"Flagged as malicious by 1 security engines"
+		],
+		"subdomains": [
+			"www",
+			"ww16",
+			"ww38",
+			"ww25",
+			"ww17"
+		],
+		"alternative_names": [],
+		"security_analysis": {
+			"total_engines": 95,
+			"flagged_as_malicious": 1,
+			"flagged_as_suspicious": 0,
+			"clean_ratings": 61,
+			"unrated": 33
+		},
+		"infrastructure": {
+			"ip_addresses": [
+				"103.224.182.242",
+				"91.195.240.112"
+			],
+			"nameservers": [
+				"ns12.abovedomains.com",
+				"ns11.abovedomains.com"
+			],
+			"hosting_provider": null
+		},
+		"certificate_info": {
+			"has_ssl": true,
+			"issuer": "R11",
+			"valid_from": "2025-07-24 09:34:37",
+			"alternative_names": [
+				"*.44qwerty44.store",
+				"*.abilsavio.tech",
+				"*.absacontactus3.website",
+				"*.bamzixagnecy.us",
+				"*.bigfootodyssey.us",
+				"*.biheedu.store",
+				"*.bikerides.com.au",
+				"*.bloworganic.com",
+				"*.cataracta.store",
+				"*.colocrossing.co",
+				"*.crystaldiskmark.tech",
+				"*.dronemuster.com.au",
+				"*.eternality.store",
+				"*.footprok.store",
+				"*.ghdhair.online",
+				"*.health.ghdhair.online",
+				"*.hotnewstoday.website",
+				"*.l2eleti.us",
+				"*.mauifire.us",
+				"*.nearlovevuth.store",
+				"*.news-hub.website",
+				"*.oanaverpetua.space",
+				"*.pentams.us",
+				"*.ppgaming.website",
+				"*.proscan.online",
+				"*.q4sure.co",
+				"*.random.ghdhair.online",
+				"*.shopping.proscan.online",
+				"*.shopping23.store",
+				"*.smartyonline.store",
+				"*.subjless.space",
+				"*.summerresidency.co",
+				"*.tafarnmorlaispub.co.uk",
+				"*.tajalbarr.store",
+				"*.tellpopeyes.us",
+				"*.teraholdings.co",
+				"*.the-cycle-game.us",
+				"*.thebigbangdogue.website",
+				"*.topazlab.tech",
+				"*.tvbdrama.us",
+				"*.vivit.online",
+				"*.vnlinest6.store",
+				"*.wipiink-oficial.store",
+				"*.worldfinance.website",
+				"*.zara-russia.store",
+				"*.zomdev.us",
+				"44qwerty44.store",
+				"abilsavio.tech",
+				"absacontactus3.website",
+				"bamzixagnecy.us",
+				"bigfootodyssey.us",
+				"biheedu.store",
+				"bikerides.com.au",
+				"bloworganic.com",
+				"cataracta.store",
+				"colocrossing.co",
+				"crystaldiskmark.tech",
+				"dronemuster.com.au",
+				"eternality.store",
+				"footprok.store",
+				"ghdhair.online",
+				"hotnewstoday.website",
+				"l2eleti.us",
+				"mauifire.us",
+				"nearlovevuth.store",
+				"news-hub.website",
+				"oanaverpetua.space",
+				"pentams.us",
+				"ppgaming.website",
+				"proscan.online",
+				"q4sure.co",
+				"shopping23.store",
+				"smartyonline.store",
+				"subjless.space",
+				"summerresidency.co",
+				"tafarnmorlaispub.co.uk",
+				"tajalbarr.store",
+				"tellpopeyes.us",
+				"teraholdings.co",
+				"the-cycle-game.us",
+				"thebigbangdogue.website",
+				"topazlab.tech",
+				"tvbdrama.us",
+				"vivit.online",
+				"vnlinest6.store",
+				"wipiink-oficial.store",
+				"worldfinance.website",
+				"zara-russia.store",
+				"zomdev.us"
+			]
+		},
+		"creation_date": "2025-05-25 02:00:00 UTC",
+		"expiry_date": null,
+		"whois": "Create date: 2025-05-25 00:00:00\nDomain name: absacontactus3.website\nDomain registrar id: 940\nExpiry date: 2026-05-25 00:00:00\nName server 1: ns12.abovedomains.com\nName server 2: ns11.abovedomains.com\nQuery time: 2025-05-26 11:03:10\nRegistrant company: 941ed13ffdb10a7b\nRegistrant country: United States\nRegistrant email: 29e2c061f3c9524es@\nRegistrant state: 9ac59f99cec77452\nUpdate date: 2025-05-25 00:00:00"
+	},
+	"domain": "absacontactus3.website",
+	"securitytrails": {
+		"alexa_rank": null,
+		"apex_domain": "absacontactus3.website",
+		"current_dns": {
+			"a": {
+				"first_seen": "2025-09-11",
+				"values": [
+					{
+						"h": null,
+						"ip": "103.224.182.242",
+						"ip_count": 0,
+						"ip_organization": "Trellian Pty. Limited"
+					}
+				]
+			},
+			"aaaa": {},
+			"mx": {
+				"first_seen": "2025-05-27",
+				"values": [
+					{
+						"hostname": "park-mx.above.com",
+						"hostname_count": 0,
+						"hostname_organization": "Trellian Pty. Limited",
+						"priority": 10
+					}
+				]
+			},
+			"ns": {
+				"first_seen": "2025-08-23",
+				"values": [
+					{
+						"nameserver": "ns2.abovedomains.com",
+						"nameserver_count": 0,
+						"nameserver_organization": null
+					},
+					{
+						"nameserver": "ns1.abovedomains.com",
+						"nameserver_count": 0,
+						"nameserver_organization": null
+					}
+				]
+			},
+			"soa": {
+				"first_seen": "2025-05-27",
+				"values": [
+					{
+						"email": "hostmaster.trellian.com",
+						"email_count": 0,
+						"ttl": 10800
+					}
+				]
+			},
+			"txt": {
+				"first_seen": "2025-05-27",
+				"values": [
+					{
+						"value": "v=spf1 ip6:fdcf:abda:4154::/48 -all"
+					}
+				]
+			}
+		},
+		"endpoint": "/v1/domain/absacontactus3.website/subdomains",
+		"hostname": "absacontactus3.website",
+		"subdomain_count": 5,
+		"meta": {
+			"limit_reached": false
+		},
+		"subdomains": [
+			"www",
+			"ww16",
+			"ww38",
+			"ww25",
+			"ww17"
+		]
+	},
+	"viewdns": {
+		"query": {
+			"tool": "propagation_PRO",
+			"domain": "absacontactus3.website"
+		},
+		"expectedresponse": "103.224.182.242",
+		"response": {
+			"server": [
+				{
+					"location": "Atlanta, USA",
+					"resultvalue": "103.224.182.242",
+					"resultstatus": "ok"
+				},
+				{
+					"location": "Beauharnois, Canada",
+					"resultvalue": "103.224.182.242",
+					"resultstatus": "ok"
+				},
+				{
+					"location": "Hong Kong, China",
+					"resultvalue": "103.224.182.242",
+					"resultstatus": "ok"
+				},
+				{
+					"location": "Johannesburg, South Africa",
+					"resultvalue": "103.224.182.242",
+					"resultstatus": "ok"
+				},
+				{
+					"location": "London, United Kingdom",
+					"resultvalue": "103.224.182.242",
+					"resultstatus": "ok"
+				},
+				{
+					"location": "Los Angeles, USA",
+					"resultvalue": "103.224.182.242",
+					"resultstatus": "ok"
+				},
+				{
+					"location": "Mumbai, India",
+					"resultvalue": "103.224.182.242",
+					"resultstatus": "ok"
+				},
+				{
+					"location": "New York, USA",
+					"resultvalue": "103.224.182.242",
+					"resultstatus": "ok"
+				},
+				{
+					"location": "Paris, France",
+					"resultvalue": "103.224.182.242",
+					"resultstatus": "ok"
+				},
+				{
+					"location": "Perth, Australia",
+					"resultvalue": "103.224.182.242",
+					"resultstatus": "ok"
+				},
+				{
+					"location": "Rotterdam, Netherlands",
+					"resultvalue": "103.224.182.242",
+					"resultstatus": "ok"
+				},
+				{
+					"location": "Santiago, Chile",
+					"resultvalue": "103.224.182.242",
+					"resultstatus": "ok"
+				},
+				{
+					"location": "Seattle, USA",
+					"resultvalue": "103.224.182.242",
+					"resultstatus": "ok"
+				},
+				{
+					"location": "Seoul, South Korea",
+					"resultvalue": "103.224.182.242",
+					"resultstatus": "ok"
+				},
+				{
+					"location": "Singapore, Singapore",
+					"resultvalue": "103.224.182.242",
+					"resultstatus": "ok"
+				},
+				{
+					"location": "Sydney, Australia",
+					"resultvalue": "103.224.182.242",
+					"resultstatus": "ok"
+				},
+				{
+					"location": "São Paulo, Brazil",
+					"resultvalue": "103.224.182.242",
+					"resultstatus": "ok"
+				}
+			]
+		}
+	},
+	"virustotal": {
+		"data": {
+			"id": "absacontactus3.website",
+			"type": "domain",
+			"links": {
+				"self": "https://www.virustotal.com/api/v3/domains/absacontactus3.website"
+			},
+			"attributes": {
+				"reputation": 0,
+				"total_votes": {
+					"harmless": 0,
+					"malicious": 0
+				},
+				"last_https_certificate_date": 1756641766,
+				"last_https_certificate": {
+					"cert_signature": {
+						"signature_algorithm": "sha256RSA",
+						"signature": "7eda92ea5c1c20524d158136713ea40a9ecf450a880495e79a09bc861818129199cecafa1a4a3a2f61e1301bcb6dcdab9a080656a4c33b52b2a2c9de9fc1e1eda3d2cf5da092f2aa41d1805f44af1639169956fa2d35073ec7413ca45873a5dae53ad5c465694ae07b94e9695a6264693038e249832126ffeb4dfdb5ef338e334cbfe20e5681980a8de12d36d92ea372f6b771267e7b04548b6f46230a501d3daa1bfcb730c9cb8ada4074ca21c1cab8a4e60b111b0d9945081aae91d8dea4790c8611ee2b3658d9cd4449053fb413b4a5dc3810890ebb051e72d645bbb2d1d08ab192ebaaa7324a96d41cec6791a037c846b9331c61d6cabba60ed72f862d14"
+					},
+					"extensions": {
+						"key_usage": [
+							"digitalSignature",
+							"keyEncipherment"
+						],
+						"extended_key_usage": [
+							"serverAuth",
+							"clientAuth"
+						],
+						"CA": false,
+						"subject_key_identifier": "c0414bda4e82a18d92d2550ac4cb740daf981cc6",
+						"authority_key_identifier": {
+							"keyid": "c5cf46a4eaf4c3c07a6c95c42db05e922f26e3b9"
+						},
+						"ca_information_access": {
+							"CA Issuers": "http://r11.i.lencr.org/"
+						},
+						"subject_alternative_name": [
+							"*.44qwerty44.store",
+							"*.abilsavio.tech",
+							"*.absacontactus3.website",
+							"*.bamzixagnecy.us",
+							"*.bigfootodyssey.us",
+							"*.biheedu.store",
+							"*.bikerides.com.au",
+							"*.bloworganic.com",
+							"*.cataracta.store",
+							"*.colocrossing.co",
+							"*.crystaldiskmark.tech",
+							"*.dronemuster.com.au",
+							"*.eternality.store",
+							"*.footprok.store",
+							"*.ghdhair.online",
+							"*.health.ghdhair.online",
+							"*.hotnewstoday.website",
+							"*.l2eleti.us",
+							"*.mauifire.us",
+							"*.nearlovevuth.store",
+							"*.news-hub.website",
+							"*.oanaverpetua.space",
+							"*.pentams.us",
+							"*.ppgaming.website",
+							"*.proscan.online",
+							"*.q4sure.co",
+							"*.random.ghdhair.online",
+							"*.shopping.proscan.online",
+							"*.shopping23.store",
+							"*.smartyonline.store",
+							"*.subjless.space",
+							"*.summerresidency.co",
+							"*.tafarnmorlaispub.co.uk",
+							"*.tajalbarr.store",
+							"*.tellpopeyes.us",
+							"*.teraholdings.co",
+							"*.the-cycle-game.us",
+							"*.thebigbangdogue.website",
+							"*.topazlab.tech",
+							"*.tvbdrama.us",
+							"*.vivit.online",
+							"*.vnlinest6.store",
+							"*.wipiink-oficial.store",
+							"*.worldfinance.website",
+							"*.zara-russia.store",
+							"*.zomdev.us",
+							"44qwerty44.store",
+							"abilsavio.tech",
+							"absacontactus3.website",
+							"bamzixagnecy.us",
+							"bigfootodyssey.us",
+							"biheedu.store",
+							"bikerides.com.au",
+							"bloworganic.com",
+							"cataracta.store",
+							"colocrossing.co",
+							"crystaldiskmark.tech",
+							"dronemuster.com.au",
+							"eternality.store",
+							"footprok.store",
+							"ghdhair.online",
+							"hotnewstoday.website",
+							"l2eleti.us",
+							"mauifire.us",
+							"nearlovevuth.store",
+							"news-hub.website",
+							"oanaverpetua.space",
+							"pentams.us",
+							"ppgaming.website",
+							"proscan.online",
+							"q4sure.co",
+							"shopping23.store",
+							"smartyonline.store",
+							"subjless.space",
+							"summerresidency.co",
+							"tafarnmorlaispub.co.uk",
+							"tajalbarr.store",
+							"tellpopeyes.us",
+							"teraholdings.co",
+							"the-cycle-game.us",
+							"thebigbangdogue.website",
+							"topazlab.tech",
+							"tvbdrama.us",
+							"vivit.online",
+							"vnlinest6.store",
+							"wipiink-oficial.store",
+							"worldfinance.website",
+							"zara-russia.store",
+							"zomdev.us"
+						],
+						"certificate_policies": [
+							"2.23.140.1.2.1"
+						],
+						"crl_distribution_points": [
+							"http://r11.c.lencr.org/54.crl"
+						],
+						"1.3.6.1.4.1.11129.2.4.2": "0481f100ef0076000de1f2302bd30dc140621209ea552efc47747cb1d7e930ef"
+					},
+					"validity": {
+						"not_after": "2025-10-22 09:34:36",
+						"not_before": "2025-07-24 09:34:37"
+					},
+					"size": 3200,
+					"version": "V3",
+					"public_key": {
+						"algorithm": "RSA",
+						"rsa": {
+							"modulus": "99af8ca5ccdfe0af41d6f3d5192b8b16dec025c382f6b627ea591c26ea2c4654f2f5518a7ff544fc8e3d398e66659b1115bbf512f2f0b9273c2121f93ac4327e476530bcab32f5cd6010388ec2688d722bd2c2af0ba23ff2a622a19aacf7c45b85fbe5c0ccb95f7330f84984573b11ea118e6118de8cfc8c2c07839525f3e11ef9ef9f82dc9ed2bd5eda78f9b39033d1536a91f7cfd0f37d47b6eb5a3771e93512bac1d1d8639a20f57e213043f3460883ad97ee31a620f50e95f4bd7afbd61ecdc739e873c974cf9dbac2710ad1e5465b85d80bd07d83093ad331670d24b5234d285dd5f53b56af1a6a207e28ceebd44e86ddc5baa19d4c819b515e26be5837e18c8530e4b3cb920dfd6ac3f57cf9af956e797e078e652020a624742d5a591e70c88d6060c38b9c7fabd6294fde8a0e47d88f46006bffbe2eb55f5726867fece3522376d0813ecfaa428955e12e968d19162bb3179be869aa5f9147b3273f2464e4ba724dd82af31cfe04983a6b389bab9dd3ae358e3ea7757537b97eeb1bd7881ed1a073465ae3ce46a17beca6446bf12c18fd22a9c71bb9fb9500ff79d4869be753364f8f142719ef991a8ddc1930e0155b0d64726f1b91dff843a0687a0f92fc672c8cbccc80615bd2f9411816da899e72c7c16e6e2124bf4b324812d70394cb05649226e45be6bf378683ef157bafbb9bf3152529c986481d6399caa4cb",
+							"exponent": "10001",
+							"key_size": 4096
+						}
+					},
+					"thumbprint_sha256": "0337586a19bbf13720b8e24e72018795b8bc1cb5dd5ccc9cfcefd6443f64f95c",
+					"thumbprint": "a8cf79a8114e05725181b558d27c1b939df50cc4",
+					"serial_number": "61554ef222f58c1bda2ac54eaaf3a033535",
+					"issuer": {
+						"C": "US",
+						"O": "Let's Encrypt",
+						"CN": "R11"
+					},
+					"subject": {
+						"CN": "proscan.online"
+					}
+				},
+				"last_update_date": 1748131200,
+				"jarm": "2ad2ad0002ad2ad00042d42d00000051af7d8070a18e002eaaedf620fa118c",
+				"tags": [],
+				"last_analysis_date": 1756641761,
+				"popularity_ranks": {},
+				"creation_date": 1748131200,
+				"last_analysis_stats": {
+					"malicious": 1,
+					"suspicious": 0,
+					"undetected": 33,
+					"harmless": 61,
+					"timeout": 0
+				},
+				"categories": {},
+				"last_dns_records": [
+					{
+						"type": "NS",
+						"ttl": 3600,
+						"value": "ns11.abovedomains.com"
+					},
+					{
+						"type": "MX",
+						"ttl": 3600,
+						"priority": 10,
+						"value": "park-mx.above.com"
+					},
+					{
+						"type": "NS",
+						"ttl": 3600,
+						"value": "ns12.abovedomains.com"
+					},
+					{
+						"type": "SOA",
+						"ttl": 60,
+						"value": "ns1.abovedomains.com",
+						"rname": "hostmaster.trellian.com",
+						"serial": 2025083101,
+						"refresh": 10800,
+						"retry": 3600,
+						"expire": 604800,
+						"minimum": 3600
+					},
+					{
+						"type": "A",
+						"ttl": 3600,
+						"value": "103.224.182.242"
+					},
+					{
+						"type": "TXT",
+						"ttl": 3600,
+						"value": "v=spf1 ip6:fdcf:abda:4154::/48 -all"
+					}
+				],
+				"tld": "website",
+				"last_dns_records_date": 1756641766,
+				"whois_date": 1779667200,
+				"last_analysis_results": {
+					"Acronis": {
+						"method": "blacklist",
+						"engine_name": "Acronis",
+						"category": "harmless",
+						"result": "clean"
+					},
+					"0xSI_f33d": {
+						"method": "blacklist",
+						"engine_name": "0xSI_f33d",
+						"category": "undetected",
+						"result": "unrated"
+					},
+					"Abusix": {
+						"method": "blacklist",
+						"engine_name": "Abusix",
+						"category": "harmless",
+						"result": "clean"
+					},
+					"ADMINUSLabs": {
+						"method": "blacklist",
+						"engine_name": "ADMINUSLabs",
+						"category": "harmless",
+						"result": "clean"
+					},
+					"Axur": {
+						"method": "blacklist",
+						"engine_name": "Axur",
+						"category": "undetected",
+						"result": "unrated"
+					},
+					"ChainPatrol": {
+						"method": "blacklist",
+						"engine_name": "ChainPatrol",
+						"category": "undetected",
+						"result": "unrated"
+					},
+					"Criminal IP": {
+						"method": "blacklist",
+						"engine_name": "Criminal IP",
+						"category": "harmless",
+						"result": "clean"
+					},
+					"AILabs (MONITORAPP)": {
+						"method": "blacklist",
+						"engine_name": "AILabs (MONITORAPP)",
+						"category": "harmless",
+						"result": "clean"
+					},
+					"AlienVault": {
+						"method": "blacklist",
+						"engine_name": "AlienVault",
+						"category": "harmless",
+						"result": "clean"
+					},
+					"alphaMountain.ai": {
+						"method": "blacklist",
+						"engine_name": "alphaMountain.ai",
+						"category": "undetected",
+						"result": "unrated"
+					},
+					"AlphaSOC": {
+						"method": "blacklist",
+						"engine_name": "AlphaSOC",
+						"category": "undetected",
+						"result": "unrated"
+					},
+					"Antiy-AVL": {
+						"method": "blacklist",
+						"engine_name": "Antiy-AVL",
+						"category": "harmless",
+						"result": "clean"
+					},
+					"ArcSight Threat Intelligence": {
+						"method": "blacklist",
+						"engine_name": "ArcSight Threat Intelligence",
+						"category": "undetected",
+						"result": "unrated"
+					},
+					"AutoShun": {
+						"method": "blacklist",
+						"engine_name": "AutoShun",
+						"category": "undetected",
+						"result": "unrated"
+					},
+					"benkow.cc": {
+						"method": "blacklist",
+						"engine_name": "benkow.cc",
+						"category": "harmless",
+						"result": "clean"
+					},
+					"Bfore.Ai PreCrime": {
+						"method": "blacklist",
+						"engine_name": "Bfore.Ai PreCrime",
+						"category": "undetected",
+						"result": "unrated"
+					},
+					"BitDefender": {
+						"method": "blacklist",
+						"engine_name": "BitDefender",
+						"category": "harmless",
+						"result": "clean"
+					},
+					"Bkav": {
+						"method": "blacklist",
+						"engine_name": "Bkav",
+						"category": "undetected",
+						"result": "unrated"
+					},
+					"Blueliv": {
+						"method": "blacklist",
+						"engine_name": "Blueliv",
+						"category": "harmless",
+						"result": "clean"
+					},
+					"Certego": {
+						"method": "blacklist",
+						"engine_name": "Certego",
+						"category": "harmless",
+						"result": "clean"
+					},
+					"Chong Lua Dao": {
+						"method": "blacklist",
+						"engine_name": "Chong Lua Dao",
+						"category": "harmless",
+						"result": "clean"
+					},
+					"CINS Army": {
+						"method": "blacklist",
+						"engine_name": "CINS Army",
+						"category": "harmless",
+						"result": "clean"
+					},
+					"Cluster25": {
+						"method": "blacklist",
+						"engine_name": "Cluster25",
+						"category": "undetected",
+						"result": "unrated"
+					},
+					"CRDF": {
+						"method": "blacklist",
+						"engine_name": "CRDF",
+						"category": "harmless",
+						"result": "clean"
+					},
+					"CSIS Security Group": {
+						"method": "blacklist",
+						"engine_name": "CSIS Security Group",
+						"category": "undetected",
+						"result": "unrated"
+					},
+					"Snort IP sample list": {
+						"method": "blacklist",
+						"engine_name": "Snort IP sample list",
+						"category": "harmless",
+						"result": "clean"
+					},
+					"CMC Threat Intelligence": {
+						"method": "blacklist",
+						"engine_name": "CMC Threat Intelligence",
+						"category": "harmless",
+						"result": "clean"
+					},
+					"Cyan": {
+						"method": "blacklist",
+						"engine_name": "Cyan",
+						"category": "undetected",
+						"result": "unrated"
+					},
+					"Cyble": {
+						"method": "blacklist",
+						"engine_name": "Cyble",
+						"category": "harmless",
+						"result": "clean"
+					},
+					"CyRadar": {
+						"method": "blacklist",
+						"engine_name": "CyRadar",
+						"category": "harmless",
+						"result": "clean"
+					},
+					"DNS8": {
+						"method": "blacklist",
+						"engine_name": "DNS8",
+						"category": "harmless",
+						"result": "clean"
+					},
+					"Dr.Web": {
+						"method": "blacklist",
+						"engine_name": "Dr.Web",
+						"category": "harmless",
+						"result": "clean"
+					},
+					"Ermes": {
+						"method": "blacklist",
+						"engine_name": "Ermes",
+						"category": "undetected",
+						"result": "unrated"
+					},
+					"ESET": {
+						"method": "blacklist",
+						"engine_name": "ESET",
+						"category": "harmless",
+						"result": "clean"
+					},
+					"ESTsecurity": {
+						"method": "blacklist",
+						"engine_name": "ESTsecurity",
+						"category": "harmless",
+						"result": "clean"
+					},
+					"EmergingThreats": {
+						"method": "blacklist",
+						"engine_name": "EmergingThreats",
+						"category": "harmless",
+						"result": "clean"
+					},
+					"Emsisoft": {
+						"method": "blacklist",
+						"engine_name": "Emsisoft",
+						"category": "harmless",
+						"result": "clean"
+					},
+					"Forcepoint ThreatSeeker": {
+						"method": "blacklist",
+						"engine_name": "Forcepoint ThreatSeeker",
+						"category": "undetected",
+						"result": "unrated"
+					},
+					"Fortinet": {
+						"method": "blacklist",
+						"engine_name": "Fortinet",
+						"category": "malicious",
+						"result": "malware"
+					},
+					"G-Data": {
+						"method": "blacklist",
+						"engine_name": "G-Data",
+						"category": "harmless",
+						"result": "clean"
+					},
+					"GCP Abuse Intelligence": {
+						"method": "blacklist",
+						"engine_name": "GCP Abuse Intelligence",
+						"category": "undetected",
+						"result": "unrated"
+					},
+					"Google Safebrowsing": {
+						"method": "blacklist",
+						"engine_name": "Google Safebrowsing",
+						"category": "harmless",
+						"result": "clean"
+					},
+					"GreenSnow": {
+						"method": "blacklist",
+						"engine_name": "GreenSnow",
+						"category": "harmless",
+						"result": "clean"
+					},
+					"Gridinsoft": {
+						"method": "blacklist",
+						"engine_name": "Gridinsoft",
+						"category": "undetected",
+						"result": "unrated"
+					},
+					"Heimdal Security": {
+						"method": "blacklist",
+						"engine_name": "Heimdal Security",
+						"category": "harmless",
+						"result": "clean"
+					},
+					"Hunt.io Intelligence": {
+						"method": "blacklist",
+						"engine_name": "Hunt.io Intelligence",
+						"category": "undetected",
+						"result": "unrated"
+					},
+					"IPsum": {
+						"method": "blacklist",
+						"engine_name": "IPsum",
+						"category": "harmless",
+						"result": "clean"
+					},
+					"Juniper Networks": {
+						"method": "blacklist",
+						"engine_name": "Juniper Networks",
+						"category": "harmless",
+						"result": "clean"
+					},
+					"Kaspersky": {
+						"method": "blacklist",
+						"engine_name": "Kaspersky",
+						"category": "harmless",
+						"result": "clean"
+					},
+					"Lionic": {
+						"method": "blacklist",
+						"engine_name": "Lionic",
+						"category": "harmless",
+						"result": "clean"
+					},
+					"Lumu": {
+						"method": "blacklist",
+						"engine_name": "Lumu",
+						"category": "undetected",
+						"result": "unrated"
+					},
+					"MalwarePatrol": {
+						"method": "blacklist",
+						"engine_name": "MalwarePatrol",
+						"category": "harmless",
+						"result": "clean"
+					},
+					"MalwareURL": {
+						"method": "blacklist",
+						"engine_name": "MalwareURL",
+						"category": "undetected",
+						"result": "unrated"
+					},
+					"Malwared": {
+						"method": "blacklist",
+						"engine_name": "Malwared",
+						"category": "harmless",
+						"result": "clean"
+					},
+					"Mimecast": {
+						"method": "blacklist",
+						"engine_name": "Mimecast",
+						"category": "undetected",
+						"result": "unrated"
+					},
+					"Netcraft": {
+						"method": "blacklist",
+						"engine_name": "Netcraft",
+						"category": "undetected",
+						"result": "unrated"
+					},
+					"OpenPhish": {
+						"method": "blacklist",
+						"engine_name": "OpenPhish",
+						"category": "harmless",
+						"result": "clean"
+					},
+					"Phishing Database": {
+						"method": "blacklist",
+						"engine_name": "Phishing Database",
+						"category": "harmless",
+						"result": "clean"
+					},
+					"PhishFort": {
+						"method": "blacklist",
+						"engine_name": "PhishFort",
+						"category": "undetected",
+						"result": "unrated"
+					},
+					"PhishLabs": {
+						"method": "blacklist",
+						"engine_name": "PhishLabs",
+						"category": "undetected",
+						"result": "unrated"
+					},
+					"Phishtank": {
+						"method": "blacklist",
+						"engine_name": "Phishtank",
+						"category": "harmless",
+						"result": "clean"
+					},
+					"PREBYTES": {
+						"method": "blacklist",
+						"engine_name": "PREBYTES",
+						"category": "harmless",
+						"result": "clean"
+					},
+					"PrecisionSec": {
+						"method": "blacklist",
+						"engine_name": "PrecisionSec",
+						"category": "undetected",
+						"result": "unrated"
+					},
+					"Quick Heal": {
+						"method": "blacklist",
+						"engine_name": "Quick Heal",
+						"category": "harmless",
+						"result": "clean"
+					},
+					"Quttera": {
+						"method": "blacklist",
+						"engine_name": "Quttera",
+						"category": "harmless",
+						"result": "clean"
+					},
+					"SafeToOpen": {
+						"method": "blacklist",
+						"engine_name": "SafeToOpen",
+						"category": "undetected",
+						"result": "unrated"
+					},
+					"Sansec eComscan": {
+						"method": "blacklist",
+						"engine_name": "Sansec eComscan",
+						"category": "undetected",
+						"result": "unrated"
+					},
+					"Scantitan": {
+						"method": "blacklist",
+						"engine_name": "Scantitan",
+						"category": "harmless",
+						"result": "clean"
+					},
+					"SCUMWARE.org": {
+						"method": "blacklist",
+						"engine_name": "SCUMWARE.org",
+						"category": "harmless",
+						"result": "clean"
+					},
+					"Seclookup": {
+						"method": "blacklist",
+						"engine_name": "Seclookup",
+						"category": "harmless",
+						"result": "clean"
+					},
+					"SecureBrain": {
+						"method": "blacklist",
+						"engine_name": "SecureBrain",
+						"category": "undetected",
+						"result": "unrated"
+					},
+					"SOCRadar": {
+						"method": "blacklist",
+						"engine_name": "SOCRadar",
+						"category": "undetected",
+						"result": "unrated"
+					},
+					"Sophos": {
+						"method": "blacklist",
+						"engine_name": "Sophos",
+						"category": "harmless",
+						"result": "clean"
+					},
+					"Spam404": {
+						"method": "blacklist",
+						"engine_name": "Spam404",
+						"category": "harmless",
+						"result": "clean"
+					},
+					"StopForumSpam": {
+						"method": "blacklist",
+						"engine_name": "StopForumSpam",
+						"category": "harmless",
+						"result": "clean"
+					},
+					"Sucuri SiteCheck": {
+						"method": "blacklist",
+						"engine_name": "Sucuri SiteCheck",
+						"category": "harmless",
+						"result": "clean"
+					},
+					"ThreatHive": {
+						"method": "blacklist",
+						"engine_name": "ThreatHive",
+						"category": "harmless",
+						"result": "clean"
+					},
+					"Threatsourcing": {
+						"method": "blacklist",
+						"engine_name": "Threatsourcing",
+						"category": "harmless",
+						"result": "clean"
+					},
+					"Trustwave": {
+						"method": "blacklist",
+						"engine_name": "Trustwave",
+						"category": "harmless",
+						"result": "clean"
+					},
+					"Underworld": {
+						"method": "blacklist",
+						"engine_name": "Underworld",
+						"category": "undetected",
+						"result": "unrated"
+					},
+					"URLhaus": {
+						"method": "blacklist",
+						"engine_name": "URLhaus",
+						"category": "harmless",
+						"result": "clean"
+					},
+					"URLQuery": {
+						"method": "blacklist",
+						"engine_name": "URLQuery",
+						"category": "undetected",
+						"result": "unrated"
+					},
+					"Viettel Threat Intelligence": {
+						"method": "blacklist",
+						"engine_name": "Viettel Threat Intelligence",
+						"category": "harmless",
+						"result": "clean"
+					},
+					"VIPRE": {
+						"method": "blacklist",
+						"engine_name": "VIPRE",
+						"category": "undetected",
+						"result": "unrated"
+					},
+					"VX Vault": {
+						"method": "blacklist",
+						"engine_name": "VX Vault",
+						"category": "harmless",
+						"result": "clean"
+					},
+					"ViriBack": {
+						"method": "blacklist",
+						"engine_name": "ViriBack",
+						"category": "harmless",
+						"result": "clean"
+					},
+					"Webroot": {
+						"method": "blacklist",
+						"engine_name": "Webroot",
+						"category": "harmless",
+						"result": "clean"
+					},
+					"Yandex Safebrowsing": {
+						"method": "blacklist",
+						"engine_name": "Yandex Safebrowsing",
+						"category": "harmless",
+						"result": "clean"
+					},
+					"ZeroCERT": {
+						"method": "blacklist",
+						"engine_name": "ZeroCERT",
+						"category": "harmless",
+						"result": "clean"
+					},
+					"desenmascara.me": {
+						"method": "blacklist",
+						"engine_name": "desenmascara.me",
+						"category": "harmless",
+						"result": "clean"
+					},
+					"malwares.com URL checker": {
+						"method": "blacklist",
+						"engine_name": "malwares.com URL checker",
+						"category": "harmless",
+						"result": "clean"
+					},
+					"securolytics": {
+						"method": "blacklist",
+						"engine_name": "securolytics",
+						"category": "harmless",
+						"result": "clean"
+					},
+					"Xcitium Verdict Cloud": {
+						"method": "blacklist",
+						"engine_name": "Xcitium Verdict Cloud",
+						"category": "harmless",
+						"result": "clean"
+					},
+					"zvelo": {
+						"method": "blacklist",
+						"engine_name": "zvelo",
+						"category": "undetected",
+						"result": "unrated"
+					},
+					"ZeroFox": {
+						"method": "blacklist",
+						"engine_name": "ZeroFox",
+						"category": "undetected",
+						"result": "unrated"
+					}
+				},
+				"last_modification_date": 1756641768,
+				"whois": "Create date: 2025-05-25 00:00:00\nDomain name: absacontactus3.website\nDomain registrar id: 940\nExpiry date: 2026-05-25 00:00:00\nName server 1: ns12.abovedomains.com\nName server 2: ns11.abovedomains.com\nQuery time: 2025-05-26 11:03:10\nRegistrant company: 941ed13ffdb10a7b\nRegistrant country: United States\nRegistrant email: 29e2c061f3c9524es@\nRegistrant state: 9ac59f99cec77452\nUpdate date: 2025-05-25 00:00:00"
+			}
+		}
+	},
+	"dnsdumpster": {
+		"a": [
+			{
+				"host": "ww16.absacontactus3.website",
+				"ips": [
+					{
+						"asn": "47846",
+						"asn_name": "SEDO-AS, DE",
+						"asn_range": "91.195.240.0/23",
+						"country": "Germany",
+						"country_code": "DE",
+						"ip": "91.195.240.112",
+						"ptr": ""
+					}
+				]
+			},
+			{
+				"host": "www.absacontactus3.website",
+				"ips": [
+					{
+						"asn": "133618",
+						"asn_name": "TRELLIAN-AS-AP Trellian Pty. Limited, AU",
+						"asn_range": "103.224.182.0/23",
+						"banners": {
+							"http": {
+								"apps": [
+									"Apache HTTP Server"
+								],
+								"server": "Apache",
+								"title": "182.242"
+							},
+							"https": {
+								"alt_n": [
+									"*.adorablehuskies.org",
+									"*.bmxworldsnewzealand.com",
+									"*.chaxunmi.net",
+									"*.domaine-de-kerstinec.com",
+									"*.duckeggs.au",
+									"*.ebakleinanzeigen.de",
+									"*.employerwageworks.com",
+									"*.epexdia.com",
+									"*.formacjalava.pl",
+									"*.foshanmebel.online",
+									"*.hacetupedido.co",
+									"*.holidaysave.com.au",
+									"*.inversionesjpa.com",
+									"*.jennie.au",
+									"*.kwikkutz.us",
+									"*.mein2.de",
+									"*.mercadaodagramaoficial.com.br",
+									"*.musclebayfitness.com",
+									"*.muyprepaidcenter.com",
+									"*.perth.biz",
+									"*.secondhand.au",
+									"*.sollopromo.com.br",
+									"*.tenantlawaction.co",
+									"*.terrazzo.au",
+									"*.www.inversionesjpa.com",
+									"adorablehuskies.org",
+									"bmxworldsnewzealand.com",
+									"chaxunmi.net",
+									"domaine-de-kerstinec.com",
+									"duckeggs.au",
+									"ebakleinanzeigen.de",
+									"employerwageworks.com",
+									"epexdia.com",
+									"formacjalava.pl",
+									"foshanmebel.online",
+									"hacetupedido.co",
+									"holidaysave.com.au",
+									"inversionesjpa.com",
+									"jennie.au",
+									"kwikkutz.us",
+									"mein2.de",
+									"mercadaodagramaoficial.com.br",
+									"musclebayfitness.com",
+									"muyprepaidcenter.com",
+									"perth.biz",
+									"secondhand.au",
+									"sollopromo.com.br",
+									"tenantlawaction.co",
+									"terrazzo.au"
+								],
+								"apps": [
+									"Apache HTTP Server"
+								],
+								"cn": "formacjalava.pl",
+								"server": "Apache",
+								"title": "182.242"
+							},
+							"ip": "103.224.182.242"
+						},
+						"country": "United States",
+						"country_code": "US",
+						"ip": "103.224.182.242",
+						"ptr": "lb-182-242.above.com"
+					}
+				]
+			}
+		],
+		"cname": [],
+		"mx": [
+			{
+				"host": "10 park-mx.above.com",
+				"ips": [
+					{
+						"asn": "133618",
+						"asn_name": "TRELLIAN-AS-AP Trellian Pty. Limited, AU",
+						"asn_range": "103.224.212.0/23",
+						"country": "Australia",
+						"country_code": "AU",
+						"ip": "103.224.212.34",
+						"ptr": "park-mx.above.com"
+					}
+				]
+			}
+		],
+		"ns": [
+			{
+				"host": "ns12.abovedomains.com",
+				"ips": [
+					{
+						"asn": "133618",
+						"asn_name": "TRELLIAN-AS-AP Trellian Pty. Limited, AU",
+						"asn_range": "103.224.212.0/23",
+						"country": "Australia",
+						"country_code": "AU",
+						"ip": "103.224.212.47",
+						"ptr": "ns12.above.com"
+					}
+				]
+			},
+			{
+				"host": "ns11.abovedomains.com",
+				"ips": [
+					{
+						"asn": "133618",
+						"asn_name": "TRELLIAN-AS-AP Trellian Pty. Limited, AU",
+						"asn_range": "103.224.182.0/23",
+						"country": "United States",
+						"country_code": "US",
+						"ip": "103.224.182.47",
+						"ptr": ""
+					}
+				]
+			}
+		],
+		"total_a_recs": 2,
+		"txt": [
+			"\"v=spf1 ip6:fdcf:abda:4154::/48 -all\""
+		]
+	},
+	"Resources": {
+		"Configuration": {
+			"Type": "AWS::AmazonMQ::Configuration",
+			"Properties": {
+				"EngineType": "<String>",
+				"Name": "<String>"
+			}
+		}
+	}
+}

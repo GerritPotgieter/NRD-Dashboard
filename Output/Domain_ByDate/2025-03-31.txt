@@ -1,0 +1,105 @@
+Summary for 2025-03-31.txt:
+  - Golden Matches: 0
+  - .co.za Only: 0
+  - absa Only: 3
+  - Pattern Matches: 32
+  - .africa Only: 48
+  - Total: 83
+========================================
+
+=== Golden Matches ===
+
+
+=== absa Only ===
+absatransfer.website
+absacout.shop
+absatransfer.online
+
+=== Other Matches ===
+--------------------------------------------------------------------------
+=== .co.za Only ===
+
+
+=== Pattern Matches ===
+bcabsz.cfd
+absinc.ventures
+hansa-dev.top
+shenjisansan.top
+absinc.xyz
+goldmansack.xyz
+sonfirsatlarsizlerlekacirmadansatinal.xyz
+absencares.net
+americansaddlebred.net
+expansaodaconsciencia.net
+fansaastic.net
+guardiansage.net
+kansas4hfoundation.net
+mkrtchiansamvel.net
+portsusansales.net
+salahdeansatouri.net
+sansad.today
+alarabya.shop
+sultansaray.shop
+bananabsc.lol
+xabsc.wtf
+sansar.fun
+absconsulting.online
+absicherung.online
+alarabya.online
+babyanimals.online
+bansalkrishna.online
+jahresabschluss.online
+printanansaurban.online
+sonfirsatlarsizlerlekacirmadansatinal.online
+transaccionsvpersonales.online
+babyanimals.store
+
+=== .africa Only ===
+afrona8tive.africa
+aispar.africa
+bread.africa
+cabinet-laways.africa
+carebridge.africa
+climatestorylab.africa
+cyberjobs.africa
+dineroo.africa
+dorothyalexandre.africa
+edubee.africa
+everywork.africa
+greenleafsystems.africa
+guli.africa
+hadri.africa
+hadriparfums.africa
+hedera.africa
+hudi.africa
+iblesstheraindownin.africa
+industrialhub.africa
+isolve.africa
+issues.africa
+jobb.africa
+kil.africa
+koloi.africa
+laforcedenosconvictions.africa
+lala-vizuri.africa
+mamre.africa
+mynac.africa
+oecgroup.africa
+optime.africa
+passpointacademy.africa
+pesafydevelopers.africa
+petercent.africa
+preneur.africa
+privatestay.africa
+saphila.africa
+scholara.africa
+selea.africa
+spinxtech.africa
+sunstack.africa
+theafricanblueprint.africa
+thedriver.africa
+thesafarijournal.africa
+unbothered.africa
+unicum.africa
+waveaccounting.africa
+zoomer.africa
+zuatech.africa

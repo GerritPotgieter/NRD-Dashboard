@@ -1,0 +1,468 @@
+{% extends "base_modern.html" %} {% set page_title = "Domain Details: " + domain
+%} {% block content %}
+<div class="container-fluid">
+  <!-- Domain Header -->
+  <div class="row mb-4">
+    <div class="col-12">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item">
+            <a href="{{ url_for('dashboard') }}">Dashboard</a>
+          </li>
+          <li class="breadcrumb-item">
+            <a href="{{ url_for('domains') }}">Domains</a>
+          </li>
+          <li class="breadcrumb-item active" aria-current="page">
+            {{ domain }}
+          </li>
+        </ol>
+      </nav>
+
+      <div class="d-flex justify-content-between align-items-center">
+        <div>
+          <h1 class="h2 mb-1">{{ domain }}</h1>
+          {% if profile.activity %}
+          <div class="d-flex gap-2">
+            {% if profile.activity.is_active %}
+            <span class="badge bg-success">Active</span>
+            {% else %}
+            <span class="badge bg-secondary">Inactive</span>
+            {% endif %} {% if profile.activity.content_changed %}
+            <span class="badge bg-warning">Content Changed</span>
+            {% endif %} {% if profile.activity.risk_level %} {% if
+            profile.activity.risk_level == 'high' %}
+            <span class="badge bg-danger">High Risk</span>
+            {% elif profile.activity.risk_level == 'medium' %}
+            <span class="badge bg-warning">Medium Risk</span>
+            {% else %}
+            <span class="badge bg-info">Low Risk</span>
+            {% endif %} {% endif %}
+          </div>
+          {% endif %}
+        </div>
+        <div>
+          <a href="{{ url_for('domains') }}" class="btn btn-outline-secondary">
+            <i class="fas fa-arrow-left"></i> Back to Domains
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <div class="row">
+    <!-- Left Column - Summary & Activity -->
+    <div class="col-lg-6">
+      <!-- Summary Card -->
+      <div class="card mb-4">
+        <div class="card-header">
+          <h5 class="card-title mb-0">
+            <i class="fas fa-info-circle"></i> Domain Summary
+          </h5>
+        </div>
+        <div class="card-body">
+          {% if profile.summary %}
+          <div class="row">
+            <div class="col-sm-6">
+              <strong>Domain:</strong><br />
+              <code>{{ profile.summary.domain }}</code>
+            </div>
+            <div class="col-sm-6">
+              <strong>Creation Date:</strong><br />
+              {% if profile.summary.creation_date %} {{
+              profile.summary.creation_date }} {% else %}
+              <span class="text-muted">Unknown</span>
+              {% endif %}
+            </div>
+          </div>
+          <hr />
+
+          {% if profile.summary.risk_indicators %}
+          <div class="mb-3">
+            <strong>Risk Indicators:</strong>
+            <ul class="list-unstyled mt-2">
+              {% for indicator in profile.summary.risk_indicators %}
+              <li>
+                <i class="fas fa-exclamation-triangle text-warning"></i> {{
+                indicator }}
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
+          {% endif %} {% if profile.summary.subdomains %}
+          <div class="mb-3">
+            <strong
+              >Subdomains ({{ profile.summary.subdomains|length }}):</strong
+            >
+            <div class="mt-2">
+              {% for subdomain in profile.summary.subdomains %}
+              <span class="badge bg-light text-dark me-1">{{ subdomain }}</span>
+              {% endfor %}
+            </div>
+          </div>
+          {% endif %} {% endif %}
+        </div>
+      </div>
+
+      <!-- Activity Card -->
+      {% if profile.activity %}
+      <div class="card mb-4">
+        <div class="card-header">
+          <h5 class="card-title mb-0">
+            <i class="fas fa-activity"></i> Recent Activity
+          </h5>
+        </div>
+        <div class="card-body">
+          <div class="row">
+            <div class="col-sm-6">
+              <strong>Last Checked:</strong><br />
+              {% if profile.activity.last_checked %} {{
+              profile.activity.last_checked }} {% else %}
+              <span class="text-muted">Never</span>
+              {% endif %}
+            </div>
+            <div class="col-sm-6">
+              <strong>Content Hash:</strong><br />
+              {% if profile.activity.content_hash %}
+              <code class="small"
+                >{{ profile.activity.content_hash[:16] }}...</code
+              >
+              {% else %}
+              <span class="text-muted">None</span>
+              {% endif %}
+            </div>
+          </div>
+
+          {% if profile.activity.risk_indicators %}
+          <hr />
+          <strong>Current Risk Indicators:</strong>
+          <ul class="list-unstyled mt-2">
+            {% for indicator in profile.activity.risk_indicators %}
+            <li><i class="fas fa-flag text-danger"></i> {{ indicator }}</li>
+            {% endfor %}
+          </ul>
+          {% endif %}
+        </div>
+      </div>
+      {% endif %}
+
+      <!-- Security Analysis -->
+      {% if profile.summary and profile.summary.security_analysis %}
+      <div class="card mb-4">
+        <div class="card-header">
+          <h5 class="card-title mb-0">
+            <i class="fas fa-shield-alt"></i> Security Analysis
+          </h5>
+        </div>
+        <div class="card-body">
+          <div class="row text-center">
+            <div class="col-3">
+              <div class="h4 text-danger">
+                {{ profile.summary.security_analysis.flagged_as_malicious or 0
+                }}
+              </div>
+              <small class="text-muted">Malicious</small>
+            </div>
+            <div class="col-3">
+              <div class="h4 text-warning">
+                {{ profile.summary.security_analysis.flagged_as_suspicious or 0
+                }}
+              </div>
+              <small class="text-muted">Suspicious</small>
+            </div>
+            <div class="col-3">
+              <div class="h4 text-success">
+                {{ profile.summary.security_analysis.clean_ratings or 0 }}
+              </div>
+              <small class="text-muted">Clean</small>
+            </div>
+            <div class="col-3">
+              <div class="h4 text-secondary">
+                {{ profile.summary.security_analysis.unrated or 0 }}
+              </div>
+              <small class="text-muted">Unrated</small>
+            </div>
+          </div>
+          <div class="mt-3">
+            <small class="text-muted"
+              >Total engines checked: {{
+              profile.summary.security_analysis.total_engines or 0 }}</small
+            >
+          </div>
+        </div>
+      </div>
+      {% endif %}
+    </div>
+
+    <!-- Right Column - Infrastructure & Technical Details -->
+    <div class="col-lg-6">
+      <!-- Infrastructure -->
+      {% if profile.summary and profile.summary.infrastructure %}
+      <div class="card mb-4">
+        <div class="card-header">
+          <h5 class="card-title mb-0">
+            <i class="fas fa-server"></i> Infrastructure
+          </h5>
+        </div>
+        <div class="card-body">
+          <div class="mb-3">
+            <strong>IP Addresses:</strong><br />
+            {% if profile.summary.infrastructure.ip_addresses %} {% for ip in
+            profile.summary.infrastructure.ip_addresses %}
+            <code class="me-2">{{ ip }}</code>
+            {% endfor %} {% else %}
+            <span class="text-muted">None found</span>
+            {% endif %}
+          </div>
+
+          <div class="mb-3">
+            <strong>Name Servers:</strong><br />
+            {% if profile.summary.infrastructure.nameservers %} {% for ns in
+            profile.summary.infrastructure.nameservers %}
+            <div><code>{{ ns }}</code></div>
+            {% endfor %} {% else %}
+            <span class="text-muted">None found</span>
+            {% endif %}
+          </div>
+
+          {% if profile.summary.infrastructure.hosting_provider %}
+          <div>
+            <strong>Hosting Provider:</strong><br />
+            {{ profile.summary.infrastructure.hosting_provider }}
+          </div>
+          {% endif %}
+        </div>
+      </div>
+      {% endif %}
+
+      <!-- SSL Certificate -->
+      {% if profile.summary and profile.summary.certificate_info %}
+      <div class="card mb-4">
+        <div class="card-header">
+          <h5 class="card-title mb-0">
+            <i class="fas fa-certificate"></i> SSL Certificate
+          </h5>
+        </div>
+        <div class="card-body">
+          <div class="row">
+            <div class="col-sm-6">
+              <strong>Has SSL:</strong><br />
+              {% if profile.summary.certificate_info.has_ssl %}
+              <span class="badge bg-success">Yes</span>
+              {% else %}
+              <span class="badge bg-danger">No</span>
+              {% endif %}
+            </div>
+            <div class="col-sm-6">
+              <strong>Issuer:</strong><br />
+              {% if profile.summary.certificate_info.issuer %} {{
+              profile.summary.certificate_info.issuer }} {% else %}
+              <span class="text-muted">None</span>
+              {% endif %}
+            </div>
+          </div>
+
+          {% if profile.summary.certificate_info.valid_from %}
+          <hr />
+          <div class="row">
+            <div class="col-sm-6">
+              <strong>Valid From:</strong><br />
+              {{ profile.summary.certificate_info.valid_from }}
+            </div>
+            <div class="col-sm-6">
+              <strong>Alternative Names:</strong><br />
+              {% if profile.summary.certificate_info.alternative_names %} {% for
+              alt_name in profile.summary.certificate_info.alternative_names %}
+              <div>
+                <small><code>{{ alt_name }}</code></small>
+              </div>
+              {% endfor %} {% else %}
+              <span class="text-muted">None</span>
+              {% endif %}
+            </div>
+          </div>
+          {% endif %}
+        </div>
+      </div>
+      {% endif %}
+    </div>
+  </div>
+
+  <!-- Additional Information Tabs -->
+  <div class="row">
+    <div class="col-12">
+      <div class="card">
+        <div class="card-header">
+          <ul class="nav nav-tabs card-header-tabs" role="tablist">
+            {% if profile.summary and profile.summary.whois %}
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link active"
+                id="whois-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#whois"
+                type="button"
+                role="tab"
+              >
+                WHOIS Information
+              </button>
+            </li>
+            {% endif %} {% if profile.virustotal %}
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link {% if not profile.summary.whois %}active{% endif %}"
+                id="virustotal-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#virustotal"
+                type="button"
+                role="tab"
+              >
+                VirusTotal Data
+              </button>
+            </li>
+            {% endif %} {% if profile.securitytrails %}
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link {% if not profile.summary.whois and not profile.virustotal %}active{% endif %}"
+                id="securitytrails-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#securitytrails"
+                type="button"
+                role="tab"
+              >
+                SecurityTrails Data
+              </button>
+            </li>
+            {% endif %}
+          </ul>
+        </div>
+        <div class="card-body">
+          <div class="tab-content">
+            {% if profile.summary and profile.summary.whois %}
+            <div class="tab-pane fade show active" id="whois" role="tabpanel">
+              <h6>WHOIS Information</h6>
+              <pre
+                class="bg-light p-3 rounded"
+                style="max-height: 400px; overflow-y: auto"
+              ><code>{{ profile.summary.whois }}</code></pre>
+            </div>
+            {% endif %} {% if profile.virustotal %}
+            <div
+              class="tab-pane fade {% if not profile.summary.whois %}show active{% endif %}"
+              id="virustotal"
+              role="tabpanel"
+            >
+              <h6>VirusTotal Analysis</h6>
+              <div class="row">
+                {% if profile.virustotal.data and
+                profile.virustotal.data.attributes %}
+                <div class="col-md-6">
+                  <strong>Last Analysis:</strong><br />
+                  {% if profile.virustotal.data.attributes.last_analysis_date %}
+                  {{ profile.virustotal.data.attributes.last_analysis_date }} {%
+                  else %}
+                  <span class="text-muted">Not available</span>
+                  {% endif %}
+                </div>
+                <div class="col-md-6">
+                  <strong>Reputation:</strong><br />
+                  {% if profile.virustotal.data.attributes.reputation %} {{
+                  profile.virustotal.data.attributes.reputation }} {% else %}
+                  <span class="text-muted">Not available</span>
+                  {% endif %}
+                </div>
+                {% endif %}
+              </div>
+              {% if profile.virustotal.data and
+              profile.virustotal.data.attributes and
+              profile.virustotal.data.attributes.last_analysis_stats %}
+              <div class="mt-3">
+                <strong>Analysis Results:</strong>
+                <div class="row text-center mt-2">
+                  <div class="col-3">
+                    <div class="h5 text-danger">
+                      {{
+                      profile.virustotal.data.attributes.last_analysis_stats.malicious
+                      or 0 }}
+                    </div>
+                    <small>Malicious</small>
+                  </div>
+                  <div class="col-3">
+                    <div class="h5 text-warning">
+                      {{
+                      profile.virustotal.data.attributes.last_analysis_stats.suspicious
+                      or 0 }}
+                    </div>
+                    <small>Suspicious</small>
+                  </div>
+                  <div class="col-3">
+                    <div class="h5 text-success">
+                      {{
+                      profile.virustotal.data.attributes.last_analysis_stats.harmless
+                      or 0 }}
+                    </div>
+                    <small>Harmless</small>
+                  </div>
+                  <div class="col-3">
+                    <div class="h5 text-secondary">
+                      {{
+                      profile.virustotal.data.attributes.last_analysis_stats.undetected
+                      or 0 }}
+                    </div>
+                    <small>Undetected</small>
+                  </div>
+                </div>
+              </div>
+              {% endif %}
+            </div>
+            {% endif %} {% if profile.securitytrails %}
+            <div
+              class="tab-pane fade {% if not profile.summary.whois and not profile.virustotal %}show active{% endif %}"
+              id="securitytrails"
+              role="tabpanel"
+            >
+              <h6>SecurityTrails Data</h6>
+              <div class="row">
+                <div class="col-md-6">
+                  <strong>Subdomain Count:</strong><br />
+                  {{ profile.securitytrails.subdomain_count or 0 }}
+                </div>
+                <div class="col-md-6">
+                  <strong>Alexa Rank:</strong><br />
+                  {% if profile.securitytrails.alexa_rank %} {{
+                  profile.securitytrails.alexa_rank }} {% else %}
+                  <span class="text-muted">Not ranked</span>
+                  {% endif %}
+                </div>
+              </div>
+              {% if profile.securitytrails.subdomains %}
+              <div class="mt-3">
+                <strong>Known Subdomains:</strong>
+                <div class="mt-2">
+                  {% for subdomain in profile.securitytrails.subdomains %}
+                  <span class="badge bg-secondary me-1">{{ subdomain }}</span>
+                  {% endfor %}
+                </div>
+              </div>
+              {% endif %}
+            </div>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %} {% block scripts %}
+<script>
+  $(document).ready(function () {
+    // Initialize tooltips
+    $('[data-bs-toggle="tooltip"]').tooltip();
+
+    // Auto-refresh activity data every 30 seconds
+    setInterval(function () {
+      // Could add AJAX refresh here if needed
+    }, 30000);
+  });
+</script>
+{% endblock %}

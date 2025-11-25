@@ -1,0 +1,1435 @@
+{
+  "summary": {
+    "domain": "absaicon.com",
+    "risk_indicators": [
+      "Contains 'absa' - potential brand impersonation"
+    ],
+    "subdomains": [],
+    "alternative_names": [],
+    "security_analysis": {
+      "total_engines": 95,
+      "flagged_as_malicious": 0,
+      "flagged_as_suspicious": 0,
+      "clean_ratings": 60,
+      "unrated": 35
+    },
+    "infrastructure": {
+      "ip_addresses": [
+        "74.208.236.228"
+      ],
+      "nameservers": [
+        "ns1060.ui-dns.com",
+        "ns1018.ui-dns.biz",
+        "ns1082.ui-dns.org",
+        "ns1116.ui-dns.de"
+      ],
+      "hosting_provider": null
+    },
+    "certificate_info": {
+      "has_ssl": true,
+      "issuer": "Sectigo Public Server Authentication CA DV R36",
+      "valid_from": "2025-07-13 00:00:00",
+      "alternative_names": [
+        "*.absaicon.com",
+        "absaicon.com"
+      ]
+    },
+    "creation_date": "2025-07-13 02:00:00 UTC",
+    "expiry_date": null,
+    "whois_raw": "Administrative city: REDACTED FOR PRIVACY\nAdministrative country: REDACTED FOR PRIVACY\nAdministrative email: 691f0969a5e7da17s@ionos.de\nAdministrative state: REDACTED FOR PRIVACY\nCreate date: 2025-07-13 00:00:00\nDomain name: absaicon.com\nDomain registrar id: 83\nDomain registrar url: http://ionos.com\nExpiry date: 2026-07-13 00:00:00\nName server 1: ns1018.ui-dns.biz\nName server 2: ns1116.ui-dns.de\nName server 3: ns1082.ui-dns.org\nName server 4: ns1060.ui-dns.com\nQuery time: 2025-07-14 12:13:55\nRegistrant city: 1f8f4166599d23ee\nRegistrant company: 1f8f4166599d23ee\nRegistrant country: United States\nRegistrant email: 691f0969a5e7da17s@ionos.de\nRegistrant fax: 31d1617d95c9a75c\nRegistrant name: 1f8f4166599d23ee\nRegistrant phone: 31d1617d95c9a75c\nRegistrant state: 6eb233f5a5adbed8\nRegistrant zip: 1f8f4166599d23ee\nTechnical city: REDACTED FOR PRIVACY\nTechnical country: REDACTED FOR PRIVACY\nTechnical email: 691f0969a5e7da17s@ionos.de\nTechnical state: REDACTED FOR PRIVACY\nUpdate date: 2025-07-13 00:00:00",
+    "registrar": {
+      "name": null,
+      "iana_id": "83",
+      "url": "http://ionos.com",
+      "abuse_email": null,
+      "abuse_phone": null
+    },
+    "whois": {
+      "creation_date": "2025-07-13T00:00:00Z",
+      "domain_name": "absaicon.com",
+      "registrar_iana_id": "83",
+      "registrar_url": "http://ionos.com",
+      "registry_expiry_date": "2026-07-13T00:00:00Z",
+      "updated_date": "2025-07-13T00:00:00Z"
+    },
+    "whois_status": [],
+    "whois_name_servers": [
+      "ns1018.ui-dns.biz",
+      "ns1116.ui-dns.de",
+      "ns1082.ui-dns.org",
+      "ns1060.ui-dns.com"
+    ],
+    "contacts": {
+      "registrant": {
+        "city": "1f8f4166599d23ee",
+        "company": "1f8f4166599d23ee",
+        "country": "United States",
+        "email": "691f0969a5e7da17s@ionos.de",
+        "fax": "31d1617d95c9a75c",
+        "name": "1f8f4166599d23ee",
+        "phone": "31d1617d95c9a75c",
+        "state": "6eb233f5a5adbed8",
+        "zip": "1f8f4166599d23ee"
+      },
+      "admin": {
+        "city": "REDACTED FOR PRIVACY",
+        "country": "REDACTED FOR PRIVACY",
+        "email": "691f0969a5e7da17s@ionos.de",
+        "state": "REDACTED FOR PRIVACY"
+      },
+      "tech": {
+        "city": "REDACTED FOR PRIVACY",
+        "country": "REDACTED FOR PRIVACY",
+        "email": "691f0969a5e7da17s@ionos.de",
+        "state": "REDACTED FOR PRIVACY"
+      }
+    }
+  },
+  "domain": "absaicon.com",
+  "securitytrails": {},
+  "viewdns": {
+    "query": {
+      "tool": "propagation_PRO",
+      "domain": "absaicon.com"
+    },
+    "expectedresponse": "74.208.236.228",
+    "response": {
+      "server": [
+        {
+          "location": "Atlanta, USA",
+          "resultvalue": "74.208.236.228",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "Beauharnois, Canada",
+          "resultvalue": "74.208.236.228",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "Hong Kong, China",
+          "resultvalue": "74.208.236.228",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "Johannesburg, South Africa",
+          "resultvalue": "74.208.236.228",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "London, United Kingdom",
+          "resultvalue": "74.208.236.228",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "Los Angeles, USA",
+          "resultvalue": "74.208.236.228",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "Mumbai, India",
+          "resultvalue": "74.208.236.228",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "New York, USA",
+          "resultvalue": "74.208.236.228",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "Paris, France",
+          "resultvalue": "74.208.236.228",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "Rotterdam, Netherlands",
+          "resultvalue": "74.208.236.228",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "Santiago, Chile",
+          "resultvalue": "74.208.236.228",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "Seattle, USA",
+          "resultvalue": "74.208.236.228",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "Seoul, South Korea",
+          "resultvalue": "74.208.236.228",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "Sydney, Australia",
+          "resultvalue": "74.208.236.228",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "São Paulo, Brazil",
+          "resultvalue": "74.208.236.228",
+          "resultstatus": "ok"
+        }
+      ]
+    }
+  },
+  "virustotal": {
+    "data": {
+      "id": "absaicon.com",
+      "type": "domain",
+      "links": {
+        "self": "https://www.virustotal.com/api/v3/domains/absaicon.com"
+      },
+      "attributes": {
+        "creation_date": 1752364800,
+        "last_https_certificate": {
+          "cert_signature": {
+            "signature_algorithm": "sha256RSA",
+            "signature": "84a7e92f98560bcc0bace222cb56c630dc3d46a4cbd2ac8c6f25358494da8fc40b6ba427f130f031e8a5b4de8362b42fbe78242bfd32dc0314cfc23deb3d92cee98586587309b9b7f1abed2ee39a65fea3ea25c2ebdc66375b07fa4e170e7e755fe2a3bae7b23f6520756ed92e4c9a48211dcf3f5022c0e78175ee3335d3bba78479368cd8ee12487812249e7840bb02e9bacb63a589480a43e3fb2461dfd16053b6f1201ed8cf56bc00677fb5342730fb605554ac568cfec573ca4db6582c4dec4467e03a3f4eac417f31d4fdedb5e272229e53b6641e57fa6277d51c7d7205db3481efef2e01016754d43b72bcbf95ccc6974584f46d7eefa394e39fd79d2032d2ed1f40d75f1618fb067767a41467edec643b01fba9141305542436461284d9c432c7bc7834d3decabc8690ceea26162929aa68b41e3bf039ae6c3e75f66f3507505be0d2b121650556badd4fe080711ea1c6a4f77932bd19b4fc3502f9d53f34a6fd3731b522f52151c334479a94d3f0867a9b404cf0e1b1dc130a3c17b7"
+          },
+          "extensions": {
+            "authority_key_identifier": {
+              "keyid": "68c01216180eafcef687a63257a346515dcb0727"
+            },
+            "subject_key_identifier": "e77af31051813138e41cd71cca2225b9e00765c8",
+            "key_usage": [
+              "digitalSignature",
+              "keyEncipherment"
+            ],
+            "CA": false,
+            "extended_key_usage": [
+              "serverAuth",
+              "clientAuth"
+            ],
+            "certificate_policies": [
+              "1.3.6.1.4.1.6449.1.2.2.7",
+              "2.23.140.1.2.1"
+            ],
+            "ca_information_access": {
+              "CA Issuers": "http://crt.sectigo.com/SectigoPublicServerAuthenticationCADVR36.crt",
+              "OCSP": "http://ocsp.sectigo.com"
+            },
+            "1.3.6.1.4.1.11129.2.4.2": "048201690167007600d809553b944f7affc816196f944f85abb0f8fc5e875526",
+            "subject_alternative_name": [
+              "*.absaicon.com",
+              "absaicon.com"
+            ]
+          },
+          "validity": {
+            "not_after": "2026-07-13 23:59:59",
+            "not_before": "2025-07-13 00:00:00"
+          },
+          "size": 1671,
+          "version": "V3",
+          "public_key": {
+            "algorithm": "RSA",
+            "rsa": {
+              "modulus": "b2975854638444555a7151b159f54e1d0e109bda1f60c3e81b4ccc35924f7fa23a462f2531eb4c83e6d270284f19f2e0d0868a0e123f2beea8840995ecb630fde3360d4a385daae4f80c5369b5fc0bcae9bb904e20b49aaf0b6f07ff37587b9e69e67d75726769fcf76108f09da9a880724ef28bfb20c4b704e90b05a33ae92d6a47c9599926551ab8a4cf9f6cad26262ed3a4b1b421cb0b4cf850c570fe141bb3f8e0f1810ef63231fd1ec543d0d8e9d2d6a0149b4e1ba082025c1c2ab2f5e7ff467b5de620a0b969cf706f546421b995df9a96385f7912dd5ed2f3460a76f6fd273b873a9a7af8f15d6d192c9fa357181f2c353a3866ec3f5f704fd696a433",
+              "exponent": "10001",
+              "key_size": 2048
+            }
+          },
+          "thumbprint_sha256": "d96d88e1dcae968dbd23c5aa5239d44c4a4ca200177697632bde1683250ea316",
+          "thumbprint": "ea0422408b2590ec785ea58f2e358b7fc03a9b52",
+          "serial_number": "cb29913d7d945f3a293db0ddb58c35ac",
+          "issuer": {
+            "C": "GB",
+            "O": "Sectigo Limited",
+            "CN": "Sectigo Public Server Authentication CA DV R36"
+          },
+          "subject": {
+            "CN": "*.absaicon.com"
+          }
+        },
+        "popularity_ranks": {},
+        "tags": [],
+        "last_https_certificate_date": 1757552846,
+        "whois_date": 1783900800,
+        "last_analysis_date": 1757552831,
+        "last_modification_date": 1757553433,
+        "jarm": "29d29d00029d29d00029d29d29d29d33c8b328f3568a7c72e1a441e5a1d146",
+        "categories": {},
+        "last_dns_records": [
+          {
+            "type": "NS",
+            "ttl": 21600,
+            "value": "ns1018.ui-dns.biz"
+          },
+          {
+            "type": "NS",
+            "ttl": 21600,
+            "value": "ns1060.ui-dns.com"
+          },
+          {
+            "type": "A",
+            "ttl": 3600,
+            "value": "74.208.236.228"
+          },
+          {
+            "type": "MX",
+            "ttl": 3600,
+            "priority": 10,
+            "value": "mx01.ionos.com"
+          },
+          {
+            "type": "MX",
+            "ttl": 3600,
+            "priority": 10,
+            "value": "mx00.ionos.com"
+          },
+          {
+            "type": "TXT",
+            "ttl": 3600,
+            "value": "v=spf1 include:_spf-us.ionos.com ~all"
+          },
+          {
+            "type": "NS",
+            "ttl": 21600,
+            "value": "ns1116.ui-dns.de"
+          },
+          {
+            "type": "SOA",
+            "ttl": 21600,
+            "value": "ns1116.ui-dns.de",
+            "rname": "hostmaster.1und1.com",
+            "serial": 2017060110,
+            "refresh": 28800,
+            "retry": 7200,
+            "expire": 604800,
+            "minimum": 600
+          },
+          {
+            "type": "NS",
+            "ttl": 21600,
+            "value": "ns1082.ui-dns.org"
+          },
+          {
+            "type": "AAAA",
+            "ttl": 3600,
+            "value": "2607:f1c0:100f:f000::200"
+          }
+        ],
+        "rdap": {
+          "handle": "3000070943_DOMAIN_COM-VRSN",
+          "ldh_name": "absaicon.com",
+          "events": [
+            {
+              "event_action": "registration",
+              "event_date": "2025-07-13T16:53:45.000Z",
+              "event_actor": "",
+              "links": []
+            },
+            {
+              "event_action": "last changed",
+              "event_date": "2025-09-11T00:00:40.000Z",
+              "event_actor": "",
+              "links": []
+            },
+            {
+              "event_action": "expiration",
+              "event_date": "2026-07-13T16:53:45.000Z",
+              "event_actor": "",
+              "links": []
+            },
+            {
+              "event_action": "last update of RDAP database",
+              "event_date": "2025-09-11T01:07:26.282Z",
+              "event_actor": "",
+              "links": []
+            }
+          ],
+          "notices": [
+            {
+              "title": "Status Codes",
+              "description": [
+                "For more information on domain status codes, please visit https://icann.org/epp"
+              ],
+              "links": [
+                {
+                  "href": "https://icann.org/epp",
+                  "rel": "glossary",
+                  "type": "text/html",
+                  "value": "https://rdap.ionos.com/domain/absaicon.com",
+                  "title": "",
+                  "media": "",
+                  "href_lang": []
+                }
+              ],
+              "type": ""
+            },
+            {
+              "title": "RDDS Inaccuracy Complaint Form",
+              "description": [
+                "URL of the ICANN RDDS Inaccuracy Complaint Form: https://icann.org/wicf"
+              ],
+              "links": [
+                {
+                  "href": "https://icann.org/wicf",
+                  "rel": "help",
+                  "type": "text/html",
+                  "value": "https://rdap.ionos.com/domain/absaicon.com",
+                  "title": "",
+                  "media": "",
+                  "href_lang": []
+                }
+              ],
+              "type": ""
+            },
+            {
+              "title": "Terms of Service",
+              "description": [
+                "Terms of service for the RDAP service."
+              ],
+              "links": [
+                {
+                  "href": "https://rdap.ionos.com/tos",
+                  "rel": "terms-of-service",
+                  "type": "text/html",
+                  "value": "https://rdap.ionos.com/domain/absaicon.com",
+                  "title": "",
+                  "media": "",
+                  "href_lang": []
+                }
+              ],
+              "type": ""
+            }
+          ],
+          "nameservers": [
+            {
+              "ldh_name": "ns1018.ui-dns.biz",
+              "object_class_name": "nameserver",
+              "handle": "",
+              "unicode_name": "",
+              "events": [],
+              "links": [],
+              "notices": [],
+              "status": [],
+              "lang": "",
+              "port43": "",
+              "entities": [],
+              "remarks": []
+            },
+            {
+              "ldh_name": "ns1082.ui-dns.org",
+              "object_class_name": "nameserver",
+              "handle": "",
+              "unicode_name": "",
+              "events": [],
+              "links": [],
+              "notices": [],
+              "status": [],
+              "lang": "",
+              "port43": "",
+              "entities": [],
+              "remarks": []
+            },
+            {
+              "ldh_name": "ns1116.ui-dns.de",
+              "object_class_name": "nameserver",
+              "handle": "",
+              "unicode_name": "",
+              "events": [],
+              "links": [],
+              "notices": [],
+              "status": [],
+              "lang": "",
+              "port43": "",
+              "entities": [],
+              "remarks": []
+            },
+            {
+              "ldh_name": "ns1060.ui-dns.com",
+              "object_class_name": "nameserver",
+              "handle": "",
+              "unicode_name": "",
+              "events": [],
+              "links": [],
+              "notices": [],
+              "status": [],
+              "lang": "",
+              "port43": "",
+              "entities": [],
+              "remarks": []
+            }
+          ],
+          "rdap_conformance": [
+            "rdap_level_0",
+            "icann_rdap_response_profile_1",
+            "icann_rdap_technical_implementation_guide_1",
+            "redacted"
+          ],
+          "entities": [
+            {
+              "object_class_name": "entity",
+              "vcard_array": [
+                {
+                  "name": "version",
+                  "type": "text",
+                  "values": [
+                    "4.0"
+                  ],
+                  "parameters": {}
+                },
+                {
+                  "name": "fn",
+                  "type": "text",
+                  "values": [
+                    ""
+                  ],
+                  "parameters": {}
+                },
+                {
+                  "name": "contact-uri",
+                  "type": "uri",
+                  "values": [
+                    "mailto:dataprivacyprotected@ionos.de"
+                  ],
+                  "parameters": {}
+                },
+                {
+                  "name": "adr",
+                  "parameters": {
+                    "cc": [
+                      "US"
+                    ]
+                  },
+                  "type": "text",
+                  "values": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "FL",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "roles": [
+                "registrant"
+              ],
+              "remarks": [
+                {
+                  "title": "REDACTED FOR PRIVACY",
+                  "description": [
+                    "Some of the data in this object has been removed"
+                  ],
+                  "type": "object redacted due to authorization",
+                  "links": []
+                },
+                {
+                  "title": "EMAIL REDACTED FOR PRIVACY",
+                  "description": [
+                    "This email has been redacted for privacy. You could use the 'contact-uri' to contact the registrant of the domain."
+                  ],
+                  "type": "object redacted due to authorization",
+                  "links": []
+                }
+              ],
+              "status": [
+                "removed"
+              ],
+              "handle": "",
+              "public_ids": [],
+              "entities": [],
+              "links": [],
+              "events": [],
+              "as_event_actor": [],
+              "port43": "",
+              "networks": [],
+              "autnums": [],
+              "url": "",
+              "lang": "",
+              "rdap_conformance": []
+            },
+            {
+              "object_class_name": "entity",
+              "handle": "83",
+              "vcard_array": [
+                {
+                  "name": "version",
+                  "type": "text",
+                  "values": [
+                    "4.0"
+                  ],
+                  "parameters": {}
+                },
+                {
+                  "name": "fn",
+                  "type": "text",
+                  "values": [
+                    "IONOS SE"
+                  ],
+                  "parameters": {}
+                },
+                {
+                  "name": "org",
+                  "parameters": {
+                    "type": [
+                      "work"
+                    ]
+                  },
+                  "type": "text",
+                  "values": [
+                    "IONOS SE"
+                  ]
+                },
+                {
+                  "name": "url",
+                  "type": "uri",
+                  "values": [
+                    "https://ionos.com"
+                  ],
+                  "parameters": {}
+                }
+              ],
+              "roles": [
+                "registrar"
+              ],
+              "public_ids": [
+                {
+                  "type": "IANA Registrar ID",
+                  "identifier": "83"
+                }
+              ],
+              "entities": [
+                {
+                  "object_class_name": "entity",
+                  "vcard_array": [
+                    {
+                      "name": "version",
+                      "type": "text",
+                      "values": [
+                        "4.0"
+                      ],
+                      "parameters": {}
+                    },
+                    {
+                      "name": "fn",
+                      "type": "text",
+                      "values": [
+                        "IONOS SE"
+                      ],
+                      "parameters": {}
+                    },
+                    {
+                      "name": "org",
+                      "parameters": {
+                        "type": [
+                          "work"
+                        ]
+                      },
+                      "type": "text",
+                      "values": [
+                        "IONOS SE"
+                      ]
+                    },
+                    {
+                      "name": "url",
+                      "type": "uri",
+                      "values": [
+                        "https://ionos.com"
+                      ],
+                      "parameters": {}
+                    },
+                    {
+                      "name": "email",
+                      "type": "text",
+                      "values": [
+                        "abuse@ionos.com"
+                      ],
+                      "parameters": {}
+                    },
+                    {
+                      "name": "tel",
+                      "parameters": {
+                        "type": [
+                          "voice"
+                        ]
+                      },
+                      "type": "uri",
+                      "values": [
+                        "tel:+1.8774612631"
+                      ]
+                    }
+                  ],
+                  "roles": [
+                    "abuse"
+                  ],
+                  "handle": "",
+                  "public_ids": [],
+                  "entities": [],
+                  "remarks": [],
+                  "links": [],
+                  "events": [],
+                  "as_event_actor": [],
+                  "status": [],
+                  "port43": "",
+                  "networks": [],
+                  "autnums": [],
+                  "url": "",
+                  "lang": "",
+                  "rdap_conformance": []
+                }
+              ],
+              "links": [
+                {
+                  "href": "https://rdap.ionos.com/",
+                  "rel": "about",
+                  "type": "application/rdap+json",
+                  "value": "https://rdap.ionos.com/",
+                  "title": "",
+                  "media": "",
+                  "href_lang": []
+                }
+              ],
+              "remarks": [],
+              "events": [],
+              "as_event_actor": [],
+              "status": [],
+              "port43": "",
+              "networks": [],
+              "autnums": [],
+              "url": "",
+              "lang": "",
+              "rdap_conformance": []
+            }
+          ],
+          "object_class_name": "domain",
+          "status": [
+            "client delete prohibited",
+            "client transfer prohibited",
+            "client update prohibited"
+          ],
+          "secure_dns": {
+            "delegation_signed": false,
+            "zone_signed": false,
+            "max_sig_life": 0,
+            "ds_data": [],
+            "key_data": []
+          },
+          "port43": "whois.ionos.com",
+          "lang": "en",
+          "unicode_name": "",
+          "punycode": "",
+          "type": "",
+          "links": [],
+          "switch_name": "",
+          "public_ids": [],
+          "remarks": [],
+          "nask0_state": "",
+          "variants": []
+        },
+        "total_votes": {
+          "harmless": 0,
+          "malicious": 0
+        },
+        "tld": "com",
+        "whois": "Administrative city: REDACTED FOR PRIVACY\nAdministrative country: REDACTED FOR PRIVACY\nAdministrative email: 691f0969a5e7da17s@ionos.de\nAdministrative state: REDACTED FOR PRIVACY\nCreate date: 2025-07-13 00:00:00\nDomain name: absaicon.com\nDomain registrar id: 83\nDomain registrar url: http://ionos.com\nExpiry date: 2026-07-13 00:00:00\nName server 1: ns1018.ui-dns.biz\nName server 2: ns1116.ui-dns.de\nName server 3: ns1082.ui-dns.org\nName server 4: ns1060.ui-dns.com\nQuery time: 2025-07-14 12:13:55\nRegistrant city: 1f8f4166599d23ee\nRegistrant company: 1f8f4166599d23ee\nRegistrant country: United States\nRegistrant email: 691f0969a5e7da17s@ionos.de\nRegistrant fax: 31d1617d95c9a75c\nRegistrant name: 1f8f4166599d23ee\nRegistrant phone: 31d1617d95c9a75c\nRegistrant state: 6eb233f5a5adbed8\nRegistrant zip: 1f8f4166599d23ee\nTechnical city: REDACTED FOR PRIVACY\nTechnical country: REDACTED FOR PRIVACY\nTechnical email: 691f0969a5e7da17s@ionos.de\nTechnical state: REDACTED FOR PRIVACY\nUpdate date: 2025-07-13 00:00:00",
+        "last_dns_records_date": 1757552846,
+        "reputation": 0,
+        "last_update_date": 1752364800,
+        "last_analysis_stats": {
+          "malicious": 0,
+          "suspicious": 0,
+          "undetected": 35,
+          "harmless": 60,
+          "timeout": 0
+        },
+        "last_analysis_results": {
+          "Acronis": {
+            "method": "blacklist",
+            "engine_name": "Acronis",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "0xSI_f33d": {
+            "method": "blacklist",
+            "engine_name": "0xSI_f33d",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Abusix": {
+            "method": "blacklist",
+            "engine_name": "Abusix",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "ADMINUSLabs": {
+            "method": "blacklist",
+            "engine_name": "ADMINUSLabs",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Axur": {
+            "method": "blacklist",
+            "engine_name": "Axur",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "ChainPatrol": {
+            "method": "blacklist",
+            "engine_name": "ChainPatrol",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Criminal IP": {
+            "method": "blacklist",
+            "engine_name": "Criminal IP",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "AILabs (MONITORAPP)": {
+            "method": "blacklist",
+            "engine_name": "AILabs (MONITORAPP)",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "AlienVault": {
+            "method": "blacklist",
+            "engine_name": "AlienVault",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "alphaMountain.ai": {
+            "method": "blacklist",
+            "engine_name": "alphaMountain.ai",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "AlphaSOC": {
+            "method": "blacklist",
+            "engine_name": "AlphaSOC",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Antiy-AVL": {
+            "method": "blacklist",
+            "engine_name": "Antiy-AVL",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "ArcSight Threat Intelligence": {
+            "method": "blacklist",
+            "engine_name": "ArcSight Threat Intelligence",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "AutoShun": {
+            "method": "blacklist",
+            "engine_name": "AutoShun",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "benkow.cc": {
+            "method": "blacklist",
+            "engine_name": "benkow.cc",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Bfore.Ai PreCrime": {
+            "method": "blacklist",
+            "engine_name": "Bfore.Ai PreCrime",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "BitDefender": {
+            "method": "blacklist",
+            "engine_name": "BitDefender",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Bkav": {
+            "method": "blacklist",
+            "engine_name": "Bkav",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Blueliv": {
+            "method": "blacklist",
+            "engine_name": "Blueliv",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Certego": {
+            "method": "blacklist",
+            "engine_name": "Certego",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Chong Lua Dao": {
+            "method": "blacklist",
+            "engine_name": "Chong Lua Dao",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "CINS Army": {
+            "method": "blacklist",
+            "engine_name": "CINS Army",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Cluster25": {
+            "method": "blacklist",
+            "engine_name": "Cluster25",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "CRDF": {
+            "method": "blacklist",
+            "engine_name": "CRDF",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "CSIS Security Group": {
+            "method": "blacklist",
+            "engine_name": "CSIS Security Group",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Snort IP sample list": {
+            "method": "blacklist",
+            "engine_name": "Snort IP sample list",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "CMC Threat Intelligence": {
+            "method": "blacklist",
+            "engine_name": "CMC Threat Intelligence",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Cyan": {
+            "method": "blacklist",
+            "engine_name": "Cyan",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Cyble": {
+            "method": "blacklist",
+            "engine_name": "Cyble",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "CyRadar": {
+            "method": "blacklist",
+            "engine_name": "CyRadar",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "DNS8": {
+            "method": "blacklist",
+            "engine_name": "DNS8",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Dr.Web": {
+            "method": "blacklist",
+            "engine_name": "Dr.Web",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Ermes": {
+            "method": "blacklist",
+            "engine_name": "Ermes",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "ESET": {
+            "method": "blacklist",
+            "engine_name": "ESET",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "ESTsecurity": {
+            "method": "blacklist",
+            "engine_name": "ESTsecurity",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "EmergingThreats": {
+            "method": "blacklist",
+            "engine_name": "EmergingThreats",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Emsisoft": {
+            "method": "blacklist",
+            "engine_name": "Emsisoft",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Forcepoint ThreatSeeker": {
+            "method": "blacklist",
+            "engine_name": "Forcepoint ThreatSeeker",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Fortinet": {
+            "method": "blacklist",
+            "engine_name": "Fortinet",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "G-Data": {
+            "method": "blacklist",
+            "engine_name": "G-Data",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "GCP Abuse Intelligence": {
+            "method": "blacklist",
+            "engine_name": "GCP Abuse Intelligence",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Google Safebrowsing": {
+            "method": "blacklist",
+            "engine_name": "Google Safebrowsing",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "GreenSnow": {
+            "method": "blacklist",
+            "engine_name": "GreenSnow",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Gridinsoft": {
+            "method": "blacklist",
+            "engine_name": "Gridinsoft",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Heimdal Security": {
+            "method": "blacklist",
+            "engine_name": "Heimdal Security",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Hunt.io Intelligence": {
+            "method": "blacklist",
+            "engine_name": "Hunt.io Intelligence",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "IPsum": {
+            "method": "blacklist",
+            "engine_name": "IPsum",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Juniper Networks": {
+            "method": "blacklist",
+            "engine_name": "Juniper Networks",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Kaspersky": {
+            "method": "blacklist",
+            "engine_name": "Kaspersky",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Lionic": {
+            "method": "blacklist",
+            "engine_name": "Lionic",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Lumu": {
+            "method": "blacklist",
+            "engine_name": "Lumu",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "MalwarePatrol": {
+            "method": "blacklist",
+            "engine_name": "MalwarePatrol",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "MalwareURL": {
+            "method": "blacklist",
+            "engine_name": "MalwareURL",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Malwared": {
+            "method": "blacklist",
+            "engine_name": "Malwared",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Mimecast": {
+            "method": "blacklist",
+            "engine_name": "Mimecast",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Netcraft": {
+            "method": "blacklist",
+            "engine_name": "Netcraft",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "OpenPhish": {
+            "method": "blacklist",
+            "engine_name": "OpenPhish",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Phishing Database": {
+            "method": "blacklist",
+            "engine_name": "Phishing Database",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "PhishFort": {
+            "method": "blacklist",
+            "engine_name": "PhishFort",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "PhishLabs": {
+            "method": "blacklist",
+            "engine_name": "PhishLabs",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Phishtank": {
+            "method": "blacklist",
+            "engine_name": "Phishtank",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "PREBYTES": {
+            "method": "blacklist",
+            "engine_name": "PREBYTES",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "PrecisionSec": {
+            "method": "blacklist",
+            "engine_name": "PrecisionSec",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Quick Heal": {
+            "method": "blacklist",
+            "engine_name": "Quick Heal",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Quttera": {
+            "method": "blacklist",
+            "engine_name": "Quttera",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "SafeToOpen": {
+            "method": "blacklist",
+            "engine_name": "SafeToOpen",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Sansec eComscan": {
+            "method": "blacklist",
+            "engine_name": "Sansec eComscan",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Scantitan": {
+            "method": "blacklist",
+            "engine_name": "Scantitan",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "SCUMWARE.org": {
+            "method": "blacklist",
+            "engine_name": "SCUMWARE.org",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Seclookup": {
+            "method": "blacklist",
+            "engine_name": "Seclookup",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "SecureBrain": {
+            "method": "blacklist",
+            "engine_name": "SecureBrain",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "SOCRadar": {
+            "method": "blacklist",
+            "engine_name": "SOCRadar",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Sophos": {
+            "method": "blacklist",
+            "engine_name": "Sophos",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Spam404": {
+            "method": "blacklist",
+            "engine_name": "Spam404",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "StopForumSpam": {
+            "method": "blacklist",
+            "engine_name": "StopForumSpam",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Sucuri SiteCheck": {
+            "method": "blacklist",
+            "engine_name": "Sucuri SiteCheck",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "ThreatHive": {
+            "method": "blacklist",
+            "engine_name": "ThreatHive",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Threatsourcing": {
+            "method": "blacklist",
+            "engine_name": "Threatsourcing",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Trustwave": {
+            "method": "blacklist",
+            "engine_name": "Trustwave",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Underworld": {
+            "method": "blacklist",
+            "engine_name": "Underworld",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "URLhaus": {
+            "method": "blacklist",
+            "engine_name": "URLhaus",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "URLQuery": {
+            "method": "blacklist",
+            "engine_name": "URLQuery",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Viettel Threat Intelligence": {
+            "method": "blacklist",
+            "engine_name": "Viettel Threat Intelligence",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "VIPRE": {
+            "method": "blacklist",
+            "engine_name": "VIPRE",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "VX Vault": {
+            "method": "blacklist",
+            "engine_name": "VX Vault",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "ViriBack": {
+            "method": "blacklist",
+            "engine_name": "ViriBack",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Webroot": {
+            "method": "blacklist",
+            "engine_name": "Webroot",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Yandex Safebrowsing": {
+            "method": "blacklist",
+            "engine_name": "Yandex Safebrowsing",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "ZeroCERT": {
+            "method": "blacklist",
+            "engine_name": "ZeroCERT",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "desenmascara.me": {
+            "method": "blacklist",
+            "engine_name": "desenmascara.me",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "malwares.com URL checker": {
+            "method": "blacklist",
+            "engine_name": "malwares.com URL checker",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "securolytics": {
+            "method": "blacklist",
+            "engine_name": "securolytics",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Xcitium Verdict Cloud": {
+            "method": "blacklist",
+            "engine_name": "Xcitium Verdict Cloud",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "zvelo": {
+            "method": "blacklist",
+            "engine_name": "zvelo",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "ZeroFox": {
+            "method": "blacklist",
+            "engine_name": "ZeroFox",
+            "category": "undetected",
+            "result": "unrated"
+          }
+        }
+      }
+    }
+  },
+  "dnsdumpster": {
+    "a": [
+      {
+        "host": "absaicon.com",
+        "ips": [
+          {
+            "asn": "8560",
+            "asn_name": "IONOS-AS This is the joint network for IONOS, Fasthosts, Arsys, 1&1 Mail and Media and 1&1 Telecom. Formerly known as 1&1 Internet SE., DE",
+            "asn_range": "74.208.0.0/16",
+            "banners": {
+              "http": {
+                "apps": [
+                  "Nginx"
+                ],
+                "server": "nginx",
+                "title": "404 Not Found"
+              },
+              "ip": "74.208.236.228"
+            },
+            "country": "United States",
+            "country_code": "US",
+            "ip": "74.208.236.228",
+            "ptr": "74-208-236-228.elastic-ssl.ui-r.com"
+          }
+        ]
+      }
+    ],
+    "cname": [],
+    "mx": [
+      {
+        "host": "10 mx00.ionos.com",
+        "ips": [
+          {
+            "asn": "8560",
+            "asn_name": "IONOS-AS This is the joint network for IONOS, Fasthosts, Arsys, 1&1 Mail and Media and 1&1 Telecom. Formerly known as 1&1 Internet SE., DE",
+            "asn_range": "74.208.0.0/16",
+            "country": "United States",
+            "country_code": "US",
+            "ip": "74.208.5.3",
+            "ptr": ""
+          }
+        ]
+      },
+      {
+        "host": "10 mx01.ionos.com",
+        "ips": [
+          {
+            "asn": "8560",
+            "asn_name": "IONOS-AS This is the joint network for IONOS, Fasthosts, Arsys, 1&1 Mail and Media and 1&1 Telecom. Formerly known as 1&1 Internet SE., DE",
+            "asn_range": "74.208.0.0/16",
+            "country": "United States",
+            "country_code": "US",
+            "ip": "74.208.5.21",
+            "ptr": "mx01.perfora.net"
+          }
+        ]
+      }
+    ],
+    "ns": [
+      {
+        "host": "ns1116.ui-dns.de",
+        "ips": [
+          {
+            "asn": "8560",
+            "asn_name": "IONOS-AS This is the joint network for IONOS, Fasthosts, Arsys, 1&1 Mail and Media and 1&1 Telecom. Formerly known as 1&1 Internet SE., DE",
+            "asn_range": "217.160.80.0/22",
+            "country": "Germany",
+            "country_code": "DE",
+            "ip": "217.160.80.116",
+            "ptr": "ns1116.ui-dns.de"
+          }
+        ]
+      },
+      {
+        "host": "ns1082.ui-dns.org",
+        "ips": [
+          {
+            "asn": "8560",
+            "asn_name": "IONOS-AS This is the joint network for IONOS, Fasthosts, Arsys, 1&1 Mail and Media and 1&1 Telecom. Formerly known as 1&1 Internet SE., DE",
+            "asn_range": "217.160.80.0/22",
+            "country": "Germany",
+            "country_code": "DE",
+            "ip": "217.160.83.82",
+            "ptr": "ns1082.ui-dns.org"
+          }
+        ]
+      },
+      {
+        "host": "ns1060.ui-dns.com",
+        "ips": [
+          {
+            "asn": "8560",
+            "asn_name": "IONOS-AS This is the joint network for IONOS, Fasthosts, Arsys, 1&1 Mail and Media and 1&1 Telecom. Formerly known as 1&1 Internet SE., DE",
+            "asn_range": "217.160.80.0/22",
+            "country": "Germany",
+            "country_code": "DE",
+            "ip": "217.160.82.60",
+            "ptr": "ns1060.ui-dns.com"
+          }
+        ]
+      },
+      {
+        "host": "ns1018.ui-dns.biz",
+        "ips": [
+          {
+            "asn": "8560",
+            "asn_name": "IONOS-AS This is the joint network for IONOS, Fasthosts, Arsys, 1&1 Mail and Media and 1&1 Telecom. Formerly known as 1&1 Internet SE., DE",
+            "asn_range": "217.160.80.0/22",
+            "country": "Germany",
+            "country_code": "DE",
+            "ip": "217.160.81.18",
+            "ptr": "ns1018.ui-dns.biz"
+          }
+        ]
+      }
+    ],
+    "total_a_recs": 1,
+    "txt": [
+      "\"v=spf1 include:_spf-us.ionos.com ~all\""
+    ]
+  }
+}

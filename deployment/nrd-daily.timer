@@ -1,0 +1,10 @@
+[Unit]
+Description=Run NRD Dashboard Daily at 2 AM
+Requires=nrd-daily.service
+
+[Timer]
+OnCalendar=*-*-* 02:00:00
+Persistent=true
+
+[Install]
+WantedBy=timers.target

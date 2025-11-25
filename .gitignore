@@ -82,3 +82,4 @@ frontend/node_modules/.cache/default-development/0.pack
 
 /backend/.env
 /frontend/.env
+login.pem

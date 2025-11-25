@@ -1,0 +1,16 @@
+[Unit]
+Description=NRD Dashboard Backend API
+After=network.target
+
+[Service]
+Type=simple
+User=ec2-user
+WorkingDirectory=/home/ec2-user/nrd-dashboard
+Environment="PATH=/home/ec2-user/nrd-dashboard/.venv/bin"
+EnvironmentFile=/home/ec2-user/nrd-dashboard/.env
+ExecStart=/home/ec2-user/nrd-dashboard/.venv/bin/uvicorn backend.server:app --host 127.0.0.1 --port 8000
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target

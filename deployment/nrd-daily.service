@@ -1,0 +1,13 @@
+[Unit]
+Description=NRD Dashboard Daily Workflow
+After=network.target
+
+[Service]
+Type=oneshot
+User=ec2-user
+WorkingDirectory=/home/ec2-user/nrd-dashboard
+Environment="PATH=/home/ec2-user/nrd-dashboard/.venv/bin"
+EnvironmentFile=/home/ec2-user/nrd-dashboard/.env
+ExecStart=/home/ec2-user/nrd-dashboard/.venv/bin/python main.py
+StandardOutput=journal
+StandardError=journal

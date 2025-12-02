@@ -64,6 +64,7 @@ From your Windows machine:
 scp -i your-key.pem -r "C:\Users\gerri\Documents\Absa Stuff\NRD Dashboard" ec2-user@your-ec2-ip:/home/ec2-user/
 
 # Or use Git if you've pushed to a repo
+git copy https://github.com/GerritPotgieter/NRD-Dashboard
 ```
 
 On EC2, rename directory:
@@ -86,26 +87,75 @@ pip install -r requirements.txt
 
 # Install Playwright browser
 playwright install chromium
+
+# Install Chrome for html2image
+sudo dnf install -y google-chrome-stable
+
+# Alternative if Chrome not available: Install Chromium
+# sudo dnf install -y chromium
 ```
 
-### 6. Create Environment File
+### 6. Create Environment Files
+
+**Backend .env file** (in `backend/` directory):
 
 ```bash
-nano /home/ec2-user/nrd-dashboard/.env
+cd /home/ec2-user/nrd-dashboard/backend
+nano .env
+```
+
+Add your configuration:
+
+```bash
+# Use MONGO_URL not MONGODB_URI
+MONGO_URL=mongodb+srv://username:password@cluster.mongodb.net/
+DB_NAME=your_database_name
+CORS_ORIGINS=*
+
+# Add your API keys
+VIEW_DNS=your_viewdns_api_key
+VIRUS_TOTAL=your_virustotal_api_key
+SECURITY_TRAILS=your_securitytrails_api_key
+DNS_DUMPSTER=your_dnsdumpster_api_key
+WHOISFREAKS=your_whoisfreaks_api_key
+```
+
+**Copy backend .env to project root** (required for systemd service):
+
+```bash
+cp /home/ec2-user/nrd-dashboard/backend/.env /home/ec2-user/nrd-dashboard/.env
+```
+
+**Frontend .env file** (in `frontend/` directory):
+
+```bash
+cd /home/ec2-user/nrd-dashboard/frontend
+nano .env
 ```
 
 Add:
 
 ```bash
-MONGODB_URI=your-mongodb-atlas-connection-string
-ENVIRONMENT=production
+# Vite environment variables (VITE_ prefix required)
+VITE_BACKEND_URL=
+VITE_ENABLE_VISUAL_EDITS=false
+
+# Legacy CRA compatibility (for existing code)
+REACT_APP_BACKEND_URL=
+REACT_APP_ENABLE_VISUAL_EDITS=false
 ```
 
-### 7. Build Frontend
+**Note**: Leave `BACKEND_URL` empty to use relative URLs. Nginx will proxy `/api` requests to the backend.
+
+### 7. Build Frontend (Vite)
 
 ```bash
 cd /home/ec2-user/nrd-dashboard/frontend
-npm install
+
+# Install dependencies
+npm install --legacy-peer-deps
+
+# Build for production
 npm run build
 
 # Copy to web directory
@@ -113,6 +163,8 @@ sudo mkdir -p /var/www/nrd-dashboard
 sudo cp -r build/* /var/www/nrd-dashboard/
 sudo chown -R nginx:nginx /var/www/nrd-dashboard
 ```
+
+**Vite produces a `build/` directory** with optimized static assets. This is smaller and faster than CRA builds.
 
 ---
 
@@ -128,18 +180,7 @@ sudo systemctl start nrd-backend
 sudo systemctl status nrd-backend
 ```
 
-### 9. Daily Workflow Service & Timer
-
-```bash
-sudo cp /home/ec2-user/nrd-dashboard/deployment/nrd-daily.service /etc/systemd/system/
-sudo cp /home/ec2-user/nrd-dashboard/deployment/nrd-daily.timer /etc/systemd/system/
-sudo systemctl daemon-reload
-sudo systemctl enable nrd-daily.timer
-sudo systemctl start nrd-daily.timer
-sudo systemctl list-timers  # Verify scheduled
-```
-
-### 10. Nginx Configuration
+### 9. Nginx Configuration
 
 ```bash
 sudo cp /home/ec2-user/nrd-dashboard/deployment/nginx.conf /etc/nginx/conf.d/nrd-dashboard.conf
@@ -152,21 +193,33 @@ sudo systemctl start nginx
 
 ## Testing
 
-### 11. Test Backend
+### 10. Test Backend
 
 ```bash
-curl http://localhost:8000/domains
+# Test backend directly
+curl http://localhost:8000/api/domains
+
+# Test through Nginx
+curl http://localhost/api/domains
+
+# Both should return the same JSON response
 ```
 
-### 12. Test Frontend
+### 11. Test Frontend
 
 Open browser: `http://your-ec2-ip`
 
-### 13. Test Daily Workflow (Manual Run)
+- Dashboard should load and display data
+- Check browser console for any API errors
+
+### 12. Run Workflow Manually (Optional)
+
+To test the workflow that downloads NRD lists and captures screenshots:
 
 ```bash
-sudo systemctl start nrd-daily.service
-sudo journalctl -u nrd-daily.service -f
+cd /home/ec2-user/nrd-dashboard
+source .venv/bin/activate
+python main.py
 ```
 
 ---
@@ -179,11 +232,10 @@ sudo journalctl -u nrd-daily.service -f
 # Backend logs
 sudo journalctl -u nrd-backend -f
 
-# Daily workflow logs
-sudo journalctl -u nrd-daily.service -f
-
-# Nginx logs
+# Nginx access logs
 sudo tail -f /var/log/nginx/access.log
+
+# Nginx error logs
 sudo tail -f /var/log/nginx/error.log
 ```
 
@@ -199,7 +251,6 @@ sudo systemctl restart nginx
 ```bash
 sudo systemctl status nrd-backend
 sudo systemctl status nginx
-sudo systemctl list-timers
 ```
 
 ### Manual Workflow Run
@@ -215,8 +266,46 @@ python main.py
 ```bash
 cd /home/ec2-user/nrd-dashboard
 git pull  # If using git
+
+# Rebuild frontend if you made frontend changes
+cd frontend
+npm run build
+sudo cp -r build/* /var/www/nrd-dashboard/
+
+# Restart backend if you made backend changes
 sudo systemctl restart nrd-backend
 ```
+
+---
+
+## Vite Build Benefits
+
+The migration to Vite provides several advantages for EC2 deployment:
+
+### Faster Builds
+
+- **Vite build time**: ~15-30 seconds
+- **CRA build time**: ~60-120 seconds
+- Reduces deployment time significantly
+
+### Smaller Bundle Size
+
+- Vite's tree-shaking and code-splitting produces smaller bundles
+- Faster initial page load for users
+- Lower bandwidth costs
+
+### Better Development Experience
+
+- Hot Module Replacement (HMR) is instant
+- Dev server starts in milliseconds vs. 30+ seconds with CRA
+- No more webpack compilation delays
+
+### Production Optimizations
+
+- Automatic code splitting by route
+- Vendor chunk separation (React, UI libraries, charts)
+- Modern ES modules for better browser caching
+- Source maps disabled by default to save space
 
 ---
 
@@ -245,11 +334,20 @@ sudo journalctl -u nrd-backend -n 50
 # Check Python path and MongoDB connection
 ```
 
-### Screenshots failing
+### Screenshots failing - "Could not find a Chrome executable"
 
 ```bash
-# Check Chromium dependencies
-playwright install --with-deps chromium
+# Install Chrome
+sudo dnf install -y google-chrome-stable
+
+# Or install Chromium as alternative
+sudo dnf install -y chromium
+
+# Also ensure Playwright is installed
+cd /home/ec2-user/nrd-dashboard
+source .venv/bin/activate
+playwright install chromium
+playwright install-deps chromium
 ```
 
 ### Out of memory

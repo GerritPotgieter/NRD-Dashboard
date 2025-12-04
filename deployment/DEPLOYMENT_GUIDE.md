@@ -281,6 +281,7 @@ python main.py
 ### Update Code
 
 **On Windows (before deploying updates):**
+
 ```powershell
 cd "C:\Users\gerri\Documents\Absa Stuff\NRD Dashboard\frontend"
 npm run build
@@ -290,6 +291,7 @@ git push origin main
 ```
 
 **On Server:**
+
 ```bash
 cd /home/ubuntu/nrd-dashboard
 git pull

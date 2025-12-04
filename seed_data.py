@@ -49,8 +49,8 @@ async def seed_database():
     print("🌱 Seeding database with sample domains...")
     print("=" * 60)
     
-    # Ensure indexes
-    await db._ensure_indexes()
+    # Ensure tables
+    await db._ensure_tables()
     
     # Clear existing data (optional)
     # await db.domains.delete_many({})

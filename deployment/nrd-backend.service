@@ -6,9 +6,9 @@ After=network.target
 Type=simple
 User=ubuntu
 WorkingDirectory=/nrd-dash/NRD-Dashboard
-Environment="PATH=/nrd-dash/NRD-Dashboard/.venv/bin"
-EnvironmentFile=/nrd-dash/NRD-Dashboard/.env
-ExecStart=/nrd-dash/NRD-Dashboard/.venv/bin/uvicorn backend.server:app --host 127.0.0.1 --port 8000
+Environment="PATH=/nrd-dash/NRD-Dashboard/.venv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+EnvironmentFile=/nrd-dash/NRD-Dashboard/backend/.env
+ExecStart=/nrd-dash/NRD-Dashboard/.venv/bin/python -m uvicorn backend.server:app --host 127.0.0.1 --port 8000
 Restart=always
 RestartSec=10
 

@@ -1,8 +1,45 @@
-# Ubuntu Server Deployment Guide - Test Environment
+# Ubuntu Server Deployment Guide - Pre-Built Frontend
 
-## Instance Setup
+## Strategy: Build locally, deploy via Git
 
-### 1. Launch Server Instance
+Build the frontend on your Windows machine, commit the build folder, then deploy to server.
+
+---
+
+## Part 1: Build Frontend Locally (Windows)
+
+### 1. Build Frontend
+
+```powershell
+cd "C:\Users\gerri\Documents\Absa Stuff\NRD Dashboard\frontend"
+
+# Ensure .env is configured for production (empty BACKEND_URL for relative URLs)
+# Build for production
+npm run build
+
+# Verify build directory exists
+ls build
+```
+
+### 2. Commit Built Files to Git
+
+```powershell
+cd "C:\Users\gerri\Documents\Absa Stuff\NRD Dashboard"
+
+# Add build folder to git (normally ignored, but we need it for deployment)
+git add -f frontend/build
+
+# Commit
+git add .
+git commit -m "Add production build for deployment"
+git push origin main
+```
+
+---
+
+## Part 2: Server Setup
+
+### 3. Launch Server Instance
 
 - **OS**: Ubuntu Server 22.04 LTS or 24.04 LTS
 - **Instance Type**: 2 vCPU, 2GB RAM minimum (AWS t3.small, Azure B2s, or equivalent)
@@ -12,28 +49,16 @@
   - HTTP (80) - 0.0.0.0/0
   - HTTPS (443) - 0.0.0.0/0
 
-### 2. Connect via SSH
+### 4. Connect and Install Dependencies
 
 ```bash
 ssh -i your-key.pem ubuntu@your-server-ip
-```
 
----
-
-## Server Setup
-
-### 3. Install Dependencies
-
-```bash
 # Update system
 sudo apt update && sudo apt upgrade -y
 
-# Install Python, Nginx, Git
+# Install Python, Nginx, Git (NO NODE.JS NEEDED!)
 sudo apt install -y python3-pip python3-venv nginx git curl
-
-# Install Node.js 20
-curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
-sudo apt install -y nodejs
 
 # Install Chromium dependencies for Playwright
 sudo apt install -y \
@@ -52,25 +77,20 @@ sudo apt install -y \
     libasound2
 ```
 
-### 4. Upload Your Code
-
-From your Windows machine:
-
-```powershell
-# Using SCP (adjust paths)
-scp -i your-key.pem -r "C:\Users\gerri\Documents\Absa Stuff\NRD Dashboard" ubuntu@your-server-ip:/home/ubuntu/
-
-# Or use Git if you've pushed to a repo
-git clone https://github.com/GerritPotgieter/NRD-Dashboard
-```
-
-On Ubuntu server, rename directory:
+### 5. Clone Repository
 
 ```bash
-mv "/home/ubuntu/NRD Dashboard" /home/ubuntu/nrd-dashboard
+cd /home/ubuntu
+
+# Clone your repository
+git clone https://github.com/GerritPotgieter/NRD-Dashboard.git nrd-dashboard
+cd nrd-dashboard
+
+# The frontend/build folder is already included!
+ls frontend/build  # Should show index.html, assets/, etc.
 ```
 
-### 5. Setup Python Environment
+### 6. Setup Python Environment
 
 ```bash
 cd /home/ubuntu/nrd-dashboard
@@ -95,7 +115,7 @@ rm google-chrome-stable_current_amd64.deb
 # sudo apt install -y chromium-browser
 ```
 
-### 6. Create Environment Files
+### 7. Create Environment Files
 
 **Backend .env file** (in `backend/` directory):
 
@@ -147,30 +167,25 @@ REACT_APP_ENABLE_VISUAL_EDITS=false
 
 **Note**: Leave `BACKEND_URL` empty to use relative URLs. Nginx will proxy `/api` requests to the backend.
 
-### 7. Build Frontend (Vite)
+### 8. Deploy Pre-Built Frontend
 
 ```bash
-cd /home/ubuntu/nrd-dashboard/frontend
-
-# Install dependencies
-npm install --legacy-peer-deps
-
-# Build for production
-npm run build
-
-# Copy to web directory
+# Copy pre-built frontend to web directory
 sudo mkdir -p /var/www/nrd-dashboard
-sudo cp -r build/* /var/www/nrd-dashboard/
+sudo cp -r /home/ubuntu/nrd-dashboard/frontend/build/* /var/www/nrd-dashboard/
 sudo chown -R www-data:www-data /var/www/nrd-dashboard
+
+# Verify files are in place
+ls -la /var/www/nrd-dashboard
 ```
 
-**Vite produces a `build/` directory** with optimized static assets. This is smaller and faster than CRA builds.
+**No npm install needed!** The frontend was built on your Windows machine and committed to Git.
 
 ---
 
 ## Configure Services
 
-### 8. Backend Service (systemd)
+### 9. Backend Service (systemd)
 
 ```bash
 sudo cp /home/ubuntu/nrd-dashboard/deployment/nrd-backend.service /etc/systemd/system/
@@ -180,7 +195,7 @@ sudo systemctl start nrd-backend
 sudo systemctl status nrd-backend
 ```
 
-### 9. Nginx Configuration
+### 10. Nginx Configuration
 
 ```bash
 sudo cp /home/ubuntu/nrd-dashboard/deployment/nginx.conf /etc/nginx/sites-available/nrd-dashboard
@@ -195,7 +210,7 @@ sudo systemctl restart nginx
 
 ## Testing
 
-### 10. Test Backend
+### 11. Test Backend
 
 ```bash
 # Test backend directly
@@ -207,14 +222,14 @@ curl http://localhost/api/domains
 # Both should return the same JSON response
 ```
 
-### 11. Test Frontend
+### 12. Test Frontend
 
-Open browser: `http://your-ec2-ip`
+Open browser: `http://your-server-ip`
 
 - Dashboard should load and display data
 - Check browser console for any API errors
 
-### 12. Run Workflow Manually (Optional)
+### 13. Run Workflow Manually (Optional)
 
 To test the workflow that downloads NRD lists and captures screenshots:
 
@@ -265,14 +280,22 @@ python main.py
 
 ### Update Code
 
+**On Windows (before deploying updates):**
+```powershell
+cd "C:\Users\gerri\Documents\Absa Stuff\NRD Dashboard\frontend"
+npm run build
+git add -f frontend/build
+git commit -m "Update production build"
+git push origin main
+```
+
+**On Server:**
 ```bash
 cd /home/ubuntu/nrd-dashboard
-git pull  # If using git
+git pull
 
-# Rebuild frontend if you made frontend changes
-cd frontend
-npm run build
-sudo cp -r build/* /var/www/nrd-dashboard/
+# Update frontend
+sudo cp -r frontend/build/* /var/www/nrd-dashboard/
 
 # Restart backend if you made backend changes
 sudo systemctl restart nrd-backend

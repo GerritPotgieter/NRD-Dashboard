@@ -1,13 +1,13 @@
-# AWS EC2 Deployment Guide - Test Environment
+# Ubuntu Server Deployment Guide - Test Environment
 
 ## Instance Setup
 
-### 1. Launch EC2 Instance
+### 1. Launch Server Instance
 
-- **AMI**: Amazon Linux 2023
-- **Instance Type**: t3.small (2 vCPU, 2GB RAM)
-- **Storage**: 20GB gp3
-- **Security Group**:
+- **OS**: Ubuntu Server 22.04 LTS or 24.04 LTS
+- **Instance Type**: 2 vCPU, 2GB RAM minimum (AWS t3.small, Azure B2s, or equivalent)
+- **Storage**: 20GB SSD
+- **Firewall/Security Group**:
   - SSH (22) - Your IP only
   - HTTP (80) - 0.0.0.0/0
   - HTTPS (443) - 0.0.0.0/0
@@ -15,7 +15,7 @@
 ### 2. Connect via SSH
 
 ```bash
-ssh -i your-key.pem ec2-user@your-ec2-ip
+ssh -i your-key.pem ubuntu@your-server-ip
 ```
 
 ---
@@ -26,33 +26,30 @@ ssh -i your-key.pem ec2-user@your-ec2-ip
 
 ```bash
 # Update system
-sudo dnf update -y
+sudo apt update && sudo apt upgrade -y
 
 # Install Python, Nginx, Git
-sudo dnf install -y python3-pip nginx git
+sudo apt install -y python3-pip python3-venv nginx git curl
 
 # Install Node.js 20
-curl -fsSL https://rpm.nodesource.com/setup_20.x | sudo bash -
-sudo dnf install -y nodejs
+curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
+sudo apt install -y nodejs
 
 # Install Chromium dependencies for Playwright
-sudo dnf install -y \
-    liberation-fonts \
-    nss \
-    libX11 \
-    libXcomposite \
-    libXdamage \
-    libXext \
-    libXrandr \
-    libgbm \
-    libdrm \
-    libxcb \
-    libxkbcommon \
-    cups-libs \
-    dbus-libs \
-    at-spi2-atk \
-    at-spi2-core \
-    alsa-lib
+sudo apt install -y \
+    libnss3 \
+    libnspr4 \
+    libatk1.0-0 \
+    libatk-bridge2.0-0 \
+    libcups2 \
+    libdrm2 \
+    libxkbcommon0 \
+    libxcomposite1 \
+    libxdamage1 \
+    libxfixes3 \
+    libxrandr2 \
+    libgbm1 \
+    libasound2
 ```
 
 ### 4. Upload Your Code
@@ -61,22 +58,22 @@ From your Windows machine:
 
 ```powershell
 # Using SCP (adjust paths)
-scp -i your-key.pem -r "C:\Users\gerri\Documents\Absa Stuff\NRD Dashboard" ec2-user@your-ec2-ip:/home/ec2-user/
+scp -i your-key.pem -r "C:\Users\gerri\Documents\Absa Stuff\NRD Dashboard" ubuntu@your-server-ip:/home/ubuntu/
 
 # Or use Git if you've pushed to a repo
-git copy https://github.com/GerritPotgieter/NRD-Dashboard
+git clone https://github.com/GerritPotgieter/NRD-Dashboard
 ```
 
-On EC2, rename directory:
+On Ubuntu server, rename directory:
 
 ```bash
-mv "/home/ec2-user/NRD Dashboard" /home/ec2-user/nrd-dashboard
+mv "/home/ubuntu/NRD Dashboard" /home/ubuntu/nrd-dashboard
 ```
 
 ### 5. Setup Python Environment
 
 ```bash
-cd /home/ec2-user/nrd-dashboard
+cd /home/ubuntu/nrd-dashboard
 
 # Create virtual environment
 python3 -m venv .venv
@@ -87,12 +84,15 @@ pip install -r requirements.txt
 
 # Install Playwright browser
 playwright install chromium
+playwright install-deps chromium
 
 # Install Chrome for html2image
-sudo dnf install -y google-chrome-stable
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install -y ./google-chrome-stable_current_amd64.deb
+rm google-chrome-stable_current_amd64.deb
 
-# Alternative if Chrome not available: Install Chromium
-# sudo dnf install -y chromium
+# Alternative: Install Chromium instead
+# sudo apt install -y chromium-browser
 ```
 
 ### 6. Create Environment Files
@@ -100,7 +100,7 @@ sudo dnf install -y google-chrome-stable
 **Backend .env file** (in `backend/` directory):
 
 ```bash
-cd /home/ec2-user/nrd-dashboard/backend
+cd /home/ubuntu/nrd-dashboard/backend
 nano .env
 ```
 
@@ -123,13 +123,13 @@ WHOISFREAKS=your_whoisfreaks_api_key
 **Copy backend .env to project root** (required for systemd service):
 
 ```bash
-cp /home/ec2-user/nrd-dashboard/backend/.env /home/ec2-user/nrd-dashboard/.env
+cp /home/ubuntu/nrd-dashboard/backend/.env /home/ubuntu/nrd-dashboard/.env
 ```
 
 **Frontend .env file** (in `frontend/` directory):
 
 ```bash
-cd /home/ec2-user/nrd-dashboard/frontend
+cd /home/ubuntu/nrd-dashboard/frontend
 nano .env
 ```
 
@@ -150,7 +150,7 @@ REACT_APP_ENABLE_VISUAL_EDITS=false
 ### 7. Build Frontend (Vite)
 
 ```bash
-cd /home/ec2-user/nrd-dashboard/frontend
+cd /home/ubuntu/nrd-dashboard/frontend
 
 # Install dependencies
 npm install --legacy-peer-deps
@@ -161,7 +161,7 @@ npm run build
 # Copy to web directory
 sudo mkdir -p /var/www/nrd-dashboard
 sudo cp -r build/* /var/www/nrd-dashboard/
-sudo chown -R nginx:nginx /var/www/nrd-dashboard
+sudo chown -R www-data:www-data /var/www/nrd-dashboard
 ```
 
 **Vite produces a `build/` directory** with optimized static assets. This is smaller and faster than CRA builds.
@@ -173,7 +173,7 @@ sudo chown -R nginx:nginx /var/www/nrd-dashboard
 ### 8. Backend Service (systemd)
 
 ```bash
-sudo cp /home/ec2-user/nrd-dashboard/deployment/nrd-backend.service /etc/systemd/system/
+sudo cp /home/ubuntu/nrd-dashboard/deployment/nrd-backend.service /etc/systemd/system/
 sudo systemctl daemon-reload
 sudo systemctl enable nrd-backend
 sudo systemctl start nrd-backend
@@ -183,10 +183,12 @@ sudo systemctl status nrd-backend
 ### 9. Nginx Configuration
 
 ```bash
-sudo cp /home/ec2-user/nrd-dashboard/deployment/nginx.conf /etc/nginx/conf.d/nrd-dashboard.conf
+sudo cp /home/ubuntu/nrd-dashboard/deployment/nginx.conf /etc/nginx/sites-available/nrd-dashboard
+sudo ln -s /etc/nginx/sites-available/nrd-dashboard /etc/nginx/sites-enabled/
+sudo rm /etc/nginx/sites-enabled/default  # Remove default site
 sudo nginx -t  # Test config
 sudo systemctl enable nginx
-sudo systemctl start nginx
+sudo systemctl restart nginx
 ```
 
 ---
@@ -217,7 +219,7 @@ Open browser: `http://your-ec2-ip`
 To test the workflow that downloads NRD lists and captures screenshots:
 
 ```bash
-cd /home/ec2-user/nrd-dashboard
+cd /home/ubuntu/nrd-dashboard
 source .venv/bin/activate
 python main.py
 ```
@@ -256,7 +258,7 @@ sudo systemctl status nginx
 ### Manual Workflow Run
 
 ```bash
-cd /home/ec2-user/nrd-dashboard
+cd /home/ubuntu/nrd-dashboard
 source .venv/bin/activate
 python main.py
 ```
@@ -264,7 +266,7 @@ python main.py
 ### Update Code
 
 ```bash
-cd /home/ec2-user/nrd-dashboard
+cd /home/ubuntu/nrd-dashboard
 git pull  # If using git
 
 # Rebuild frontend if you made frontend changes
@@ -315,8 +317,8 @@ The migration to Vite provides several advantages for EC2 deployment:
 
 ```bash
 df -h
-du -sh /home/ec2-user/nrd-dashboard/Domain_Downloads
-du -sh /home/ec2-user/nrd-dashboard/Output
+du -sh /home/ubuntu/nrd-dashboard/Domain_Downloads
+du -sh /home/ubuntu/nrd-dashboard/Output
 ```
 
 ### Cleanup Old Files (7-day rolling window is automatic)
@@ -338,13 +340,14 @@ sudo journalctl -u nrd-backend -n 50
 
 ```bash
 # Install Chrome
-sudo dnf install -y google-chrome-stable
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install -y ./google-chrome-stable_current_amd64.deb
 
 # Or install Chromium as alternative
-sudo dnf install -y chromium
+sudo apt install -y chromium-browser
 
 # Also ensure Playwright is installed
-cd /home/ec2-user/nrd-dashboard
+cd /home/ubuntu/nrd-dashboard
 source .venv/bin/activate
 playwright install chromium
 playwright install-deps chromium
@@ -367,25 +370,32 @@ sudo swapon /swapfile
 ```bash
 # Check if backend is running
 sudo systemctl status nrd-backend
-# Check SELinux (Amazon Linux)
-sudo setsebool -P httpd_can_network_connect 1
+
+# Check backend logs
+sudo journalctl -u nrd-backend -n 50
+
+# Test backend directly
+curl http://localhost:8000/api/domains
 ```
 
 ---
 
 ## Cost Monitoring
 
-Expected monthly costs:
+Expected monthly costs (AWS example):
 
 - **EC2 t3.small**: ~$15/month
 - **EBS 20GB**: ~$2/month
 - **Data transfer**: ~$1/month
 - **Total**: ~$18/month
 
-Set up AWS Budget Alert:
+For other cloud providers:
 
-- AWS Console → Billing → Budgets
-- Create budget for $25/month with email alert at 80%
+- **Azure B2s**: ~$30/month
+- **DigitalOcean 2GB Droplet**: ~$18/month
+- **Linode 4GB Shared**: ~$24/month
+
+Set up billing alerts in your cloud provider's console.
 
 ---
 
@@ -393,9 +403,9 @@ Set up AWS Budget Alert:
 
 Once you've verified everything works:
 
-1. Create AMI snapshot for backup
-2. Setup CloudWatch monitoring (optional)
-3. Consider Elastic IP for static address
-4. Implement S3 for screenshot storage
-5. Setup automated backups
-6. Deploy to work environment
+1. Create server snapshot/backup for disaster recovery
+2. Setup monitoring (optional - htop, netdata, or cloud provider monitoring)
+3. Consider static IP address for consistent access
+4. Setup automated backups (database and screenshots)
+5. Configure UFW firewall if not using cloud provider security groups
+6. Deploy to production environment

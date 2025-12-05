@@ -1,72 +1,134 @@
-# Quick Deployment Steps
+# Quick Deploy (EC2, Ubuntu)
 
-## 1. Build Frontend Locally (Windows)
+Goal: serve the prebuilt React app and run the FastAPI backend against the local SQLite DB with minimal steps and no Node.js on the server.
+
+---
+
+## 1) Build frontend locally (Windows)
 
 ```powershell
-# Navigate to frontend
 cd "C:\Users\gerri\Documents\Absa Stuff\NRD Dashboard\frontend"
 
-# Build
+# Build production bundle
 npm run build
 
-# Go back to root
+# Commit the build (it's gitignored, so force add)
 cd ..
-
-# Add build folder (it's in .gitignore, so use -f to force)
 git add -f frontend/build
-
-# Commit and push
-git add .
 git commit -m "Production build"
 git push origin main
 ```
 
-## 2. Deploy to Server
+---
+
+## 2) First-time server setup (Ubuntu 22/24)
 
 ```bash
-# SSH into server
 ssh -i your-key.pem ubuntu@your-server-ip
 
-# If first time, clone repo
+sudo apt update && sudo apt upgrade -y
+sudo apt install -y python3-venv nginx git
+
+# Grab the code
+cd /home/ubuntu
 git clone https://github.com/GerritPotgieter/NRD-Dashboard.git nrd-dashboard
+cd nrd-dashboard
 
-# If updating
-cd /home/ubuntu/nrd-dashboard
-git pull
+# Python env (API + SQLite core)
+python3 -m venv .venv
+source .venv/bin/activate
+pip install "fastapi==0.110.1" "uvicorn[standard]==0.27.1" "aiosqlite==0.19.0" "python-dotenv==1.0.1"
 
-# Deploy frontend (copy built files to nginx directory)
-sudo cp -r frontend/build/* /var/www/nrd-dashboard/
-
-# Restart backend if needed
-sudo systemctl restart nrd-backend
+# Optional but recommended for screenshots/workflow: Playwright + Chromium + Chrome
+pip install -r backend/requirements.txt
+playwright install chromium
+playwright install-deps chromium
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install -y ./google-chrome-stable_current_amd64.deb
+rm google-chrome-stable_current_amd64.deb
 ```
 
-## 3. Verify
+SQLite DB (`nrd_monitoring.db`) is created on first start; no external DB is required.
+
+---
+
+## 3) Systemd backend service
 
 ```bash
-# Check backend
-curl http://localhost:8000/api/domains
+cd /home/ubuntu/nrd-dashboard
+sudo cp deployment/nrd-backend.service /etc/systemd/system/
+sudo systemctl daemon-reload
+sudo systemctl enable nrd-backend
+sudo systemctl start nrd-backend
+sudo systemctl status nrd-backend
+```
 
-# Check frontend in browser
-http://your-server-ip
+Notes:
+
+- Service expects the repo at `/home/ubuntu/nrd-dashboard` and the venv at `.venv/`.
+- `.env` is optional; defaults allow all CORS. If you need to set `CORS_ORIGINS`, create `/home/ubuntu/nrd-dashboard/backend/.env` with `CORS_ORIGINS=*` (or a comma list).
+
+---
+
+## 4) Nginx + static frontend
+
+```bash
+# Copy site config and enable it
+sudo cp /home/ubuntu/nrd-dashboard/deployment/nginx.conf /etc/nginx/sites-available/nrd-dashboard
+sudo ln -sf /etc/nginx/sites-available/nrd-dashboard /etc/nginx/sites-enabled/nrd-dashboard
+sudo rm -f /etc/nginx/sites-enabled/default
+
+# Place the prebuilt frontend
+sudo mkdir -p /var/www/nrd-dashboard
+sudo cp -r /home/ubuntu/nrd-dashboard/frontend/build/* /var/www/nrd-dashboard/
+sudo chown -R www-data:www-data /var/www/nrd-dashboard
+
+sudo nginx -t && sudo systemctl restart nginx
+```
+
+The config proxies `/api/` to the backend on `127.0.0.1:8000` and serves the React build from `/var/www/nrd-dashboard`.
+
+---
+
+## 5) Quick verify
+
+```bash
+curl http://localhost:8000/api/domains       # backend
+curl http://localhost/api/domains            # through nginx
+```
+
+Browser: `http://your-server-ip`
+
+---
+
+## 6) Update cycle (after code changes)
+
+On Windows:
+
+```powershell
+cd "C:\Users\gerri\Documents\Absa Stuff\NRD Dashboard\frontend"
+npm run build
+cd ..
+git add -f frontend/build
+git commit -am "Update"
+git push origin main
+```
+
+On server:
+
+```bash
+cd /home/ubuntu/nrd-dashboard
+git pull
+sudo cp -r frontend/build/* /var/www/nrd-dashboard/
+sudo systemctl restart nrd-backend
+sudo systemctl reload nginx
 ```
 
 ---
 
-## Daily Workflow
+## 7) Optional extras (only if needed)
 
-**When you make changes:**
+- Screenshots/workflow: `pip install -r backend/requirements.txt && playwright install chromium && playwright install-deps chromium`
+- HTTPS: add certbot or your own certificate to the nginx server block.
 
-1. Edit code on Windows
-2. Build frontend: `npm run build` (in frontend directory)
-3. Commit: `git add -f frontend/build && git commit -am "Update" && git push`
-4. Deploy on server: `git pull && sudo cp -r frontend/build/* /var/www/nrd-dashboard/`
-
----
-
-## Why This Works
-
-- **No npm install on server**: Frontend is pre-built on Windows
-- **Small git repo**: Only built files (~2-5 MB), not node_modules (~500 MB)
-- **Fast deployment**: Just copy files, no compilation needed
-- **No Node.js needed on server**: Only Python for backend
+That's it—no Node.js on the server, no external DB, minimal moving parts.
